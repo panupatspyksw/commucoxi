@@ -669,9 +669,9 @@ body {
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 800px) {
   .h90vh-max-h-700 {
-    height: 90vh;
+    height: 610px;
   }
 }
 /*# sourceMappingURL=style.css.map */
