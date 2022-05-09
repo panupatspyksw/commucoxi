@@ -6,6 +6,11 @@
   margin: 0%;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* fontstyle */
 /* website css */
 /* body style */
@@ -662,6 +667,10 @@ body {
   .moon {
     -webkit-transform: translate(-20%, -50%) !important;
             transform: translate(-20%, -50%) !important;
+  }
+  .plr-x {
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
 
