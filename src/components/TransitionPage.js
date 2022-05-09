@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-import { React, Fragment } from 'react';
+import { React } from 'react';
 const animationConfiguration = {
   initial: { opacity: 0, zIndex: -1, position: 'relative' },
   animate: { opacity: 1, zIndex: -1 },
@@ -20,10 +18,6 @@ const Transitions = ({ children }) => {
       <div>{children}</div>
     </motion.div>
   );
-};
-
-const gsapscrollanimation = () => {
-  var tl = gsap.timeline();
 };
 
 export default Transitions;
