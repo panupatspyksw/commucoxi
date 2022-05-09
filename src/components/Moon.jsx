@@ -1,4 +1,13 @@
-function Moon({ className, style }) {
+function Moon({
+  className,
+  style,
+  moon,
+  moonblur,
+  mooninside,
+  moonborder,
+  moonring,
+  moonringblur,
+}) {
   return (
     <div
       className={className}
@@ -11,6 +20,7 @@ function Moon({ className, style }) {
       >
         <g filter='url(#filter0_f_237_1644)'>
           <circle
+            ref={moonblur}
             id='moonblur'
             cx='522'
             cy='415'
@@ -19,6 +29,7 @@ function Moon({ className, style }) {
           />
         </g>
         <circle
+          ref={moon}
           id='moon'
           cx='522'
           cy='415'
@@ -26,6 +37,7 @@ function Moon({ className, style }) {
           fill='url(#paint1_radial_237_1644)'
         />
         <circle
+          ref={mooninside}
           id='mooninside'
           opacity='0.79'
           cx='521.558'
@@ -34,6 +46,7 @@ function Moon({ className, style }) {
           fill='url(#paint2_radial_237_1644)'
         />
         <circle
+          ref={moonborder}
           id='moonborder'
           className='rotate-360'
           cx='522'
@@ -44,7 +57,8 @@ function Moon({ className, style }) {
         />
         <g filter='url(#filter1_f_237_1644)'>
           <path
-            id='moonring'
+            ref={moonringblur}
+            id='moonringblur'
             fillRule='evenodd'
             clipRule='evenodd'
             d='M637.264 648.541C947.029 521.774 1164.99 335.893 1124.1 233.366C1096.1 163.165 953.998 150.243 767.74 189.766C898.153 167.728 993.675 179.849 1013.51 229.588C1046.21 311.568 860.933 464.698 599.68 571.612C338.427 678.527 100.132 698.741 67.4334 616.76C50.6106 574.584 91.4835 513.575 170.715 449.716C45.9106 540.119 -22.0995 631.16 2.33975 692.432C43.2343 794.959 327.5 775.309 637.264 648.541Z'
@@ -52,7 +66,8 @@ function Moon({ className, style }) {
           />
         </g>
         <path
-          id='moonringblur'
+          ref={moonring}
+          id='moonring'
           fillRule='evenodd'
           clipRule='evenodd'
           d='M637.264 648.541C947.029 521.774 1164.99 335.893 1124.1 233.366C1096.1 163.165 953.998 150.243 767.741 189.766C898.153 167.728 993.675 179.849 1013.51 229.588C1046.21 311.568 860.933 464.698 599.68 571.612C338.427 678.527 100.132 698.741 67.4334 616.76C50.6106 574.584 91.4836 513.575 170.715 449.715C45.9107 540.118 -22.0994 631.16 2.33982 692.432C43.2344 794.959 327.5 775.309 637.264 648.541Z'

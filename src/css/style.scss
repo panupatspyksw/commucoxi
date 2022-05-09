@@ -54,7 +54,7 @@
   
     --text-grow: 0px 0px 7px #ffefde;
     --spacer: 1rem;
-    --rounder: 4rem;
+    --rounder: 3rem;
   }
   
   /* font style css */
@@ -78,11 +78,22 @@
   
   /* text-color */
   
+  .coxititle {
+    font-size: var(--title);
+    font-weight:bolder;
+    font-style:normal;
+    line-height:107.19%;
+    text-shadow: var(--text-grow);
+    // letter-spacing:0.08em;
+    text-decoration:none;
+}
+
   .title {
       font-size: var(--title);
       font-weight:bolder;
       font-style:normal;
       line-height:107.19%;
+      text-shadow: var(--text-grow);
       // letter-spacing:0.08em;
       text-decoration:none;
   }
@@ -492,7 +503,9 @@
   .sizing-h-100{
     height: 100vh;
   }
-  
+  .max-h-750px{
+    max-height: 750px;
+  }
   .moonwrapper{
     width: 500px;
     position: relative
@@ -511,9 +524,6 @@
     // height: 90%!important;
     // transform: translateX(-20%, -10%);
   }
-  
-  
-  
   
   // position
 
