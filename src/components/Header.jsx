@@ -20,23 +20,24 @@ function Header() {
   const burgerBtn = useRef();
 
   useEffect(() => {
-    // menupagetl.to(menupage.current, {
-    //   duration: 0.65,
-    //   // 'clip-path': 'circle(150% at 100% 0)',
-    //   'clip-path': 'inset(0 0 0% 0)',
-    //   ease: CustomEase.create(
-    //     'custom',
-    //     'M0,0,C0.412,0.39,0.31,0.703,0.468,0.852,0.608,0.984,0.818,1.001,1,1'
-    //   ),
-    // });
-    // menupagetl.from(
-    //   menulink.current,
-    //   { duration: 0.4, stagger: 0.06, opacity: 0, y: '+=100%' },
-    //   '-=.2'
-    // );
-    // menupagetl.reverse(-1);
-    // menupagetl.reversed(true);
-  }, []);
+    console.log(menulink.current.length);
+    menupagetl.to(menupage.current, {
+      duration: 0.65,
+      // 'clip-path': 'circle(150% at 100% 0)',
+      'clip-path': 'inset(0 0 0% 0)',
+      ease: CustomEase.create(
+        'custom',
+        'M0,0,C0.412,0.39,0.31,0.703,0.468,0.852,0.608,0.984,0.818,1.001,1,1'
+      ),
+    });
+    menupagetl.from(
+      menulink.current,
+      { duration: 0.4, stagger: 0.06, opacity: 0, y: '+=100%' },
+      '-=.2'
+    );
+    menupagetl.reverse(-1);
+    menupagetl.reversed(true);
+  }, [menulink]);
 
   const burgerHandle = () => {
     menupagetl.reversed(!menupagetl.reversed());
@@ -67,7 +68,7 @@ function Header() {
         style={{
           zIndex: 3000,
           // clipPath: 'circle(0% at 100% 0)',
-          clipPath: 'inset(0 0 0% 0)',
+          clipPath: 'inset(0 0 100% 0)',
         }}
       >
         <div className='menupage text-center justify-content-center align-items-center d-flex flex-column'>
@@ -77,7 +78,7 @@ function Header() {
                 <NavLink
                   activeclassname='active'
                   to={e.link}
-                  // ref={(el) => (menulink.current[index] = el)}
+                  ref={(el) => (menulink.current[index] = el)}
                   className='menulink fw-md lh-fit'
                   key={index}
                 >

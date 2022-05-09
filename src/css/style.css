@@ -271,7 +271,7 @@ body {
 }
 
 .menupage:hover .menulink:not(:hover, .active) {
-  opacity: .3;
+  opacity: 0.3 !important;
 }
 
 /* border light  */
