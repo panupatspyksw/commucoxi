@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import './css/style.css';
+import './css/burger.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Button from './shared/Button';
+import Mirror from './shared/Mirror';
+import Header from './components/Header';
+import { AnimatePresence } from 'framer-motion';
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div id='app'>
+    //   <Header />
+    // </div>
+    <AnimatePresence exitBeforeEnter>
+      <Router>
+        {/* <ScrollToTop /> */}
+        <Header />
+
+        <div className='gap-header'></div>
+        <AnimatedRoutes />
+      </Router>
+    </AnimatePresence>
   );
 }
 
