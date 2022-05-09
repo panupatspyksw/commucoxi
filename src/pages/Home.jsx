@@ -16,7 +16,7 @@ const Home = () => {
       <Transitions className='mx-auto overflow-hidden w-100'>
         <div className='mx-auto plr-x position-relative d-block  '>
           <Mirror
-            className='h90h-max-h-700 sizing-h-75 mx-auto p-4 d-flex flex-column flex-lg-row flex-nowrap justify-content-between alien-items-start row w-100'
+            className='h90vh-max-h-700 sizing-h-75 mx-auto p-4 d-flex flex-column flex-lg-row flex-nowrap justify-content-between alien-items-start row w-100'
             light={false}
             mode={'light'}
           >
