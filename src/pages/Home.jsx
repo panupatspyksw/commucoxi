@@ -3,7 +3,7 @@ import Moon from '../components/Moon';
 import Mirror from '../shared/Mirror';
 import swulogo from '../media/swulogo.svg';
 import coscilogo from '../media/coscilogo.svg';
-import PerfectSection from '../components/PerfectSection';
+// import PerfectSection from '../components/PerfectSection';
 import gsap from 'gsap';
 import { CustomEase } from 'gsap/src/all';
 import { useEffect, useRef } from 'react';
