@@ -37,7 +37,7 @@ function Header() {
     );
     menupagetl.reverse(-1);
     menupagetl.reversed(true);
-  }, [menulink]);
+  });
 
   const burgerHandle = () => {
     menupagetl.reversed(!menupagetl.reversed());
