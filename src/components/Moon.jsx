@@ -35,6 +35,7 @@ function Moon({ className, style }) {
         />
         <circle
           id='moonborder'
+          className='rotate-360'
           cx='522'
           cy='415'
           r='414'
