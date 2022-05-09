@@ -12,8 +12,6 @@ const Home = () => {
             </div>
           </Mirror>
         </div>
-
-        <h3 className='mt-5' style={{ color: 'green' }}></h3>
       </Transitions>
     </>
   );
