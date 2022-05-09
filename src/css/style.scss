@@ -43,7 +43,7 @@
     --post-title:48px;
     --post-subtitle:24px;
     --post-content:20px;
-    --menulink: 60px;
+    --menulink: calc(2rem + 2vw);
   
     --text-grow: 0px 0px 7px #ffefde;
     --spacer: 1rem;
@@ -197,9 +197,9 @@
 
 
 // -text line height
-// .lh-fit{
-//   line-height: 1;
-// }
+.lh-fit{
+  line-height: 1;
+}
   
   /* background color */
   .bgmain-1{

@@ -3,7 +3,7 @@ import { CustomEase } from 'gsap/src/all';
 import { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../media/logo.png';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 gsap.registerPlugin(CustomEase);
 function Header() {
   const menulinks = [
@@ -32,7 +32,7 @@ function Header() {
     });
     menupagetl.from(
       menulink.current,
-      { duration: 0.4, stagger: 0.06, opacity: 0, y: '+=100%' },
+      { duration: 0.4, stagger: 0.06, opacity: 0, y: '+=110%' },
       '-=.2'
     );
     menupagetl.reverse(-1);
@@ -71,28 +71,35 @@ function Header() {
           clipPath: 'inset(0 0 100% 0)',
         }}
       >
-        <div className='menupage text-center justify-content-center align-items-center d-flex flex-column'>
+        <div className='menupage text-center justify-content-center align-items-center d-flex flex-column gap-4'>
           {menulinks.map((e, index) => {
             return (
-              <div className='position-relative overflow-hidden'>
+              <div className='position-relative overflow-hidden' key={index}>
                 <NavLink
                   activeclassname='active'
                   to={e.link}
                   ref={(el) => (menulink.current[index] = el)}
                   className='menulink fw-md lh-fit'
-                  key={index}
                 >
                   <div key={index}>{e.name}</div>
                 </NavLink>
               </div>
             );
           })}
-          <div>
-            <a href='/' className='text-white'>
-              <FaFacebook fontSize={'50px'} />
+          <div className='d-flex gap-4 align-items-center overflow-hidden mt-3'>
+            <a
+              href='/'
+              className='menulink text-white lh-fit'
+              ref={(el) => (menulink.current[5] = el)}
+            >
+              <FaFacebookF fontSize={'25px'} />
             </a>
-            <a href='/'>
-              <FaFacebook fontSize={'50px'} />
+            <a
+              href='/'
+              className='menulink text-white lh-fit'
+              ref={(el) => (menulink.current[6] = el)}
+            >
+              <FaInstagram fontSize={'28px'} />
             </a>
           </div>
         </div>

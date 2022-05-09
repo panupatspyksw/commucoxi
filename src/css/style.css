@@ -38,7 +38,7 @@ body {
   --post-title:48px;
   --post-subtitle:24px;
   --post-content:20px;
-  --menulink: 60px;
+  --menulink: calc(2rem + 2vw);
   --text-grow: 0px 0px 7px #ffefde;
   --spacer: 1rem;
   --rounder: 100rem;
@@ -200,6 +200,10 @@ body {
   line-height: 140.19%;
   letter-spacing: 0.08em;
   text-decoration: none;
+}
+
+.lh-fit {
+  line-height: 1;
 }
 
 /* background color */
