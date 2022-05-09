@@ -481,7 +481,7 @@
     height: 70vh;
   }
   .sizing-h-75{
-    height: 75vh;
+    height: 75vh ;
   }
   .sizing-h-80{
     height: 80vh;
@@ -494,7 +494,6 @@
   }
   
   .moonwrapper{
-    // height: 70vh;
     width: 500px;
     position: relative
   }
@@ -589,6 +588,22 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+  .sizing-md-h-70{
+    height: 70vh;
+  }
+  .sizing-md-h-75{
+    height: 75vh ;
+  }
+  .sizing-md-h-80{
+    height: 80vh;
+  }
+  .sizing-md-h-90{
+    height: 90vh;
+  }
+  .sizing-md-h-100{
+    height: 100vh;
+  }
+
   .pf-md-translate{
     transform: translate(-50%,-50%);
   }
@@ -627,4 +642,11 @@
   .moon{
     transform: translate(-20%,-50%)!important;
   }
+}
+
+@media (max-height: 700px) { 
+  .h90vh-max-h-700{
+    height: 90vh;
+  }
+  
 }
