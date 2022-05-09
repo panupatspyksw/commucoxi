@@ -41,7 +41,7 @@ body {
   --menulink: calc(2rem + 2vw);
   --text-grow: 0px 0px 7px #ffefde;
   --spacer: 1rem;
-  --rounder: 100rem;
+  --rounder: 4rem;
 }
 
 /* font style css */
@@ -248,9 +248,7 @@ body {
 /* special */
 .menulink {
   font-size: var(--menulink);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 0 1rem;
   text-decoration: none;
   color: white;
@@ -264,12 +262,12 @@ body {
 }
 
 .menulink.active {
-  pointer-events: none;
-  background: linear-gradient(253.18deg, #6EA5F8 8.65%, #6CA0EF 8.66%, #84F4F4 48.02%, #FD4F93 96.54%);
+  color: white;
+  display: block;
+  background: -webkit-linear-gradient(253.18deg, #6EA5F8 8.65%, #6CA0EF 8.66%, #84F4F4 48.02%, #FD4F93 96.54%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  text-shadow: 0px 0px #00000000;
   -webkit-filter: drop-shadow(0px 0px 4px #811eec);
           filter: drop-shadow(0px 0px 4px #811eec);
 }
@@ -291,7 +289,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  border-radius: calc(var(--rounder) * 1.1);
+  border-radius: calc(var(--rounder) * 1.05);
   width: calc( 100% + .2rem);
   height: calc( 100% + .2rem);
   -webkit-transform: translate(-50%, -50%);
@@ -342,7 +340,6 @@ body {
 /* mirror box */
 .mirror {
   border-radius: var(--rounder);
-  padding: 2rem;
 }
 
 .mirror-light {
@@ -390,6 +387,19 @@ body {
 }
 
 /* spacing */
+.gap-header {
+  height: 100px;
+}
+
+.padding-from-header {
+  padding-top: 100px !important;
+}
+
+.plr-x {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 /* padding */
 .wh10 {
   width: 10px;
@@ -439,6 +449,46 @@ body {
 .wh100 {
   width: 100px;
   height: 100px;
+}
+
+.sizing-h-10 {
+  height: 10%;
+}
+
+.sizing-h-20 {
+  height: 20%;
+}
+
+.sizing-h-30 {
+  height: 30%;
+}
+
+.sizing-h-40 {
+  height: 40%;
+}
+
+.sizing-h-50 {
+  height: 50%;
+}
+
+.sizing-h-60 {
+  height: 60%;
+}
+
+.sizing-h-70 {
+  height: 70%;
+}
+
+.sizing-h-80 {
+  height: 80%;
+}
+
+.sizing-h-90 {
+  height: 90%;
+}
+
+.sizing-h-100 {
+  height: 100%;
 }
 
 .pf-center {

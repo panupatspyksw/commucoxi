@@ -1,22 +1,14 @@
-function Mirror({ mode, spacing, children, textbreak }) {
+function Mirror({ mode, spacing, children, textbreak, light }) {
   var modeclass = `mirror-${mode} ${
     textbreak && 'text-break'
-  } position-relative border-light`;
-  return (
-    <div className={`mirror ${modeclass} ${spacing} `}>
-      <div className='line'></div>
-      <div className='line'></div>
-      <div className='line'></div>
-      <div className='line'></div>
-      <div className='line'></div>
-      <div className='line'></div>
-      {children}
-    </div>
-  );
+  } position-relative ${light && 'border-light'}`;
+  return <div className={`mirror ${modeclass} ${spacing} `}>{children}</div>;
 }
 
 Mirror.defaultProps = {
   mode: 'dark',
   textbreak: true,
+  spacing: '',
+  light: true,
 };
 export default Mirror;
