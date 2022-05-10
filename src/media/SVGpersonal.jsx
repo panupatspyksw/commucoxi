@@ -2,14 +2,13 @@ function SVGpersonal() {
   return (
     <div className='w-100'>
       <svg
-        width='288'
-        height='200'
         viewBox='0 0 288 200'
+        width={'100%'}
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <g clip-path='url(#clip0_125_11606)'>
-          <g clip-path='url(#clip1_125_11606)'>
+        <g clipPath='url(#clip0_125_11606)'>
+          <g clipPath='url(#clip1_125_11606)'>
             <ellipse cx='188.8' cy='126.4' rx='99.2' ry='99.2' fill='#FFEFDE' />
             <ellipse
               cx='49.5998'

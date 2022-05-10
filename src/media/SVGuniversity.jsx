@@ -2,14 +2,13 @@ function SVGuniversity() {
   return (
     <div className='w-100'>
       <svg
-        width='288'
-        height='200'
+        width={'100%'}
         viewBox='0 0 288 200'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <g clip-path='url(#clip0_125_11860)'>
-          <g clip-path='url(#clip1_125_11860)'>
+        <g clipPath='url(#clip0_125_11860)'>
+          <g clipPath='url(#clip1_125_11860)'>
             <ellipse cx='205.2' cy='117.2' rx='82' ry='82' fill='#FFEFDE' />
             <ellipse
               cx='262.8'

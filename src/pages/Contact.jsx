@@ -1,9 +1,11 @@
+import Transitions from '../components/TransitionPage';
+
 function Contact() {
-    return (
-        <h1 className="text-white">
-            Contact
-        </h1>
-    )
+  return (
+    <Transitions className='mx-auto overflow-hidden w-100'>
+      <h1 className='text-white'>Contact Page</h1>
+    </Transitions>
+  );
 }
 
-export default Contact
+export default Contact;

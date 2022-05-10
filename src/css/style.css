@@ -43,9 +43,9 @@ body {
   --color-exclusive-vector-big-circle: #ffefde;
   --color-exclusive-vector-small-circle: #fff9f2;
   --title: 6.1vw;
-  --sub-title: calc(0.66rem + .6vw);
+  --sub-title: calc(1rem + .6vw);
   --content:calc(0.792rem + .3vw);
-  --big-btn:1.4rem;
+  --big-btn:1.2rem;
   --post-title:48px;
   --post-subtitle:24px;
   --post-content:20px;
@@ -289,6 +289,7 @@ body {
 }
 
 .menulink.active {
+  pointer-events: none;
   color: white;
   display: block;
   background: -webkit-linear-gradient(253.18deg, #6EA5F8 8.65%, #6CA0EF 8.66%, #84F4F4 48.02%, #FD4F93 96.54%);
@@ -387,7 +388,7 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 5rem;
-  padding: 1rem 5rem;
+  padding: 1rem calc(2rem + 3vw);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -680,6 +681,9 @@ body {
 }
 
 @media (min-width: 576px) {
+  :root {
+    --big-btn:0rem;
+  }
   .pf-sm-translate {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -706,9 +710,8 @@ body {
   :root {
     --big-btn:2rem;
     --title: 5vw;
-    --sub-title: calc(1rem + .6vw);
+    --sub-title: calc(1.3rem + .6vw);
     --content:1.2rem;
-    --big-btn:32px;
     --post-title:48px;
     --post-subtitle:24px;
     --post-content:20px;
@@ -772,6 +775,9 @@ body {
     --menulink: calc(2rem + 2vw);
     --coxititle:10vw;
     --text-grow: 0px 0px 7px #ffefde;
+  }
+  .w-lg-85 {
+    width: 85%;
   }
   .plr-t {
     margin-top: calc(10rem + 3vh + 3vw) !important;

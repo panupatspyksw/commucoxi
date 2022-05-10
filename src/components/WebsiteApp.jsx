@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import WebAppDark from '../media/WebAppDark.svg';
 import WebAppLight from '../media/WebAppLight.svg';
-function WebsiteApp() {
+function WebsiteApp({ className }) {
   const [Darkmode, setDarkmode] = useState(false);
   const onmouseleave = () => {
     setDarkmode(false);
@@ -12,8 +12,7 @@ function WebsiteApp() {
 
   return (
     <div
-      className='mx-auto position-relative'
-      style={{ width: '85%' }}
+      className={`mx-auto position-relative ${className}`}
       onMouseEnter={onmouseenter}
       onMouseLeave={onmouseleave}
     >

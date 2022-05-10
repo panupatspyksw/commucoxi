@@ -21,6 +21,7 @@ function Header() {
 
   useEffect(() => {
     console.log(menulink.current.length);
+    menupagetl.timeScale(1);
     menupagetl.to(menupage.current, {
       duration: 0.65,
       pointerEvents: 'fill',
@@ -32,7 +33,7 @@ function Header() {
     });
     menupagetl.from(
       menulink.current,
-      { duration: 0.4, stagger: 0.06, opacity: 0, y: '+=110%' },
+      { duration: 0.4, stagger: 0.03, opacity: 0, y: '+=110%' },
       '-=.2'
     );
     menupagetl.reverse(-1);
@@ -40,11 +41,14 @@ function Header() {
   });
 
   const burgerHandle = () => {
+    menupage.current.style.opacity = 1;
     menupagetl.reversed(!menupagetl.reversed());
     burgerBtn.current.classList.toggle('is-active');
   };
 
   const menuclick = () => {
+    // gsap.to(menupage.current, { duration: 0.3, opacity: 0 });
+
     menupagetl.reversed(!menupagetl.reversed());
     burgerBtn.current.classList.remove('is-active');
   };

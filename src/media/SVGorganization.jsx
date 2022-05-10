@@ -2,14 +2,13 @@ function SVGorganization() {
   return (
     <div className='w-100'>
       <svg
-        width='288'
-        height='200'
         viewBox='0 0 288 200'
+        width={'100%'}
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <g clip-path='url(#clip0_125_11718)'>
-          <g clip-path='url(#clip1_125_11718)'>
+        <g clipPath='url(#clip0_125_11718)'>
+          <g clipPath='url(#clip1_125_11718)'>
             <circle cx='220.8' cy='122.4' r='67.2' fill='#FFEFDE' />
             <ellipse cx='130' cy='173.2' rx='14' ry='14' fill='#FFF9F2' />
             <rect x='18' width='230' height='151' rx='12' fill='white' />

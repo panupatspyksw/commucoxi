@@ -1,8 +1,10 @@
+import { NavLink } from 'react-router-dom';
+
 function Button({ size, link, label }) {
   return (
-    <a className={`coxi-btn ${size} mx-auto text-uppercase`} href={link}>
+    <NavLink className={`coxi-btn ${size} mx-auto text-uppercase`} to={link}>
       <span>{label}</span>
-    </a>
+    </NavLink>
   );
 }
 
