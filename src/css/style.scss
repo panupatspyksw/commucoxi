@@ -63,7 +63,7 @@
       //   --coxititle:10vw;
       //   --text-grow: 0px 0px 7px #ffefde;
       // }
-    --title: calc(1rem + 2.5vw);
+    --title: calc(1rem + 2vw);
     --sub-title: calc(0.66rem + .6vw);
     --content:calc(0.792rem + .3vw);
     --big-btn:32px;
@@ -676,6 +676,7 @@
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
+  
   .pf-sm-translate{
     transform: translate(-50%,-50%);
   }
@@ -700,7 +701,7 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-  ::root{
+  :root{
     --title: calc(1.8rem + 2.5vw);
     --sub-title: calc(1rem + .6vw);
     --content:1.2rem;
