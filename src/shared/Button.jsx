@@ -1,9 +1,6 @@
 function Button({ size, link, label }) {
   return (
-    <a
-      className={`coxi-btn ${size} mx-auto plr-t plr-b text-uppercase`}
-      href={link}
-    >
+    <a className={`coxi-btn ${size} mx-auto text-uppercase`} href={link}>
       <span>{label}</span>
     </a>
   );

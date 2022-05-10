@@ -44,6 +44,11 @@ function Header() {
     burgerBtn.current.classList.toggle('is-active');
   };
 
+  const menuclick = () => {
+    menupagetl.reversed(!menupagetl.reversed());
+    burgerBtn.current.classList.remove('is-active');
+  };
+
   return (
     <div className='d-flex position-fixed top-0 left-0 w-100 justify-content-between front-behind1'>
       <div className='wh90 p-3 front-behind1'>
@@ -80,14 +85,15 @@ function Header() {
                   activeclassname='active'
                   to={e.link}
                   ref={(el) => (menulink.current[index] = el)}
-                  className='menulink fw-md lh-fit'
+                  className='menulink fw-md lh-fit text-uppercase'
+                  onClick={menuclick}
                 >
                   <div key={index}>{e.name}</div>
                 </NavLink>
               </div>
             );
           })}
-          <div className='d-flex gap-3 align-items-center overflow-hidden mt-3'>
+          <div className='d-flex  align-items-center overflow-hidden mt-3'>
             <a
               href='/'
               className='menulink text-white lh-fit'
@@ -104,6 +110,27 @@ function Header() {
             </a>
           </div>
         </div>
+      </div>
+      <div
+        className='position-fixed end-0 bottom-0 front-behind1 d-flex flex-column p-4 gap-4'
+        style={{ width: 'fit-content' }}
+      >
+        <a href='/' className=' text-white lh-fit'>
+          <FaFacebookF fontSize={'25px'} />
+        </a>
+        <a href='/' className=' text-white lh-fit'>
+          <FaInstagram fontSize={'28px'} />
+        </a>
+      </div>
+      <div
+        className='position-fixed start-0 text-white front-behind1 px-2 d-flex justify-content-center  gap-4'
+        style={{
+          width: 'fit-content',
+          transform: 'rotate(-90deg)',
+          bottom: '50px',
+        }}
+      >
+        COMMU
       </div>
     </div>
   );

@@ -10,6 +10,11 @@ import { useEffect, useRef } from 'react';
 import PerfectSection from '../components/PerfectSection';
 import Button from '../shared/Button';
 import WebsiteApp from '../components/WebsiteApp';
+import ExclusiveSVG from '../components/ExclusiveSVG';
+import SVGpersonal from '../media/SVGpersonal';
+import SVGuniversity from '../media/SVGuniversity';
+import SVGorganization from '../media/SVGorganization';
+
 gsap.registerPlugin(CustomEase);
 
 const Home = () => {
@@ -129,8 +134,20 @@ const Home = () => {
           </Mirror>
           <div className='sub-title fw-bold'>WEBSITE & APPLICATION</div>
         </PerfectSection>
+        <PerfectSection title={'exclusive for'}>
+          <div
+            className='d-flex mt-4 mx-auto justify-content-around'
+            style={{ width: '90%' }}
+          >
+            <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
+            <ExclusiveSVG SVG={SVGuniversity} title={'UNIVERSITY'} />
+            <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
+          </div>
+        </PerfectSection>
 
-        <Button label={`Let's Explore`} />
+        <div className='py-5 my-5'>
+          <Button label={`Let's Explore`} />
+        </div>
       </Transitions>
     </>
   );
