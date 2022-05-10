@@ -13,7 +13,11 @@ function PerfectSection({ title, subtitle, paragraph, children, textwhite }) {
           {pftitle.length === 1
             ? title
             : pftitle.map((e, index) => {
-                return <span className='d-block'>{e}</span>;
+                return (
+                  <span key={index} className='d-block'>
+                    {e}
+                  </span>
+                );
               })}
         </div>
       )}

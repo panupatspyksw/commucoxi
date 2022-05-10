@@ -23,7 +23,7 @@ function Header() {
     console.log(menulink.current.length);
     menupagetl.to(menupage.current, {
       duration: 0.65,
-      // 'clip-path': 'circle(150% at 100% 0)',
+      pointerEvents: 'fill',
       'clip-path': 'inset(0 0 0% 0)',
       ease: CustomEase.create(
         'custom',
@@ -45,7 +45,7 @@ function Header() {
   };
 
   return (
-    <div className='d-flex position-fixed top-0 left-0 w-100 justify-content-between'>
+    <div className='d-flex position-fixed top-0 left-0 w-100 justify-content-between front-behind1'>
       <div className='wh90 p-3 front-behind1'>
         <img src={logo} className='img-fluid' alt='' />
       </div>
@@ -67,6 +67,7 @@ function Header() {
         className='front-behind2 w-100 h-100 position-fixed pf-center bgmain-1'
         style={{
           zIndex: 3000,
+          pointerEvents: 'none',
           // clipPath: 'circle(0% at 100% 0)',
           clipPath: 'inset(0 0 100% 0)',
         }}

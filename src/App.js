@@ -16,10 +16,9 @@ function App() {
     <AnimatePresence exitBeforeEnter>
       <Router>
         {/* <ScrollToTop /> */}
-
+        <Header />
         <div className='gap-header'></div>
         <AnimatedRoutes />
-        <Header />
       </Router>
     </AnimatePresence>
   );
