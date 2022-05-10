@@ -66,7 +66,7 @@
     --title: calc(1rem + 2vw);
     --sub-title: calc(0.66rem + .6vw);
     --content:calc(0.792rem + .3vw);
-    --big-btn:32px;
+    --big-btn:1.4rem;
     --post-title:48px;
     --post-subtitle:24px;
     --post-content:20px;
@@ -77,6 +77,7 @@
     --rounder: 2.5rem;
     --sp: 1rem;
   }
+  
   
   /* font style css */
   .eng-text{
@@ -395,7 +396,7 @@
       transition: background;
       -webkit-transition: background 300ms linear;
       -ms-transition: background 300ms linear;
-      transition: background 300ms linear, color 300ms linear, box-shadow 200ms ease-in;
+      transition: background 400ms linear, color 400ms linear, box-shadow 400ms ease-in;
       cursor: pointer;
       color: var(--color-main-1);
       text-shadow: var(--text-grow);
@@ -702,6 +703,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
   :root{
+    --big-btn:2rem;
     --title: calc(1.8rem + 2.5vw);
     --sub-title: calc(1rem + .6vw);
     --content:1.2rem;
