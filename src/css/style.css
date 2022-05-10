@@ -42,7 +42,7 @@ body {
   --color-text-color: #ffffff;
   --color-exclusive-vector-big-circle: #ffefde;
   --color-exclusive-vector-small-circle: #fff9f2;
-  --title: calc(1rem + 2vw);
+  --title: 6.1vw;
   --sub-title: calc(0.66rem + .6vw);
   --content:calc(0.792rem + .3vw);
   --big-btn:1.4rem;
@@ -705,7 +705,7 @@ body {
 @media (min-width: 768px) {
   :root {
     --big-btn:2rem;
-    --title: calc(1.8rem + 2.5vw);
+    --title: 6vw;
     --sub-title: calc(1rem + .6vw);
     --content:1.2rem;
     --big-btn:32px;
