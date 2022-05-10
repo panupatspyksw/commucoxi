@@ -7,6 +7,8 @@ import coscilogo from '../media/coscilogo.svg';
 import gsap from 'gsap';
 import { CustomEase } from 'gsap/src/all';
 import { useEffect, useRef } from 'react';
+import PerfectSection from '../components/PerfectSection';
+import Button from '../shared/Button';
 gsap.registerPlugin(CustomEase);
 
 const Home = () => {
@@ -18,12 +20,6 @@ const Home = () => {
     moonring = useRef(),
     moonringblur = useRef(),
     texts = useRef([]);
-
-  var exclu = {
-    fontSize: 'calc(1rem + 0.7vw)',
-    letterSpacing: 'calc(1rem + 0.3vw)',
-    marginRight: '-1.1rem',
-  };
 
   useEffect(() => {
     hl.from(
@@ -44,6 +40,8 @@ const Home = () => {
     hl.from([moonborder.current], {
       duration: 1,
       opacity: 0,
+      // rotate: 360,
+      transformOrigin: 'center',
     });
     hl.from(
       [...texts.current],
@@ -54,6 +52,17 @@ const Home = () => {
       },
       '-=2'
     );
+    hl.to(
+      moonborder.current,
+      {
+        duration: 2,
+        ease: 'linear',
+        rotate: 360,
+        repeat: -1,
+        transformOrigin: 'center',
+      },
+      '-=1'
+    );
   });
 
   return (
@@ -61,7 +70,7 @@ const Home = () => {
       <Transitions className='mx-auto overflow-hidden w-100'>
         <div className='mx-auto plr-x position-relative d-block  '>
           <Mirror
-            className='h90vh-max-h-700 max-h-750px sizing-h-75 mx-auto p-3 p-lg-5 d-flex flex-column flex-lg-row flex-nowrap justify-content-between alien-items-start row w-100'
+            className='h90vh-max-h-700 max-h-750px sizing-h-75 mx-auto p-4 p-md-5 d-flex flex-column flex-lg-row flex-nowrap justify-content-between alien-items-start row w-100'
             light={false}
             mode={'light'}
           >
@@ -78,19 +87,18 @@ const Home = () => {
             </div>
             <div className='col d-flex flex-column justify-content-end text-white text-end'>
               <div
-                className='text-uppercase'
-                style={exclu}
+                className='text-uppercase sp1'
                 ref={(el) => (texts.current[0] = el)}
               >
                 Exclusive
               </div>
               <div
-                className='coxititle eng-title-web'
+                className='eng-title-web sp2'
                 ref={(el) => (texts.current[1] = el)}
               >
                 CO’XI
               </div>
-              <div className='content' ref={(el) => (texts.current[2] = el)}>
+              <div className='sp3' ref={(el) => (texts.current[2] = el)}>
                 COMMU THESIS{' '}
                 <span className='d-block d-md-inline-block'>
                   EXHIBITION 2022
@@ -106,6 +114,22 @@ const Home = () => {
             </div>
           </Mirror>
         </div>
+        <PerfectSection
+          title={'supercalifragilistic-expialidocious'}
+          subtitle={'UNIQUE as'}
+          paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+        />
+        <PerfectSection
+          title={'supercalifragilistic-expialidocious'}
+          subtitle={'UNIQUE as'}
+          paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+        />
+        <PerfectSection
+          title={'supercalifragilistic-expialidocious'}
+          subtitle={'UNIQUE as'}
+          paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+        />
+        <Button label={`Let's Explore`} />
       </Transitions>
     </>
   );

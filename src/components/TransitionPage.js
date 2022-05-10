@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { React } from 'react';
 const animationConfiguration = {
   initial: { opacity: 0, zIndex: -1, position: 'relative' },
-  animate: { opacity: 1, zIndex: -1 },
+  animate: { opacity: 1, zIndex: 0 },
   exit: { opacity: 0 },
 };
 

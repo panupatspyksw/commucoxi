@@ -71,7 +71,7 @@ function Header() {
           clipPath: 'inset(0 0 100% 0)',
         }}
       >
-        <div className='menupage text-center justify-content-center align-items-center d-flex flex-column gap-3'>
+        <div className='menupage text-center justify-content-center align-items-center d-flex flex-column gap-2'>
           {menulinks.map((e, index) => {
             return (
               <div className='position-relative overflow-hidden' key={index}>
