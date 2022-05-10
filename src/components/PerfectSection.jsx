@@ -3,26 +3,28 @@ function PerfectSection({ title, subtitle, paragraph, children, textwhite }) {
 
   return (
     <div
-      className={`perfect-section ${
+      className={`perfect-section  ${
         textwhite && 'text-white'
       } plr-x text-center plr-t`}
     >
-      {subtitle && <div className='sub-title'>{subtitle}</div>}
-      {title && (
-        <div className='title fw-md eng-text text-break mt-2 text-uppercase'>
-          {pftitle.length === 1
-            ? title
-            : pftitle.map((e, index) => {
-                return (
-                  <span key={index} className='d-block'>
-                    {e}
-                  </span>
-                );
-              })}
-        </div>
-      )}
-      {paragraph && <p className='content mt-4 px-4 px-md-5'>{paragraph}</p>}
-      {children && { children }}
+      <div className='px-4 px-md-5'>
+        {subtitle && <div className='sub-title'>{subtitle}</div>}
+        {title && (
+          <div className='title fw-md eng-text text-break mt-2 text-uppercase'>
+            {pftitle.length === 1
+              ? title
+              : pftitle.map((e, index) => {
+                  return (
+                    <span key={index} className='d-block'>
+                      {e}
+                    </span>
+                  );
+                })}
+          </div>
+        )}
+        {children}
+        {paragraph && <p className='content mt-4 '>{paragraph}</p>}
+      </div>
     </div>
   );
 }

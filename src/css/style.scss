@@ -74,7 +74,7 @@
     --coxititle:10vw;
     --text-grow: 0px 0px 7px #ffefde;
     --spacer: 1rem;
-    --rounder: 3rem;
+    --rounder: 2.5rem;
     --sp: 1rem;
   }
   
@@ -331,33 +331,35 @@
     border-radius: calc(var(--rounder) * 1.05);
     width: calc( 100% + .2rem );
     height: calc( 100% + .2rem );
+    // width: calc( 100% + 1rem );
+    // height: calc( 100% + 1rem );
     transform: translate(-50%,-50%) ;
     z-index:-3;
     background: conic-gradient(from 180deg at 50% 50%, #FFEFDE 0deg, rgba(141, 164, 199, 0) 90deg, #ffefdeb6 181.87deg, rgba(141, 164, 199, 0) 271.87deg, #ffefdeb6 360deg);
-    background-size: 200% 200%;
-      -webkit-animation: borderlightrotate 2s linear infinite;
-      -moz-animation: borderlightrotate 2s linear infinite;
-      -ms-animation: borderlightrotate 2s linear infinite;
-      -o-animation: borderlightrotate 2s linear infinite;
-      animation: borderlightrotate 2s linear infinite;
+    background-size: 300% 300%;
+      -webkit-animation: borderlightrotate 6s linear infinite;
+      -moz-animation: borderlightrotate 6s linear infinite;
+      -ms-animation: borderlightrotate 6s linear infinite;
+      -o-animation: borderlightrotate 6s linear infinite;
+      animation: borderlightrotate 6s linear infinite;
   }
 
     @keyframes borderlightrotate {
         // top, left, bottom, right
         0% {
-            background-position: 20% 20%;
+            background-position: 10% 10%;
         }
         25% {
-            background-position: 80% 20%;
+            background-position: 98% 98%;
         }
         50% {
-            background-position: 80% 80%;
+            background-position: 10% 98%;
         }
         75% {
-            background-position: 20% 80%;
+            background-position: 98% 10%;
         }
         100% {
-            background-position: 20% 20%;
+            background-position: 10% 10%;
         }
       }
     
@@ -375,7 +377,7 @@
     }
   
     .mirror-dark{
-      background: linear-gradient(116.15deg, rgba(174, 171, 209, 1) -77.51%, rgba(36, 24, 74, 1) 34%, rgba(55, 49, 112, 1) 115.37%);
+      background: linear-gradient(130.03deg, #393478 -1.29%, #423d86 28.19%, #292567 65.18%, #393478 101.64%);
     }
   
   

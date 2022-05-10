@@ -9,6 +9,7 @@ import { CustomEase } from 'gsap/src/all';
 import { useEffect, useRef } from 'react';
 import PerfectSection from '../components/PerfectSection';
 import Button from '../shared/Button';
+import WebsiteApp from '../components/WebsiteApp';
 gsap.registerPlugin(CustomEase);
 
 const Home = () => {
@@ -120,15 +121,15 @@ const Home = () => {
           paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
         />
         <PerfectSection
-          title={'supercalifragilistic-expialidocious'}
-          subtitle={'UNIQUE as'}
+          title={'THE PERFORMANCES'}
           paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
-        />
-        <PerfectSection
-          title={'supercalifragilistic-expialidocious'}
-          subtitle={'UNIQUE as'}
-          paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
-        />
+        >
+          <Mirror className='p-4 p-md-5 my-5'>
+            <WebsiteApp />
+          </Mirror>
+          <div className='sub-title fw-bold'>WEBSITE & APPLICATION</div>
+        </PerfectSection>
+
         <Button label={`Let's Explore`} />
       </Transitions>
     </>
