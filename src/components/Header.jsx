@@ -93,7 +93,7 @@ function Header() {
               </div>
             );
           })}
-          <div className='d-flex  align-items-center overflow-hidden mt-3'>
+          <div className='d-flex d-lg-none align-items-center overflow-hidden mt-3'>
             <a
               href='/'
               className='menulink text-white lh-fit'
@@ -112,7 +112,7 @@ function Header() {
         </div>
       </div>
       <div
-        className='position-fixed end-0 bottom-0 front-behind1 d-flex flex-column p-4 gap-4'
+        className='position-fixed end-0 bottom-0 front-behind1 d-none d-lg-flex flex-column p-4 gap-4 opacity-50'
         style={{ width: 'fit-content' }}
       >
         <a href='/' className=' text-white lh-fit'>
@@ -123,7 +123,7 @@ function Header() {
         </a>
       </div>
       <div
-        className='position-fixed start-0 text-white front-behind1 px-2 d-flex justify-content-center  gap-4'
+        className='position-fixed start-0 text-white front-behind1 px-2 d-none d-lg-flex justify-content-center  gap-4 opacity-50'
         style={{
           width: 'fit-content',
           transform: 'rotate(-90deg)',

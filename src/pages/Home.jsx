@@ -136,11 +136,15 @@ const Home = () => {
         </PerfectSection>
         <PerfectSection title={'exclusive for'}>
           <div
-            className='d-flex mt-4 mx-auto justify-content-around'
-            style={{ width: '90%' }}
+            className='d-flex flex-column flex-lg-row mt-4 mx-auto px-5 justify-content-center '
+            style={{ width: '100%' }}
           >
             <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
-            <ExclusiveSVG SVG={SVGuniversity} title={'UNIVERSITY'} />
+            <ExclusiveSVG
+              SVG={SVGuniversity}
+              className='px-lg-4 px-xl-5 mx-lg-5 my-3 my-lg-0'
+              title={'UNIVERSITY'}
+            />
             <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
           </div>
         </PerfectSection>
