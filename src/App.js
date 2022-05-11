@@ -6,7 +6,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 // import Mirror from './shared/Mirror';
 import Header from './components/Header';
 import AnimatedRoutes from './components/AnimatedRoutes';
-
 function App() {
   return (
     <Router>

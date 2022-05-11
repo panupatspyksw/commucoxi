@@ -56,7 +56,9 @@ function Header() {
   return (
     <div className='d-flex position-fixed top-0 left-0 w-100 justify-content-between front-behind1'>
       <div className='wh90 p-3 front-behind1'>
-        <img src={logo} className='img-fluid' alt='' />
+        <NavLink className='homemenu' to={'/'}>
+          <img src={logo} className='img-fluid' alt='' />
+        </NavLink>
       </div>
       <div className='wh80 p-4 pf-center text-end front-behind1'>
         <button

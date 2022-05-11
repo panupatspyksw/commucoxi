@@ -272,6 +272,14 @@ body {
 }
 
 /* special */
+.homemenu.active {
+  pointer-events: none;
+}
+
+.pe-none {
+  pointer-events: none;
+}
+
 .menulink {
   font-size: var(--menulink);
   display: block;
@@ -426,6 +434,10 @@ body {
 .plr-x {
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.plr-t-sm {
+  margin-top: calc(2rem + 8vw) !important;
 }
 
 .plr-t {

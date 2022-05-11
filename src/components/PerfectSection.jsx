@@ -1,14 +1,22 @@
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import gsap from 'gsap';
 gsap.registerPlugin(ScrollTrigger);
-function PerfectSection({ title, subtitle, paragraph, children, textwhite }) {
+function PerfectSection({
+  title,
+  subtitle,
+  paragraph,
+  children,
+  textwhite,
+  spacetop,
+  className,
+}) {
   const pftitle = title.split('-');
 
   return (
     <div
       className={`perfect-section  ${
         textwhite && 'text-white'
-      } plr-x text-center plr-t`}
+      } plr-x text-center ${spacetop && 'plr-t'} ${className}`}
     >
       <div className='px-4 px-md-5'>
         {subtitle && <div className='sub-title'>{subtitle}</div>}
@@ -27,7 +35,9 @@ function PerfectSection({ title, subtitle, paragraph, children, textwhite }) {
         )}
 
         <div className='children'>{children}</div>
-        {paragraph && <p className='content mt-4 '>{paragraph}</p>}
+        {paragraph && (
+          <p className='content th-text text-break mt-4 '>{paragraph}</p>
+        )}
       </div>
     </div>
   );
@@ -38,6 +48,8 @@ PerfectSection.defaultProps = {
   subtitle: false,
   textwhite: true,
   paragraph: true,
+  spacetop: true,
+  className: '',
 };
 
 export default PerfectSection;

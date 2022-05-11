@@ -131,17 +131,14 @@ const Home = () => {
       gsap.to(element, {
         scrollTrigger: {
           trigger: element,
-          markers: true,
+          // markers: true,
           once: true,
           onEnter: () => {
             pftl.reversed(!pftl.reversed());
           },
         },
-        // duration: 10,
-        // opacity: 0,
       });
     });
-    console.log(pfsections);
   }, []);
 
   return (
@@ -219,7 +216,7 @@ const Home = () => {
           <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
         </div>
         <div className='py-5 my-5'>
-          <Button link={'/about'} label={`Let's Explore`} />
+          <Button link={'/projects'} label={`Let's Explore`} />
         </div>
       </PerfectSection>
     </Transitions>

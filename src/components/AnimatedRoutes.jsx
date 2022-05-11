@@ -5,6 +5,7 @@ import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import Appreciation from '../pages/Appreciation';
 import { AnimatePresence } from 'framer-motion';
+
 function AnimatedRoutes() {
   const location = useLocation();
 
