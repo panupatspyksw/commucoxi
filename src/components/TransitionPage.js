@@ -1,5 +1,10 @@
 import { motion } from 'framer-motion';
-import { React } from 'react';
+import { React, useEffect } from 'react';
+import { useIsPresent } from 'framer-motion';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/src/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 const animationConfiguration = {
   initial: { opacity: 0, zIndex: -1, position: 'relative' },
   animate: { opacity: 1, zIndex: 0 },
@@ -7,6 +12,11 @@ const animationConfiguration = {
 };
 
 const Transitions = ({ children }) => {
+  const isPresent = useIsPresent();
+  useEffect(() => {
+    ScrollTrigger.refresh();
+  }, [isPresent]);
+
   return (
     <motion.div
       variants={animationConfiguration}

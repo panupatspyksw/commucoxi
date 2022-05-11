@@ -7,6 +7,7 @@ import Appreciation from '../pages/Appreciation';
 import { AnimatePresence } from 'framer-motion';
 function AnimatedRoutes() {
   const location = useLocation();
+
   return (
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>

@@ -1,3 +1,6 @@
+import ScrollTrigger from 'gsap/src/ScrollTrigger';
+import gsap from 'gsap';
+gsap.registerPlugin(ScrollTrigger);
 function PerfectSection({ title, subtitle, paragraph, children, textwhite }) {
   const pftitle = title.split('-');
 
@@ -22,7 +25,8 @@ function PerfectSection({ title, subtitle, paragraph, children, textwhite }) {
                 })}
           </div>
         )}
-        {children}
+
+        <div className='children'>{children}</div>
         {paragraph && <p className='content mt-4 '>{paragraph}</p>}
       </div>
     </div>

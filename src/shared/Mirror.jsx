@@ -3,7 +3,7 @@ function Mirror({ mode, spacing, children, textbreak, light, className }) {
     textbreak && 'text-break'
   } position-relative ${light && 'border-light'}`;
   return (
-    <div className={`mirror ${modeclass} ${spacing} ${className}`}>
+    <div className={`mirror d-block ${modeclass} ${spacing} ${className}`}>
       {children}
     </div>
   );

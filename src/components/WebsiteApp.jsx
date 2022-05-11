@@ -12,14 +12,15 @@ function WebsiteApp({ className }) {
 
   return (
     <div
-      className={`mx-auto position-relative ${className}`}
+      className={`mx-auto webandapp position-relative ${className}`}
       onMouseEnter={onmouseenter}
       onMouseLeave={onmouseleave}
+      style={{ paddingBottom: '50%' }}
     >
       <img
         src={WebAppLight}
         style={{ transition: 'all 1s' }}
-        className='img-fluid'
+        className='img-fluid position-absolute top-50 start-50 translate-middle w-100'
         alt=''
       />
       <img
@@ -28,7 +29,7 @@ function WebsiteApp({ className }) {
           transition: 'opacity .5s',
           opacity: `${Darkmode === true ? '100' : '0'}`,
         }}
-        className='img-fluid position-absolute top-0 start-0'
+        className='img-fluid position-absolute top-50 start-50 translate-middle w-100'
         alt=''
       />
     </div>

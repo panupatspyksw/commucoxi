@@ -14,9 +14,8 @@
 /* fontstyle */
 /* website css */
 /* body style */
-html, body, #root, #app {
+html, body {
   height: 100%;
-  overflow-y: scroll;
 }
 
 body, #root, #app {
@@ -365,7 +364,7 @@ body {
   }
 }
 
-/* mirror box */
+/* \ box */
 .mirror {
   border-radius: var(--rounder);
 }

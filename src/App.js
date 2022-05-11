@@ -9,16 +9,13 @@ import AnimatedRoutes from './components/AnimatedRoutes';
 
 function App() {
   return (
-    // <div id='app'>
-    //   <Header />
-    // </div>
-    // <AnimatePresence exitBeforeEnter>
     <Router>
-      {/* <ScrollToTop /> */}
       <Header />
       <div className='gap-header'></div>
       <AnimatedRoutes />
     </Router>
+    // <AnimatePresence exitBeforeEnter>
+
     // </AnimatePresence>
   );
 }
