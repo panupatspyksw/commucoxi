@@ -32,7 +32,7 @@ const About = () => {
         gsap.to('.firstpfsection', {
           scrollTrigger: {
             trigger: '.firstpfsection',
-            markers: true,
+            // markers: true,
             start: '110% bottom',
             end: '110% bottom',
             onEnter: () => {
@@ -117,7 +117,7 @@ const About = () => {
         className='min-lg-vh-100 firstpfsection w-100 plr-x pf-lg-center pt-md-5 mt-md-5 pt-lg-0 mt-lg-0 perfect-section '
         style={{ overflowX: 'hidden', maxWidth: '100%' }}
       >
-        <div className='px-md-5 '>
+        <div className='px-lg-5 '>
           <div className='w-100 h-100 px-4 px-md-5 '>
             <div className='gap-header d-block d-md-none d-lg-block d-xl-none'></div>
             <div className='col-12 col-lg-4 text-white '>
@@ -162,7 +162,11 @@ const About = () => {
         subtitle={'We are'}
         paragraph={`เอกจากวิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ ที่มุ่งเน้นการเรียนการสอนทั้งในด้านของการพัฒนาและออกแบบเพื่อให้เกิดเทคโนโลยีที่จะใช้ในการสื่อสารให้มีประสิทธิภาพมากขึ้น หรือเกิดการสื่อสารรูปแบบใหม่ๆ ที่แตกต่างออกไปจากเดิม และในปัจจุบันเอกคอมพิวเตอร์เพื่อการสื่อสารมีรูปแบบธีสิสแบ่งได้เป็น 2 รูปแบบ ดังนี้`}
       /> */}
-      <PerfectSection title={'Tracks'} spacetop={false}>
+      <PerfectSection
+        title={'Tracks'}
+        spacetop={false}
+        className={'mt-5 mt-lg-0'}
+      >
         <div
           className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
           style={{ width: '100%' }}
