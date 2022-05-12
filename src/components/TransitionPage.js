@@ -14,13 +14,19 @@ const Transitions = ({ children }) => {
   const isPresent = useIsPresent();
   useEffect(() => {
     ScrollTrigger.refresh();
-
-    setTimeout(function () {
+    if (isPresent) {
       document.documentElement.scrollTo({
         top: 0,
         behavior: 'instant',
       });
-    }, 500);
+    } else {
+      setTimeout(function () {
+        document.documentElement.scrollTo({
+          top: 0,
+          behavior: 'instant',
+        });
+      }, 500);
+    }
   }, [isPresent]);
 
   return (

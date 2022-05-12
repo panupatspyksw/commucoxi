@@ -143,6 +143,7 @@ const Home = () => {
 
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
+      <div className='gap-header'></div>
       <div className='mx-auto plr-x position-relative d-block'>
         <Mirror
           className='h90vh-max-h-700 max-h-750px sizing-h-75 mx-auto p-4 p-md-5 d-flex flex-column flex-lg-row flex-nowrap justify-content-between alien-items-start row w-100'

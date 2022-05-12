@@ -1,38 +1,23 @@
-import { useState } from 'react';
-import WebAppDark from '../media/WebAppDark.svg';
-import WebAppLight from '../media/WebAppLight.svg';
+import { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
+import COSCITOWER from '../media/COSCITOWER.json';
 function CosciTower({ className }) {
-  const [Darkmode, setDarkmode] = useState(false);
-  const onmouseleave = () => {
-    setDarkmode(false);
-  };
-  const onmouseenter = () => {
-    setDarkmode(true);
-  };
+  const ref = useRef();
+  var animData1 = true;
+  useEffect(() => {
+    if (animData1 === true)
+      animData1 = {
+        container: ref.current,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        animationData: COSCITOWER,
+      };
+    lottie.loadAnimation(animData1);
+  });
 
   return (
-    <div
-      className={`mx-auto webandapp position-relative ${className}`}
-      onMouseEnter={onmouseenter}
-      onMouseLeave={onmouseleave}
-      style={{ paddingBottom: '50%' }}
-    >
-      <img
-        src={WebAppLight}
-        style={{ transition: 'all 1s' }}
-        className='img-fluid position-absolute top-50 start-50 translate-middle w-100'
-        alt=''
-      />
-      <img
-        src={WebAppDark}
-        style={{
-          transition: 'opacity .5s',
-          opacity: `${Darkmode === true ? '100' : '0'}`,
-        }}
-        className='img-fluid position-absolute top-50 start-50 translate-middle w-100'
-        alt=''
-      />
-    </div>
+    <div className='w-100 position-relative back' id='lottie' ref={ref}></div>
   );
 }
 

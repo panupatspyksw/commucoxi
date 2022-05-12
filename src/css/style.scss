@@ -603,6 +603,9 @@
   .front-behind2{
     z-index: 2998!important;
   }
+  .back{
+    z-index: -10!important;
+  }
 
   // transform
 
@@ -707,6 +710,9 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+  .min-md-vh-100{
+    min-height: 100vh;
+  }
   :root{
     --big-btn:2rem;
     --title: 5vw;
@@ -778,6 +784,9 @@
     --coxititle:10vw;
     --text-grow: 0px 0px 7px #ffefde;
   }
+  .min-lg-vh-100{
+    min-height: 100vh;
+  }
   .w-lg-85{
     width: 85%;
   }
@@ -817,6 +826,15 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
+  .plr-lg-x{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .pf-lg-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .plr-t{
     margin-top: calc(10rem + 3vh + 3vw)!important;
   }

@@ -10,54 +10,11 @@ import Button from '../shared/Button';
 import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGprogrammer from '../media/SVGprogrammer';
 import SVGdesigner from '../media/SVGdesigner';
+import CosciTower from '../components/CosciTower';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const About = () => {
-  //   useEffect(() => {
-  //     console.log('fuck effect');
-
-  //     hl.from(
-  //       [
-  //         moon.current,
-  //         moonring.current,
-  //         moonringblur.current,
-  //         moonblur.current,
-  //         mooninside.current,
-  //       ],
-  //       {
-  //         duration: 1,
-  //         scale: 0.75,
-  //         ease: 'ease',
-  //         transformOrigin: 'center',
-  //       }
-  //     );
-  //     hl.from([moonborder.current], {
-  //       duration: 1,
-  //       opacity: 0,
-  //       // rotate: 360,
-  //       transformOrigin: 'center',
-  //     });
-  //     hl.from(
-  //       [...texts.current],
-  //       {
-  //         duration: 1,
-  //         stagger: 0.2,
-  //         opacity: 0,
-  //       },
-  //       '-=2'
-  //     );
-  //     hl.to(
-  //       moonborder.current,
-  //       {
-  //         duration: 2,
-  //         ease: 'linear',
-  //         rotate: 360,
-  //         repeat: -1,
-  //         transformOrigin: 'center',
-  //       },
-  //       '-=1'
-  //     );
-  //   });
+  //
   useLayoutEffect(() => {
     var titles = document.querySelectorAll('.title');
     titles.forEach((element, index) => {
@@ -70,6 +27,27 @@ const About = () => {
     });
 
     var pfsections = document.querySelectorAll('.perfect-section');
+    console.log(pfsections);
+
+    gsap.to('.firstpfsection', {
+      scrollTrigger: {
+        trigger: '.firstpfsection',
+        //   markers: true,
+
+        start: '110% bottom',
+        end: '110% bottom',
+        markers: true,
+        //   once: true,
+        onEnter: () => {
+          gsap.to('.coscitower', { opacity: 0.2, duration: 0.5 });
+          // pftl.reversed(!pftl.reversed());
+        },
+        onLeaveBack: () => {
+          gsap.to('.coscitower', { opacity: 1, duration: 0.5 });
+        },
+      },
+    });
+
     pfsections.forEach((element, index) => {
       // var chars = mySplitText.chars;
       var pftl = gsap.timeline();
@@ -84,7 +62,7 @@ const About = () => {
         {
           duration: 1,
           opacity: 0,
-          stagger: 0.03,
+          stagger: 0.1,
         },
         '-=1'
       );
@@ -121,6 +99,7 @@ const About = () => {
 
           start: 'top 80%',
           end: 'bottom 80%',
+          markers: true,
           //   once: true,
           onEnter: () => {
             pftl.reversed(!pftl.reversed());
@@ -131,25 +110,59 @@ const About = () => {
         },
       });
     });
-    console.log(pfsections);
   }, []);
 
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
-      <PerfectSection
+      <div
+        className='min-lg-vh-100 firstpfsection w-100 plr-x pf-lg-center pt-md-5 mt-md-5 pt-lg-0 mt-lg-0 perfect-section '
+        style={{ overflowX: 'hidden' }}
+      >
+        <div className='px-md-5 '>
+          <div className='w-100 h-100 px-4 px-md-5 '>
+            <div className='gap-header d-block d-md-none d-lg-block d-xl-none'></div>
+            <div className='col-12 col-lg-4 text-white '>
+              <div className='sub-title'>We are</div>
+              <div className='title fw-md eng-text text-break mt-2 text-uppercase'>
+                COMMU
+              </div>
+              <p className='content th-text text-break mt-4 '>
+                เอกจากวิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ
+                ที่มุ่งเน้นการเรียนการสอนทั้งในด้านของการพัฒนาและออกแบบเพื่อให้เกิดเทคโนโลยีที่จะใช้ในการสื่อสารให้มีประสิทธิภาพมากขึน
+                หรือเกิดการสื่อสารรูปแบบใหม่ ๆ ที่แตกต่างออกไปจากเดิม
+                และในปัจจุบันเอกคอมพิวเตอร์เพื่อการสื่อสาร
+                มีรูปแบบธีสิสแบ่งได้เป็น 2 รูปแบบ ดังน
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className='d-flex h-100 plr-lg-x position-fixed back top-0 start-0 w-100'>
+          <div className=' w-100 h-100 px-4 px-md-5 '>
+            <div className='p-4 min-vh-100 position-relative w-100'>
+              {/* <div className='col p-3'></div> */}
+              <div className='coscitower col-12 col-md-12 mx-auto col-lg-7 position-absolute bottom-0 end-0 back'>
+                <CosciTower />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <PerfectSection
         spacetop={false}
         className={'plr-t-sm'}
         animClass={'fadein'}
         title={'About us'}
-      />
-      <PerfectSection
+      /> */}
+
+      {/* <PerfectSection
         spacetop={false}
         animClass={'fadein'}
         className={'mx-xl-5'}
         title={'1 of 9'}
         subtitle={'We are'}
         paragraph={`เอกจากวิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ ที่มุ่งเน้นการเรียนการสอนทั้งในด้านของการพัฒนาและออกแบบเพื่อให้เกิดเทคโนโลยีที่จะใช้ในการสื่อสารให้มีประสิทธิภาพมากขึ้น หรือเกิดการสื่อสารรูปแบบใหม่ๆ ที่แตกต่างออกไปจากเดิม และในปัจจุบันเอกคอมพิวเตอร์เพื่อการสื่อสารมีรูปแบบธีสิสแบ่งได้เป็น 2 รูปแบบ ดังนี้`}
-      />
+      /> */}
       <PerfectSection title={'Tracks'}>
         <div
           className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '

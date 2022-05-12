@@ -629,6 +629,10 @@ body {
   z-index: 2998 !important;
 }
 
+.back {
+  z-index: -10 !important;
+}
+
 @-webkit-keyframes rotate-360-cw {
   0% {
     -webkit-transform: rotate(180deg);
@@ -718,6 +722,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  .min-md-vh-100 {
+    min-height: 100vh;
+  }
   :root {
     --big-btn:2rem;
     --title: 5vw;
@@ -787,6 +794,9 @@ body {
     --coxititle:10vw;
     --text-grow: 0px 0px 7px #ffefde;
   }
+  .min-lg-vh-100 {
+    min-height: 100vh;
+  }
   .w-lg-85 {
     width: 85%;
   }
@@ -827,6 +837,21 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .plr-lg-x {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .pf-lg-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .plr-t {
     margin-top: calc(10rem + 3vh + 3vw) !important;
   }

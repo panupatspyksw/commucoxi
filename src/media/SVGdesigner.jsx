@@ -7,7 +7,7 @@ function SVGdesigner() {
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <g clip-path='url(#clip0_195_4594)'>
+        <g clipPath='url(#clip0_195_4594)'>
           <circle cx='201' cy='202' r='201' fill='#FFF' />
           <path
             d='M343.489 311.157C354.769 295.916 359.107 274.447 350.333 257.638C342.104 276.545 327.452 291.932 308.971 301.076C301.83 304.577 293.524 307.727 290.219 314.96C288.162 319.461 288.554 324.775 290.207 329.439C291.86 334.102 294.672 338.252 297.454 342.344L297.601 343.571C315.117 336.308 332.209 326.399 343.489 311.157Z'
@@ -312,10 +312,10 @@ function SVGdesigner() {
             y2='126.643'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint1_linear_195_4594'
@@ -325,10 +325,10 @@ function SVGdesigner() {
             y2='331.541'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint2_linear_195_4594'
@@ -338,10 +338,10 @@ function SVGdesigner() {
             y2='336.383'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint3_linear_195_4594'
@@ -351,10 +351,10 @@ function SVGdesigner() {
             y2='341.692'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint4_linear_195_4594'
@@ -364,10 +364,10 @@ function SVGdesigner() {
             y2='284.28'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint5_linear_195_4594'
@@ -377,10 +377,10 @@ function SVGdesigner() {
             y2='346.548'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint6_linear_195_4594'
@@ -390,10 +390,10 @@ function SVGdesigner() {
             y2='302.015'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint7_linear_195_4594'
@@ -403,10 +403,10 @@ function SVGdesigner() {
             y2='301.029'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint8_linear_195_4594'
@@ -416,10 +416,10 @@ function SVGdesigner() {
             y2='301.029'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint9_linear_195_4594'
@@ -429,10 +429,10 @@ function SVGdesigner() {
             y2='301.029'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint10_linear_195_4594'
@@ -442,10 +442,10 @@ function SVGdesigner() {
             y2='301.029'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint11_linear_195_4594'
@@ -455,10 +455,10 @@ function SVGdesigner() {
             y2='227.176'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint12_linear_195_4594'
@@ -468,10 +468,10 @@ function SVGdesigner() {
             y2='238.994'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint13_linear_195_4594'
@@ -481,10 +481,10 @@ function SVGdesigner() {
             y2='209.446'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint14_linear_195_4594'
@@ -494,10 +494,10 @@ function SVGdesigner() {
             y2='205.574'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint15_linear_195_4594'
@@ -507,10 +507,10 @@ function SVGdesigner() {
             y2='183.593'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint16_linear_195_4594'
@@ -520,10 +520,10 @@ function SVGdesigner() {
             y2='187.505'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint17_linear_195_4594'
@@ -533,10 +533,10 @@ function SVGdesigner() {
             y2='170.223'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint18_linear_195_4594'
@@ -546,10 +546,10 @@ function SVGdesigner() {
             y2='158.645'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint19_linear_195_4594'
@@ -559,10 +559,10 @@ function SVGdesigner() {
             y2='251.107'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint20_linear_195_4594'
@@ -572,10 +572,10 @@ function SVGdesigner() {
             y2='123.928'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint21_linear_195_4594'
@@ -585,10 +585,10 @@ function SVGdesigner() {
             y2='131.055'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint22_linear_195_4594'
@@ -598,10 +598,10 @@ function SVGdesigner() {
             y2='87.5557'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <linearGradient
             id='paint23_linear_195_4594'
@@ -611,10 +611,10 @@ function SVGdesigner() {
             y2='100.216'
             gradientUnits='userSpaceOnUse'
           >
-            <stop offset='0.01' stop-color='#191345' />
-            <stop offset='0.31' stop-color='#1F1A4F' />
-            <stop offset='0.83' stop-color='#312D6C' />
-            <stop offset='1' stop-color='#393578' />
+            <stop offset='0.01' stopColor='#191345' />
+            <stop offset='0.31' stopColor='#1F1A4F' />
+            <stop offset='0.83' stopColor='#312D6C' />
+            <stop offset='1' stopColor='#393578' />
           </linearGradient>
           <clipPath id='clip0_195_4594'>
             <rect width='402' height='402' rx='201' fill='white' />

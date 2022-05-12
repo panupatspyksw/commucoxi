@@ -10,7 +10,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className='gap-header'></div>
       <AnimatedRoutes />
     </Router>
     // <AnimatePresence exitBeforeEnter>
