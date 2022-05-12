@@ -28,8 +28,6 @@ const Home = () => {
     texts = useRef([]);
 
   useEffect(() => {
-    console.log('fuck effect');
-
     hl.from(
       [
         moon.current,
@@ -77,7 +75,6 @@ const Home = () => {
     titles.forEach((element, index) => {
       let str = element.innerText;
       var split = str.split('');
-      console.log(split);
       element.innerHTML = split
         .map((letter) => `<span>${letter}</span>`)
         .join('');
@@ -102,7 +99,7 @@ const Home = () => {
         },
         '-=1'
       );
-      if (element.querySelectorAll('.children')) {
+      if (element.querySelectorAll('.children').length) {
         pftl.from(
           element.querySelectorAll('.children'),
           {

@@ -20,7 +20,6 @@ function Header() {
   const burgerBtn = useRef();
 
   useEffect(() => {
-    console.log(menulink.current.length);
     menupagetl.timeScale(1);
     menupagetl.to(menupage.current, {
       duration: 0.65,

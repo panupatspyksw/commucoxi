@@ -4,7 +4,7 @@ import Transitions from '../components/TransitionPage';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import { CustomEase } from 'gsap/src/all';
-import { useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 import PerfectSection from '../components/PerfectSection';
 import Button from '../shared/Button';
 import ExclusiveSVG from '../components/ExclusiveSVG';
@@ -14,39 +14,38 @@ import CosciTower from '../components/CosciTower';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const About = () => {
-  //
-  useLayoutEffect(() => {
+  useEffect(() => {
     var titles = document.querySelectorAll('.title');
     titles.forEach((element, index) => {
       let str = element.innerText;
       var split = str.split('');
-      console.log(split);
       element.innerHTML = split
         .map((letter) => `<span>${letter}</span>`)
         .join('');
     });
 
     var pfsections = document.querySelectorAll('.perfect-section');
-    console.log(pfsections);
 
-    gsap.to('.firstpfsection', {
-      scrollTrigger: {
-        trigger: '.firstpfsection',
-        //   markers: true,
-
-        start: '110% bottom',
-        end: '110% bottom',
-        markers: true,
-        //   once: true,
-        onEnter: () => {
-          gsap.to('.coscitower', { opacity: 0.2, duration: 0.5 });
-          // pftl.reversed(!pftl.reversed());
-        },
-        onLeaveBack: () => {
-          gsap.to('.coscitower', { opacity: 1, duration: 0.5 });
-        },
-      },
-    });
+    if (document.querySelectorAll('.coscitower').length) {
+      var tl = gsap.timeline();
+      document.querySelectorAll('.coscitower').forEach((element, index) => {
+        gsap.to('.firstpfsection', {
+          scrollTrigger: {
+            trigger: '.firstpfsection',
+            markers: true,
+            start: '110% bottom',
+            end: '110% bottom',
+            onEnter: () => {
+              tl.to(element, { opacity: 0.2, duration: 0.5 });
+              // pftl.reversed(!pftl.reversed());
+            },
+            onLeaveBack: () => {
+              tl.to(element, { opacity: 1, duration: 0.5 });
+            },
+          },
+        });
+      });
+    }
 
     pfsections.forEach((element, index) => {
       // var chars = mySplitText.chars;
@@ -66,7 +65,7 @@ const About = () => {
         },
         '-=1'
       );
-      if (element.querySelectorAll('.children')) {
+      if (element.querySelectorAll('.children').length) {
         pftl.from(
           element.querySelectorAll('.children'),
           {
@@ -99,7 +98,7 @@ const About = () => {
 
           start: 'top 80%',
           end: 'bottom 80%',
-          markers: true,
+          // markers: true,
           //   once: true,
           onEnter: () => {
             pftl.reversed(!pftl.reversed());
@@ -110,13 +109,13 @@ const About = () => {
         },
       });
     });
-  }, []);
+  });
 
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
       <div
         className='min-lg-vh-100 firstpfsection w-100 plr-x pf-lg-center pt-md-5 mt-md-5 pt-lg-0 mt-lg-0 perfect-section '
-        style={{ overflowX: 'hidden' }}
+        style={{ overflowX: 'hidden', maxWidth: '100%' }}
       >
         <div className='px-md-5 '>
           <div className='w-100 h-100 px-4 px-md-5 '>
@@ -163,7 +162,7 @@ const About = () => {
         subtitle={'We are'}
         paragraph={`เอกจากวิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ ที่มุ่งเน้นการเรียนการสอนทั้งในด้านของการพัฒนาและออกแบบเพื่อให้เกิดเทคโนโลยีที่จะใช้ในการสื่อสารให้มีประสิทธิภาพมากขึ้น หรือเกิดการสื่อสารรูปแบบใหม่ๆ ที่แตกต่างออกไปจากเดิม และในปัจจุบันเอกคอมพิวเตอร์เพื่อการสื่อสารมีรูปแบบธีสิสแบ่งได้เป็น 2 รูปแบบ ดังนี้`}
       /> */}
-      <PerfectSection title={'Tracks'}>
+      <PerfectSection title={'Tracks'} spacetop={false}>
         <div
           className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
           style={{ width: '100%' }}

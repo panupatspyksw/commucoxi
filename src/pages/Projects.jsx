@@ -14,57 +14,11 @@ import SVGorganization from '../media/SVGorganization';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const Projects = () => {
-  //   useEffect(() => {
-  //     console.log('fuck effect');
-
-  //     hl.from(
-  //       [
-  //         moon.current,
-  //         moonring.current,
-  //         moonringblur.current,
-  //         moonblur.current,
-  //         mooninside.current,
-  //       ],
-  //       {
-  //         duration: 1,
-  //         scale: 0.75,
-  //         ease: 'ease',
-  //         transformOrigin: 'center',
-  //       }
-  //     );
-  //     hl.from([moonborder.current], {
-  //       duration: 1,
-  //       opacity: 0,
-  //       // rotate: 360,
-  //       transformOrigin: 'center',
-  //     });
-  //     hl.from(
-  //       [...texts.current],
-  //       {
-  //         duration: 1,
-  //         stagger: 0.2,
-  //         opacity: 0,
-  //       },
-  //       '-=2'
-  //     );
-  //     hl.to(
-  //       moonborder.current,
-  //       {
-  //         duration: 2,
-  //         ease: 'linear',
-  //         rotate: 360,
-  //         repeat: -1,
-  //         transformOrigin: 'center',
-  //       },
-  //       '-=1'
-  //     );
-  //   });
   useLayoutEffect(() => {
     var titles = document.querySelectorAll('.title');
     titles.forEach((element, index) => {
       let str = element.innerText;
       var split = str.split('');
-      console.log(split);
       element.innerHTML = split
         .map((letter) => `<span>${letter}</span>`)
         .join('');
@@ -132,7 +86,6 @@ const Projects = () => {
         },
       });
     });
-    console.log(pfsections);
   }, []);
 
   return (

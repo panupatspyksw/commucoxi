@@ -13,14 +13,16 @@ const animationConfiguration = {
 const Transitions = ({ children }) => {
   const isPresent = useIsPresent();
   useEffect(() => {
-    ScrollTrigger.refresh();
     if (isPresent) {
+      ScrollTrigger.refresh();
       document.documentElement.scrollTo({
         top: 0,
         behavior: 'instant',
       });
     } else {
       setTimeout(function () {
+        ScrollTrigger.refresh();
+
         document.documentElement.scrollTo({
           top: 0,
           behavior: 'instant',
