@@ -117,7 +117,7 @@ const About = () => {
         className='min-lg-vh-100 firstpfsection w-100 plr-x pf-lg-center pt-md-5 mt-md-5 pt-lg-0 mt-lg-0 perfect-section '
         style={{ overflowX: 'hidden', maxWidth: '100%' }}
       >
-        <div className='px-lg-5 '>
+        <div className='px-lg-5'>
           <div className='w-100 h-100 px-4 px-md-5 '>
             <div className='gap-header d-block d-md-none d-lg-block d-xl-none'></div>
             <div className='col-12 col-lg-4 text-white '>
@@ -130,7 +130,8 @@ const About = () => {
                 ที่มุ่งเน้นการเรียนการสอนทั้งในด้านของการพัฒนาและออกแบบเพื่อให้เกิดเทคโนโลยีที่จะใช้ในการสื่อสารให้มีประสิทธิภาพมากขึน
                 หรือเกิดการสื่อสารรูปแบบใหม่ ๆ ที่แตกต่างออกไปจากเดิม
                 และในปัจจุบันเอกคอมพิวเตอร์เพื่อการสื่อสาร
-                มีรูปแบบธีสิสแบ่งได้เป็น 2 รูปแบบ ดังน
+                <br />
+                มีรูปแบบธีสิสแบ่งได้เป็น 2 รูปแบบ ดังนี้
               </p>
             </div>
           </div>

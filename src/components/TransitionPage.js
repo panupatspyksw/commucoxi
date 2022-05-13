@@ -15,15 +15,14 @@ const Transitions = ({ children }) => {
   useEffect(() => {
     if (isPresent) {
       ScrollTrigger.refresh();
-      document.documentElement.scrollTo({
+      window.scrollTo({
         top: 0,
         behavior: 'instant',
       });
     } else {
       setTimeout(function () {
         ScrollTrigger.refresh();
-
-        document.documentElement.scrollTo({
+        window.scrollTo({
           top: 0,
           behavior: 'instant',
         });

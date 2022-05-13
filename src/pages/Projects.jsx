@@ -1,5 +1,4 @@
 import Transitions from '../components/TransitionPage';
-
 // import PerfectSection from '../components/PerfectSection';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
@@ -11,6 +10,7 @@ import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
 import SVGorganization from '../media/SVGorganization';
+import { NavLink } from 'react-router-dom';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const Projects = () => {
@@ -91,8 +91,8 @@ const Projects = () => {
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
       <PerfectSection
-        spacetop={false}
-        className={'plr-t-sm'}
+        // spacetop={false}
+        className={'plr-t-sm '}
         animClass={'fadein'}
         title={'Projects'}
         subtitle={'EXPLORE OURS'}
@@ -112,13 +112,37 @@ const Projects = () => {
           className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
           style={{ width: '100%' }}
         >
-          <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
+          {/* <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
           <ExclusiveSVG
             SVG={SVGuniversity}
             className=' my-3 my-lg-0'
             title={'UNIVERSITY'}
-          />
-          <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
+          /> */}
+          <NavLink
+            activeclassname='active'
+            to={'/projects/t/organization'}
+            className='col menulink fw-md lh-fit text-uppercase'
+          >
+            <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
+          </NavLink>
+          <NavLink
+            activeclassname='active'
+            to={'/projects/t/organization'}
+            className='col menulink fw-md lh-fit text-uppercase'
+          >
+            <ExclusiveSVG
+              SVG={SVGuniversity}
+              className=' my-3 my-lg-0'
+              title={'UNIVERSITY'}
+            />
+          </NavLink>
+          <NavLink
+            activeclassname='active'
+            to={'/projects/t/organization'}
+            className='col menulink fw-md lh-fit text-uppercase'
+          >
+            <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
+          </NavLink>
         </div>
         <div className='py-5 my-5'></div>
         {/* <div className='py-5 my-5'>

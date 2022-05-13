@@ -214,7 +214,7 @@ const Home = () => {
           <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
         </div>
         <div className='py-5 my-5'>
-          <Button link={'/projects'} label={`Let's Explore`} />
+          <Button link={'/about'} label={`Let's Explore`} />
         </div>
       </PerfectSection>
     </Transitions>

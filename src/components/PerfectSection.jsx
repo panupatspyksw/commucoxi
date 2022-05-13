@@ -21,7 +21,7 @@ function PerfectSection({
       <div className='px-4 px-md-5'>
         {subtitle && <div className='sub-title'>{subtitle}</div>}
         {title && (
-          <div className='title fw-md eng-text text-break mt-2 text-uppercase'>
+          <div className='title  fw-md eng-text text-break mt-2 text-uppercase'>
             {pftitle.length === 1
               ? title
               : pftitle.map((e, index) => {
