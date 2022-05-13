@@ -15,8 +15,8 @@ import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
 import SVGorganization from '../media/SVGorganization';
+import { NavLink } from 'react-router-dom';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
-
 const Home = () => {
   var hl = gsap.timeline();
   var moon = useRef(),
@@ -205,13 +205,31 @@ const Home = () => {
           className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
           style={{ width: '100%' }}
         >
-          <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
-          <ExclusiveSVG
-            SVG={SVGuniversity}
-            className=' my-3 my-lg-0'
-            title={'UNIVERSITY'}
-          />
-          <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
+          <NavLink
+            activeclassname='active'
+            to={'/projects/t/personal'}
+            className='col menulink fw-md lh-fit text-uppercase'
+          >
+            <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
+          </NavLink>
+          <NavLink
+            activeclassname='active'
+            to={'/projects/t/university'}
+            className='col menulink fw-md lh-fit text-uppercase'
+          >
+            <ExclusiveSVG
+              SVG={SVGuniversity}
+              className=' my-3 my-lg-0'
+              title={'UNIVERSITY'}
+            />
+          </NavLink>
+          <NavLink
+            activeclassname='active'
+            to={'/projects/t/organization'}
+            className='col menulink fw-md lh-fit text-uppercase'
+          >
+            <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
+          </NavLink>
         </div>
         <div className='py-5 my-5'>
           <Button link={'/about'} label={`Let's Explore`} />

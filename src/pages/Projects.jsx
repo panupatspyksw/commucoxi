@@ -120,14 +120,14 @@ const Projects = () => {
           /> */}
           <NavLink
             activeclassname='active'
-            to={'/projects/t/organization'}
+            to={'/projects/t/personal'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
           </NavLink>
           <NavLink
             activeclassname='active'
-            to={'/projects/t/organization'}
+            to={'/projects/t/university'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG

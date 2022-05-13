@@ -14,6 +14,7 @@ const Transitions = ({ children }) => {
   const isPresent = useIsPresent();
   useEffect(() => {
     if (isPresent) {
+      console.log('check');
       ScrollTrigger.refresh();
       window.scrollTo({
         top: 0,

@@ -36,7 +36,7 @@ function PerfectSection({
 
         <div className='children'>{children}</div>
         {paragraph && (
-          <p className='content th-text text-break mt-4 '>{paragraph}</p>
+          <div className='content th-text text-break mt-4 '>{paragraph}</div>
         )}
       </div>
     </div>
@@ -47,7 +47,7 @@ PerfectSection.defaultProps = {
   title: false,
   subtitle: false,
   textwhite: true,
-  paragraph: true,
+  paragraph: false,
   spacetop: true,
   className: '',
 };

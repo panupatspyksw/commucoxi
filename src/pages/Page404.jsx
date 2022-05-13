@@ -1,16 +1,14 @@
-import PerfectSection from '../components/PerfectSection';
-import SVGorganization from '../media/SVGorganization';
 import Transitions from '../components/TransitionPage';
-import ProjectCard from '../components/ProjectCard';
-import { useLayoutEffect } from 'react';
-import { CustomEase } from 'gsap/src/all';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
-
+import { CustomEase } from 'gsap/src/all';
+import { useEffect } from 'react';
+import PerfectSection from '../components/PerfectSection';
+import Button from '../shared/Button';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
-function ProjectOrganization() {
-  useLayoutEffect(() => {
+const Page404 = () => {
+  useEffect(() => {
     var titles = document.querySelectorAll('.title');
     titles.forEach((element, index) => {
       let str = element.innerText;
@@ -21,6 +19,7 @@ function ProjectOrganization() {
     });
 
     var pfsections = document.querySelectorAll('.perfect-section');
+
     pfsections.forEach((element, index) => {
       // var chars = mySplitText.chars;
       var pftl = gsap.timeline();
@@ -35,7 +34,7 @@ function ProjectOrganization() {
         {
           duration: 1,
           opacity: 0,
-          stagger: 0.03,
+          stagger: 0.05,
         },
         '-=1'
       );
@@ -68,55 +67,40 @@ function ProjectOrganization() {
       gsap.to(element, {
         scrollTrigger: {
           trigger: element,
+          //   markers: true,
+
+          start: 'top 80%',
+          end: 'bottom 80%',
           // markers: true,
-          once: true,
+          //   once: true,
           onEnter: () => {
+            pftl.reversed(!pftl.reversed());
+          },
+          onLeaveBack: () => {
             pftl.reversed(!pftl.reversed());
           },
         },
       });
     });
-  }, []);
+  });
 
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
-      <div className='gap-header'></div>
-      <PerfectSection
-        spacetop={false}
-        title={'Organization'}
-        subtitle={'EXCLUSIVE for'}
-      >
-        <div className='mx-auto col-7 px-5 mt-5'>
-          <SVGorganization />
-        </div>
-      </PerfectSection>
-      <div className='pt-5 text-white plr-x text-center bgmain-gradient'>
-        <div className='px-4 px-md-5'>
-          <div className='content th-text text-break mt-0'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+      <div className='min-vh-100 d-flex flex-column justify-content-center '>
+        <PerfectSection
+          title={'404'}
+          subtitle={'PAGE NOT FOUND'}
+          // className={' pt-5 px-0 mx-0 w-100 '}
+          spacetop={false}
+          // className={'pt-5 mt-5'}
+        >
+          <div className='mt-5'>
+            <Button link={'/'} label={`Back to Home`} />
           </div>
-          <div className='d-flex flex-column mt-5 px-xl-5'>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-          </div>
-        </div>
+        </PerfectSection>
       </div>
     </Transitions>
   );
-}
+};
 
-export default ProjectOrganization;
+export default Page404;

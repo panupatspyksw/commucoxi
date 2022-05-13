@@ -6,6 +6,8 @@ import Contact from '../pages/Contact';
 import Appreciation from '../pages/Appreciation';
 import { AnimatePresence } from 'framer-motion';
 import ProjectOrganization from '../pages/ProjectOrganization';
+import Page404 from '../pages/Page404';
+
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -22,6 +24,7 @@ function AnimatedRoutes() {
         ></Route>
         <Route exact path='/contact' element={<Contact />}></Route>
         <Route exact path='/appreciation' element={<Appreciation />}></Route>
+        <Route path='*' element={<Page404 />} />
       </Routes>
     </AnimatePresence>
   );
