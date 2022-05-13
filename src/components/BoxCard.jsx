@@ -3,7 +3,7 @@ function BoxCard({ data }) {
 
   return (
     <div className='boxcard col-md-6 col-lg-4 col-xl-3 mb-5'>
-      <div className='mb-3 '>
+      <div className='mb-3'>
         <div className='pb-100p overflow-hidden position-relative'>
           <div
             className='img pb-100p w-100 position-absolute top-0 left-0'

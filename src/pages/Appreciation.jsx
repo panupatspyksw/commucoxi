@@ -107,7 +107,7 @@ const Appreciation = () => {
         spacetop={false}
         // className={'pt-5 mt-5'}
       ></PerfectSection>
-      <div className=' plr-x mt-5 pt-5 text-white'>
+      <div className=' plr-x mt-5 pt-lg-5 text-white'>
         <div className='px-4 px-md-5 pt-3'>
           <div className='px-4'>
             <div className='d-flex row'>
