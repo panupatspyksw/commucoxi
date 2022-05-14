@@ -134,7 +134,7 @@ const ProjectDetail = () => {
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
             >
-              <SwiperSlide className='px-0 px-lg-5 h-100'>
+              <SwiperSlide className='px-5 px-lg-5 h-100'>
                 <div className='w-100 position-relative h-100'>
                   <iframe
                     src='https://www.youtube.com/embed/-7hAKFU82Fs'
@@ -153,13 +153,13 @@ const ProjectDetail = () => {
                   ></iframe>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className='px-0 px-lg-5 h-100'>
+              <SwiperSlide className='px-5 px-lg-5 h-100'>
                 <Slide />
               </SwiperSlide>
-              <SwiperSlide className='px-0 px-lg-5 h-100'>
+              <SwiperSlide className='px-5 px-lg-5 h-100'>
                 <Slide />
               </SwiperSlide>
-              <SwiperSlide className='px-0 px-lg-5 h-100'>
+              <SwiperSlide className='px-5 px-lg-5 h-100'>
                 <Slide />
               </SwiperSlide>
             </Swiper>
