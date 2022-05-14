@@ -117,7 +117,7 @@ const ProjectDetail = () => {
         <div className='px-0 px-lg-4 px-xl-5'>
           <div
             className='w-100 overflow-hidden  position-relative'
-            style={{ paddingBottom: '50%' }}
+            style={{ paddingBottom: '50%', minHeight: '400px' }}
           >
             <Swiper
               className='position-absolute top-0 h-100 start-0 w-100 p-lg-5'
@@ -134,8 +134,8 @@ const ProjectDetail = () => {
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
             >
-              <SwiperSlide className='px-5 px-lg-5 h-100'>
-                <div className='w-100 position-relative h-100'>
+              <SwiperSlide className='px-0 px-lg-5 h-100'>
+                <Slide>
                   <iframe
                     src='https://www.youtube.com/embed/-7hAKFU82Fs'
                     title='THESIS VIDEO'
@@ -145,21 +145,20 @@ const ProjectDetail = () => {
                       left: 0,
                       width: '100%',
                       height: '100%',
-                      zIndex: 0,
                     }}
                     frameBorder='0'
                     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
                   ></iframe>
-                </div>
+                </Slide>
               </SwiperSlide>
-              <SwiperSlide className='px-5 px-lg-5 h-100'>
+              <SwiperSlide className='px-0 px-lg-5 h-100'>
                 <Slide />
               </SwiperSlide>
-              <SwiperSlide className='px-5 px-lg-5 h-100'>
+              <SwiperSlide className='px-0 px-lg-5 h-100'>
                 <Slide />
               </SwiperSlide>
-              <SwiperSlide className='px-5 px-lg-5 h-100'>
+              <SwiperSlide className='px-0 px-lg-5 h-100'>
                 <Slide />
               </SwiperSlide>
             </Swiper>
