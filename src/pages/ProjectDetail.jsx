@@ -1,16 +1,11 @@
 import Transitions from '../components/TransitionPage';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-// Import Swiper styles
 import 'swiper/css';
-// import FB from '../media/FB.svg';
-// import IG from '../media/IG.svg';
-// import PerfectSection from '../components/PerfectSection';
-import 'https://player.vimeo.com/api/player.js';
+
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import { CustomEase } from 'gsap/src/all';
@@ -18,7 +13,6 @@ import { useEffect, useRef } from 'react';
 import PerfectSection from '../components/PerfectSection';
 import { useParams, useNavigate } from 'react-router-dom';
 import data from '../data/posts.json';
-// import Mirror from '../shared/Mirror';
 import Slide from '../components/Slide';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 const ProjectDetail = () => {
@@ -143,9 +137,8 @@ const ProjectDetail = () => {
               <SwiperSlide className='px-0 px-lg-5 h-100'>
                 <div className='w-100 position-relative h-100'>
                   <iframe
-                    className=''
                     src='https://www.youtube.com/embed/-7hAKFU82Fs'
-                    title='YouTube video player'
+                    title='THESIS VIDEO'
                     style={{
                       position: 'absolute',
                       top: 0,
