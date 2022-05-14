@@ -11,6 +11,7 @@ import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGprogrammer from '../media/SVGprogrammer';
 import SVGdesigner from '../media/SVGdesigner';
 import CosciTower from '../components/CosciTower';
+import Cloud from '../components/Cloud';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const About = () => {
@@ -139,9 +140,14 @@ const About = () => {
         </div>
         <div className='d-flex h-100 plr-lg-x position-fixed back top-0 start-0 w-100'>
           <div className=' w-100 h-100 px-4 px-md-5 '>
-            <div className='p-4 min-vh-100 position-relative w-100'>
+            <div className='p-4 min-vh-100 position-relative w-100 '>
               {/* <div className='col p-3'></div> */}
-              <div className='coscitower col-12 col-md-12 mx-auto col-lg-7 position-absolute bottom-0 end-0 back'>
+              <div className='coscitower col-12 col-md-12 mx-auto col-lg-7 position-absolute bottom-0 end-0 back '>
+                <Cloud
+                  className='position-absolute ms-5 ps-5 top-0 start-0 translate-middle-x '
+                  flipx={true}
+                  styles={{ width: '150vw', zIndex: '-10' }}
+                />
                 <CosciTower />
               </div>
             </div>

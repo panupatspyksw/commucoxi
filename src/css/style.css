@@ -303,7 +303,7 @@ body {
 }
 
 .pe-none {
-  pointer-events: none;
+  pointer-events: none !important;
 }
 
 .reflectionY {
@@ -685,6 +685,11 @@ body {
 
 .opacity-15 {
   opacity: 0.15;
+}
+
+.flipx {
+  -webkit-transform: scaleX(-1) !important;
+          transform: scaleX(-1) !important;
 }
 
 @-webkit-keyframes rotate-360-cw {

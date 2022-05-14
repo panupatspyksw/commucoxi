@@ -8,6 +8,7 @@ import { CustomEase } from 'gsap/src/all';
 import { useEffect } from 'react';
 import PerfectSection from '../components/PerfectSection';
 import CosciTower from '../components/CosciTower';
+import Cloud from '../components/Cloud';
 
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
@@ -112,8 +113,13 @@ const Contact = () => {
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
       {/* <div className='gap-header'></div> */}
-      <div className='plr-x w-100 min-vh-100 overflow-hidden screen-minheight-750-shortheight712'>
-        <div className='position-relative  min-vh-100  screen-minheight-750-shortheight712 overflow-hidden w-100 pt-5 d-flex  flex-column align-items-center  px-4 px-md-5'>
+      <div className='plr-x w-100 min-vh-100 overflow-hidden  screen-minheight-750-shortheight712'>
+        <div className='position-relative  min-vh-100  screen-minheight-750-shortheight712  w-100 pt-5 d-flex  flex-column align-items-center position-relative px-4 px-md-5'>
+          <Cloud
+            className='position-absolute d-none d-xl-block top-50 end-0 translate-middle-y'
+            flipx={false}
+            styles={{ width: '100vw', zIndex: '-10' }}
+          />
           <PerfectSection
             title={'Contact us'}
             subtitle={'Keep in touch'}

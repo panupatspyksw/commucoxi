@@ -11,6 +11,7 @@ import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
 import SVGorganization from '../media/SVGorganization';
 import { NavLink } from 'react-router-dom';
+import Mountain from '../components/Mountain';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const Projects = () => {
@@ -90,35 +91,31 @@ const Projects = () => {
 
   return (
     <Transitions className='mx-auto overflow-hidden w-100'>
+      <div className='position-absolute top-0 left-0 w-100 pe-none '>
+        <div className='position-relative min-vw-100 min-vh-100 w-100 '>
+          <Mountain
+            className='position-absolute top-50 start-0 translate-middle-y col-3 '
+            flipx={true}
+          />
+          <Mountain className='position-absolute top-50 end-0 translate-middle-y col-3 ' />
+        </div>
+      </div>
+
       <PerfectSection
         // spacetop={false}
         className={'plr-t-sm '}
         animClass={'fadein'}
         title={'Projects'}
         subtitle={'EXPLORE OURS'}
-        paragraph={`พวกเราชาวคอมมิวรุ่นที่ 11 ครั้งนี้มาในรูปแบบการนำเสนอผ่านแอปพลิเคชันและเว็บไซต์ โดยมุ่งเน้นให้ความช่วยเหลือ อำนวยความสะดวกให้ นิสิต อาจารย์ บุคคลากร บุคคลทั่วไป รวมไปถึงองค์กรภาครัฐและเอกชน ให้สามารถเข้าถึงได้ง่ายมากยิ่งขึ้นโดยมีนวัตกรรมทั้งหมด 3 ระดับ ดังนี้
+        paragraph={`พวกเราชาวคอมสื่อรุ่นที่ 11 ครั้งนี้ มาในรูปแบบการนำเสนอผ่าเว็บไซต์และแอปพลิเคชัน โดยมุ่งเน้นให้ความช่วยเหลือ อำนวยความสะดวกให้กับนิสิต อาจารย์ บุคลากร และบุคคลทั่วไป รวมไปถึงองค์กรภาครัฐและเอกชนด้วย เพื่อให้สามารถเข้าถึงความสะดวกสบายได้ง่ายมากยิ่งขึ้น โดยมีนวัตกรรมทั้งหมด 3 ระดับ ดังนี้
         `}
       />
-      {/* <PerfectSection
-        title={'THE PERFORMANCES'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
-      >
-        <Mirror className='p-4 p-md-5 py-lg-0 my-5'>
-          <WebsiteApp className={'w-lg-85'} />
-        </Mirror>
-        <div className='sub-title fw-bold'>WEBSITE & APPLICATION</div>
-      </PerfectSection> */}
+
       <PerfectSection title={'exclusive for'}>
         <div
           className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
           style={{ width: '100%' }}
         >
-          {/* <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
-          <ExclusiveSVG
-            SVG={SVGuniversity}
-            className=' my-3 my-lg-0'
-            title={'UNIVERSITY'}
-          /> */}
           <NavLink
             activeclassname='active'
             to={'/pt/personal'}

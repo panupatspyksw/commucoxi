@@ -309,7 +309,7 @@
     pointer-events: none;
   }
   .pe-none{
-    pointer-events: none;
+    pointer-events: none!important;
   }
   .reflectionY
 {
@@ -668,7 +668,9 @@
   } 
 
   // transform
-
+  .flipx{
+    transform: scaleX(-1)!important;
+  }
   // rotate
   .rotate-360 {
     // transform-origin: 34.51% 48.6%;
