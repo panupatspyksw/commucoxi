@@ -113,7 +113,7 @@ const Projects = () => {
 
       <PerfectSection title={'exclusive for'}>
         <div
-          className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
+          className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-xl-5 justify-content-center '
           style={{ width: '100%' }}
         >
           <NavLink
@@ -139,7 +139,7 @@ const Projects = () => {
             to={'/pt/organization'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
-            <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />
+            <ExclusiveSVG SVG={SVGorganization} title={'organization'} />
           </NavLink>
         </div>
         <div className='py-5 my-5'></div>

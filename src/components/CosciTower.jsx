@@ -3,8 +3,9 @@ import lottie from 'lottie-web';
 import COSCITOWER from '../media/COSCITOWER.json';
 function CosciTower({ className }) {
   const ref = useRef();
-  var animData1 = true;
   useEffect(() => {
+    var animData1 = true;
+
     if (animData1 === true)
       animData1 = {
         container: ref.current,

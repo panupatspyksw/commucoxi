@@ -107,14 +107,18 @@ function Header() {
           })}
           <div className='d-flex d-lg-none align-items-center overflow-hidden mt-3'>
             <a
-              href='/'
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.facebook.com/ExclusiveCOXIThesisExhibition/'
               className='menulink text-white lh-fit'
               ref={(el) => (menulink.current[5] = el)}
             >
               <FaFacebookF fontSize={'25px'} />
             </a>
             <a
-              href='/'
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.instagram.com/commuthesis'
               className='menulink text-white lh-fit'
               ref={(el) => (menulink.current[6] = el)}
             >
@@ -127,10 +131,20 @@ function Header() {
         className='position-fixed end-0 bottom-0 front-behind1 d-none d-lg-flex flex-column p-4 gap-4 opacity-50'
         style={{ width: 'fit-content' }}
       >
-        <a href='/' className=' text-white lh-fit'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://www.facebook.com/ExclusiveCOXIThesisExhibition/'
+          className=' text-white lh-fit'
+        >
           <FaFacebookF fontSize={'25px'} />
         </a>
-        <a href='/' className=' text-white lh-fit'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://www.instagram.com/commuthesis'
+          className=' text-white lh-fit'
+        >
           <FaInstagram fontSize={'28px'} />
         </a>
       </div>

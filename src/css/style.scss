@@ -671,6 +671,9 @@
   .flipx{
     transform: scaleX(-1)!important;
   }
+  .flipy{
+    transform: scaleY(-1)!important;
+  }
   // rotate
   .rotate-360 {
     // transform-origin: 34.51% 48.6%;
@@ -710,6 +713,19 @@
     }
   }
   
+
+// slider
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  color:white!important;
+  position: relative;
+  opacity: 0.75;
+  display: block;
+}
+.swiper-pagination-bullet-active{
+  background: white!important;
+}
+
 
 // responsive
 
@@ -838,6 +854,10 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  .plr-lg-x{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
   /* special */
   .ppost:nth-child(even) .ppost-row{
     display: flex!important;
@@ -929,7 +949,7 @@
   .bottom-xl-0{
     bottom: 0;
   }
-  .plr-lg-x{
+  .plr-xl-x{
     padding-left: 5vw;
     padding-right: 5vw;
   }

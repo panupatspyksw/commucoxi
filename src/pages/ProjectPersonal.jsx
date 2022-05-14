@@ -11,6 +11,7 @@ import { NavLink } from 'react-router-dom';
 import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
+import Cloud from '../components/Cloud';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 function ProjectPersonals() {
@@ -134,10 +135,20 @@ function ProjectPersonals() {
         spacetop={false}
         title={'Personal'}
         subtitle={'EXCLUSIVE for'}
-        paragraph={`ผลงานประเภทที่ 1 ระดับบุคคล Exclusive for personal  จำนวน 8 ผลงาน โดยผลงานในระดับนี้จะเน้นไปที่จะอำนวยความสะดวกให้กับระดับบุคคล คัดสรร ช่วยเหลือชีวิตประจำวันของคุณให้ง่ายยิ่งขึ้น นอกจากนี้ยังสามารถให้ความสะดวกได้กับทุกช่วงอายุและทุกระดับ
+        paragraph={`ผลงานประเภทที่ 1 ระดับบุคคล (Exclusive for Personal) จำนวน 8 ผลงาน โดยผลงานประเภทนี้จะอำนวยความสะดวกให้กับบุคคล คัดสรร และช่วยให้การใช้ชีวิตประจำวันของคุณง่ายยิ่งขึ้น นอกจากนี้ยังสามารถส่งมอบความสะดวกให้กับทุกเพศทุกวัยได้อีกด้วย
         `}
       >
-        <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
+        <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5 position-relative'>
+          <Cloud
+            className='position-absolute top-0 translate-middle w-100'
+            styles={{ left: '75%' }}
+          />
+          <div style={{ transform: 'r' }}></div>
+          <Cloud
+            className='position-absolute translate-middle w-100'
+            stylesimg={{ transform: 'rotate(180deg) scale(1.25)' }}
+            styles={{ top: '85%', left: '35%' }}
+          />
           <SVGpersonal />
         </div>
       </PerfectSection>

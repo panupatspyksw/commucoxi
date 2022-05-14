@@ -11,6 +11,7 @@ import { NavLink } from 'react-router-dom';
 import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
+import Cloud from '../components/Cloud';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 function ProjectUniversity() {
@@ -134,10 +135,20 @@ function ProjectUniversity() {
         spacetop={false}
         title={'University'}
         subtitle={'EXCLUSIVE for'}
-        paragraph={`ผลงานประเภทที่ 2 ระดับมหาวิทยาลัย Exclusive for university จำนวน 6 ผลงาน เป็นผลงานที่จะอำนวยความสะดวกให้กับระดับมหาวิทยาลัย ช่วยเหลือ ให้ข้อมูลกับนิสิต อาจารย์ บุคลากรและบุคคลที่สนใจเกี่ยวกับวิทยาลัยนวัตกรรมสื่อสารสังคม ให้สามารถเข้าถึง ใช้งานได้ง่ายมากยิ่งขึ้น
+        paragraph={`ผลงานประเภทที่ 2 ระดับมหาวิทยาลัย (Exclusive for University) จำนวน 6 ผลงาน โดยผลงานประเภทนี้จะอำนวยความสะดวกให้กับมหาวิทยาลัย ด้วยการช่วยเหลือ และให้ข้อมูลกับนิสิต อาจารย์ บุคลากร และบุคคลที่สนใจเกี่ยวกับวิทยาลัยนวัตกรรมสื่อสารสังคม ให้สามารถเข้าถึงการใช้งานได้ง่ายมากยิ่งขึ้น
         `}
       >
-        <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
+        <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5 position-relative'>
+          <Cloud
+            className='position-absolute top-0 translate-middle w-100'
+            styles={{ left: '75%' }}
+          />
+          <div style={{ transform: 'r' }}></div>
+          <Cloud
+            className='position-absolute translate-middle w-100'
+            stylesimg={{ transform: 'rotate(180deg) scale(1.25)' }}
+            styles={{ top: '85%', left: '35%' }}
+          />
           <SVGuniversity />
         </div>
       </PerfectSection>

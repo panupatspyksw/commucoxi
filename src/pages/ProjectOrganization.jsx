@@ -11,6 +11,7 @@ import { NavLink } from 'react-router-dom';
 import ExclusiveSVG from '../components/ExclusiveSVG';
 import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
+import Cloud from '../components/Cloud';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 function ProjectOrganization() {
@@ -134,9 +135,19 @@ function ProjectOrganization() {
         spacetop={false}
         title={'Organization'}
         subtitle={'EXCLUSIVE for'}
-        paragraph={`ผลงานประเภทที่ 3 ระดับองค์กร Exclusive for organization จำนวน 5 ผลงาน ในผลงานประเภทนี้เป็นผลงานที่ช่วยเหลือ และอำนวยความสะดวกให้กับทางองค์กรภาครัฐ/เอกชน เพื่อให้บุคคลทั่วไปและบุคคลที่เกี่ยวข้องในด้านต่างๆ สามารถเข้าถึงข้อมูลได้สะดวก รวดเร็ว ปลอดภัย`}
+        paragraph={`ผลงานประเภทที่ 3 ระดับองค์กร (Exclusive for Organization) จำนวน 5 ผลงาน โดยผลงานประเภทนี้จะอำนวยความสะดวกให้กับองค์กรภาครัฐและเอกชน เพื่อให้บุคคลทั่วไปและหน่วยงานที่เกี่ยวข้องในด้านต่าง ๆ สามารถเข้าถึงข้อมูลได้สะดวก รวดเร็ว และปลอดภัยยิ่งขึ้น`}
       >
-        <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
+        <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5 position-relative'>
+          <Cloud
+            className='position-absolute top-0 translate-middle w-100'
+            styles={{ left: '75%' }}
+          />
+          <div style={{ transform: 'r' }}></div>
+          <Cloud
+            className='position-absolute translate-middle w-100'
+            stylesimg={{ transform: 'rotate(180deg) scale(1.25)' }}
+            styles={{ top: '85%', left: '25%' }}
+          />
           <SVGorganization />
         </div>
       </PerfectSection>

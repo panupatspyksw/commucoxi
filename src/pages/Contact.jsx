@@ -153,14 +153,24 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='d-flex fit-c flex-column gap-3 w-fitcontent mx-auto mx-xl-0'>
-                  <div className='d-flex align-items-center gap-3 w-fitcontent'>
+                  <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://www.facebook.com/ExclusiveCOXIThesisExhibition/'
+                    className='text-white text-decoration-none d-flex align-items-center gap-3 w-fitcontent'
+                  >
                     <img src={FB} alt='' />
-                    <div className='content'>commuthesisexhibition</div>
-                  </div>
-                  <div className='d-flex align-items-center gap-3 w-fitcontent'>
+                    <div className='content'>Commu Thesis Exhibition 2022</div>
+                  </a>
+                  <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://www.instagram.com/commuthesis'
+                    className='text-white text-decoration-none d-flex align-items-center gap-3 w-fitcontent'
+                  >
                     <img src={IG} alt='' />
-                    <div className='content'>commuthesisexhibition</div>
-                  </div>
+                    <div className='content'>@commuthesis</div>
+                  </a>
                 </div>
               </div>
             </div>

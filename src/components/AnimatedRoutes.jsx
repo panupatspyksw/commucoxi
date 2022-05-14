@@ -9,6 +9,7 @@ import ProjectOrganization from '../pages/ProjectOrganization';
 import Page404 from '../pages/Page404';
 import ProjectPersonal from '../pages/ProjectPersonal';
 import ProjectUniversity from '../pages/ProjectUniversity';
+import ProjectDetail from '../pages/ProjectDetail';
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -29,6 +30,7 @@ function AnimatedRoutes() {
           path='/pt/university'
           element={<ProjectUniversity />}
         ></Route>
+        <Route path='/p/:project' element={<ProjectDetail />}></Route>
         <Route exact path='/contact' element={<Contact />}></Route>
         <Route exact path='/appreciation' element={<Appreciation />}></Route>
         <Route path='*' element={<Page404 />} />
