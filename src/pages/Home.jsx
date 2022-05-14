@@ -129,6 +129,7 @@ const Home = () => {
         scrollTrigger: {
           trigger: element,
           // markers: true,
+          start: 'top 80%',
           once: true,
           onEnter: () => {
             pftl.reversed(!pftl.reversed());

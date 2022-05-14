@@ -226,7 +226,6 @@ body {
 
 .post-content {
   font-size: var(--post-content);
-  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   font-style: normal;
   line-height: 140.19%;
@@ -286,7 +285,7 @@ body {
   height: 100%;
   z-index: -4;
   display: block;
-  min-height: 500vh;
+  min-height: 5000px;
 }
 
 .bgmain-gradient {
@@ -873,7 +872,7 @@ body {
     --sub-title: calc(1rem + .6vw);
     --content:1.2rem;
     --big-btn:32px;
-    --post-title:calc(1.4rem + 1.5vw);
+    --post-title:calc(1.4rem + 1vw);
     --post-subtitle:calc(0.9rem + .3vw);
     --post-content:1.1rem;
     --menulink: calc(2rem + 2vw);

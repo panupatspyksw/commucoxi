@@ -13,7 +13,7 @@ import SVGpersonal from '../media/SVGpersonal';
 import SVGuniversity from '../media/SVGuniversity';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 
-function ProjectOrganization() {
+function ProjectUniversity() {
   useLayoutEffect(() => {
     var titles = document.querySelectorAll('.title');
     titles.forEach((element, index) => {
@@ -132,7 +132,7 @@ function ProjectOrganization() {
       <div className='gap-header'></div>
       <PerfectSection
         spacetop={false}
-        title={'Organization'}
+        title={'Personal'}
         subtitle={'EXCLUSIVE for'}
         paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -145,7 +145,7 @@ function ProjectOrganization() {
             PageMaker including versions of Lorem Ipsum.`}
       >
         <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
-          <SVGorganization />
+          <SVGuniversity />
         </div>
       </PerfectSection>
       <div className='pt-5 text-white plr-x text-center bgmain-gradient '>
@@ -153,7 +153,7 @@ function ProjectOrganization() {
           <div className='d-flex flex-column mt-5 px-xl-5 pp'>
             {data.map(
               (data, index) =>
-                data.category === 'organization' && (
+                data.category === 'university' && (
                   <ProjectCard post={data} key={data.title} />
                 )
             )}
@@ -168,12 +168,6 @@ function ProjectOrganization() {
             className='d-flex flex-column flex-lg-row mt-4 gap-lg-5 mx-auto px-lg-5 justify-content-center '
             style={{ width: '100%' }}
           >
-            {/* <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
-          <ExclusiveSVG
-            SVG={SVGuniversity}
-            className=' my-3 my-lg-0'
-            title={'UNIVERSITY'}
-          /> */}
             <NavLink
               activeclassname='active'
               to={'/projects/t/personal'}
@@ -183,14 +177,10 @@ function ProjectOrganization() {
             </NavLink>
             <NavLink
               activeclassname='active'
-              to={'/projects/t/university'}
+              to={'/projects/t/organization'}
               className='col menulink fw-md lh-fit text-uppercase'
             >
-              <ExclusiveSVG
-                SVG={SVGuniversity}
-                className=' my-3 my-lg-0'
-                title={'UNIVERSITY'}
-              />
+              <ExclusiveSVG SVG={SVGorganization} title={'organization'} />
             </NavLink>
           </div>
           <div className='py-5 my-5'></div>
@@ -203,4 +193,4 @@ function ProjectOrganization() {
   );
 }
 
-export default ProjectOrganization;
+export default ProjectUniversity;

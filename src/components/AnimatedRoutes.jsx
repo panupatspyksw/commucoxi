@@ -7,7 +7,8 @@ import Appreciation from '../pages/Appreciation';
 import { AnimatePresence } from 'framer-motion';
 import ProjectOrganization from '../pages/ProjectOrganization';
 import Page404 from '../pages/Page404';
-
+import ProjectPersonal from '../pages/ProjectPersonal';
+import ProjectUniversity from '../pages/ProjectUniversity';
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -21,6 +22,16 @@ function AnimatedRoutes() {
           exact
           path='/projects/t/organization'
           element={<ProjectOrganization />}
+        ></Route>
+        <Route
+          exact
+          path='/projects/t/personal'
+          element={<ProjectPersonal />}
+        ></Route>
+        <Route
+          exact
+          path='/projects/t/university'
+          element={<ProjectUniversity />}
         ></Route>
         <Route exact path='/contact' element={<Contact />}></Route>
         <Route exact path='/appreciation' element={<Appreciation />}></Route>
