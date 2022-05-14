@@ -20,17 +20,13 @@ function AnimatedRoutes() {
         <Route exact path='/projects' element={<Projects />}></Route>
         <Route
           exact
-          path='/projects/t/organization'
+          path='/pt/organization'
           element={<ProjectOrganization />}
         ></Route>
+        <Route exact path='/pt/personal' element={<ProjectPersonal />}></Route>
         <Route
           exact
-          path='/projects/t/personal'
-          element={<ProjectPersonal />}
-        ></Route>
-        <Route
-          exact
-          path='/projects/t/university'
+          path='/pt/university'
           element={<ProjectUniversity />}
         ></Route>
         <Route exact path='/contact' element={<Contact />}></Route>

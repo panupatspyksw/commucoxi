@@ -190,11 +190,11 @@ const Home = () => {
         animClass={'fadein'}
         title={'supercalifragilistic-expialidocious'}
         subtitle={'UNIQUE as'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+        paragraph={`เป็นคำนิยามให้กับผลงานที่พวกเราได้สร้างสรรค์ออกมาในครั้งนี้ ซึ่งมีความหมายว่า “เพราะดีจนเกินกว่าจะบรรยายได้” ผลงานทุกชิ้นล้วนต้องใช้ความสามารถ ความรู้ และความทุ่มเท รวมไปถึงความสามัคคี เพื่อให้ผลงานออกมาดีที่สุด ผลงานทุกชิ้นจึงมีคุณค่าและดีจนเกินกว่าจะบรรยายได้`}
       />
       <PerfectSection
         title={'THE PERFORMANCES'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+        paragraph={`Commu Thesis Exhibition ในปี 2022 นี้ เป็นการจัดโชว์ผลงานของนิสิตชั้นปีที่ 4 สาขาคอมพิวเตอร์เพื่อการสื่อสาร วิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ ทั้งหมด 19 ผลงาน จากนิสิตทั้งหมด 46 คน โดยผลงานจะออกมาใน 2 รูปแบบหลัก ๆ ประกอบไปด้วย Website และ Application ที่มีความสำคัญต่อชีวิตประจำวันของเรา โดยพวกเราชาวคอมสื่อได้อุทิศชีวิตให้กับการออกแบบผลงานเพื่อเพิ่มความสะดวกสบาย และลดขั้นตอนการดำเนินงานที่ยุ่งยาก จนได้เกิดเป็นชิ้นงานที่สมบูรณ์ที่สุดออกมา`}
       >
         <Mirror className='p-4 p-md-5 py-lg-0 my-5'>
           <WebsiteApp className={'w-lg-85'} />
@@ -208,14 +208,14 @@ const Home = () => {
         >
           <NavLink
             activeclassname='active'
-            to={'/projects/t/personal'}
+            to={'/pt/personal'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
           </NavLink>
           <NavLink
             activeclassname='active'
-            to={'/projects/t/university'}
+            to={'/pt/university'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG
@@ -226,7 +226,7 @@ const Home = () => {
           </NavLink>
           <NavLink
             activeclassname='active'
-            to={'/projects/t/organization'}
+            to={'/pt/organization'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />

@@ -132,17 +132,10 @@ function ProjectUniversity() {
       <div className='gap-header'></div>
       <PerfectSection
         spacetop={false}
-        title={'Personal'}
+        title={'University'}
         subtitle={'EXCLUSIVE for'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.`}
+        paragraph={`ผลงานประเภทที่ 2 ระดับมหาวิทยาลัย Exclusive for university จำนวน 6 ผลงาน เป็นผลงานที่จะอำนวยความสะดวกให้กับระดับมหาวิทยาลัย ช่วยเหลือ ให้ข้อมูลกับนิสิต อาจารย์ บุคลากรและบุคคลที่สนใจเกี่ยวกับวิทยาลัยนวัตกรรมสื่อสารสังคม ให้สามารถเข้าถึง ใช้งานได้ง่ายมากยิ่งขึ้น
+        `}
       >
         <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
           <SVGuniversity />
@@ -170,14 +163,14 @@ function ProjectUniversity() {
           >
             <NavLink
               activeclassname='active'
-              to={'/projects/t/personal'}
+              to={'/pt/personal'}
               className='col menulink fw-md lh-fit text-uppercase'
             >
               <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
             </NavLink>
             <NavLink
               activeclassname='active'
-              to={'/projects/t/organization'}
+              to={'/pt/organization'}
               className='col menulink fw-md lh-fit text-uppercase'
             >
               <ExclusiveSVG SVG={SVGorganization} title={'organization'} />

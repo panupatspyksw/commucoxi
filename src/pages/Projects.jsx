@@ -96,7 +96,8 @@ const Projects = () => {
         animClass={'fadein'}
         title={'Projects'}
         subtitle={'EXPLORE OURS'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+        paragraph={`พวกเราชาวคอมมิวรุ่นที่ 11 ครั้งนี้มาในรูปแบบการนำเสนอผ่านแอปพลิเคชันและเว็บไซต์ โดยมุ่งเน้นให้ความช่วยเหลือ อำนวยความสะดวกให้ นิสิต อาจารย์ บุคคลากร บุคคลทั่วไป รวมไปถึงองค์กรภาครัฐและเอกชน ให้สามารถเข้าถึงได้ง่ายมากยิ่งขึ้นโดยมีนวัตกรรมทั้งหมด 3 ระดับ ดังนี้
+        `}
       />
       {/* <PerfectSection
         title={'THE PERFORMANCES'}
@@ -120,14 +121,14 @@ const Projects = () => {
           /> */}
           <NavLink
             activeclassname='active'
-            to={'/projects/t/personal'}
+            to={'/pt/personal'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
           </NavLink>
           <NavLink
             activeclassname='active'
-            to={'/projects/t/university'}
+            to={'/pt/university'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG
@@ -138,7 +139,7 @@ const Projects = () => {
           </NavLink>
           <NavLink
             activeclassname='active'
-            to={'/projects/t/organization'}
+            to={'/pt/organization'}
             className='col menulink fw-md lh-fit text-uppercase'
           >
             <ExclusiveSVG SVG={SVGorganization} title={'ORGANIZATION'} />

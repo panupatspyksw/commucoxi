@@ -134,15 +134,7 @@ function ProjectOrganization() {
         spacetop={false}
         title={'Organization'}
         subtitle={'EXCLUSIVE for'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.`}
+        paragraph={`ผลงานประเภทที่ 3 ระดับองค์กร Exclusive for organization จำนวน 5 ผลงาน ในผลงานประเภทนี้เป็นผลงานที่ช่วยเหลือ และอำนวยความสะดวกให้กับทางองค์กรภาครัฐ/เอกชน เพื่อให้บุคคลทั่วไปและบุคคลที่เกี่ยวข้องในด้านต่างๆ สามารถเข้าถึงข้อมูลได้สะดวก รวดเร็ว ปลอดภัย`}
       >
         <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
           <SVGorganization />
@@ -176,14 +168,14 @@ function ProjectOrganization() {
           /> */}
             <NavLink
               activeclassname='active'
-              to={'/projects/t/personal'}
+              to={'/pt/personal'}
               className='col menulink fw-md lh-fit text-uppercase'
             >
               <ExclusiveSVG SVG={SVGpersonal} title={'personal'} />
             </NavLink>
             <NavLink
               activeclassname='active'
-              to={'/projects/t/university'}
+              to={'/pt/university'}
               className='col menulink fw-md lh-fit text-uppercase'
             >
               <ExclusiveSVG

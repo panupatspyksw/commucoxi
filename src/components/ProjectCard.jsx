@@ -23,7 +23,9 @@ function ProjectCard({ post }) {
           <div className='col-12 col-lg-6 d-flex flex-column justify-content-center gap-4 ppost-text py-5 px-4 pt-0 p-md-5 pt-md-0 p-lg-5 p-xl-5 text-start info'>
             <div className='d-flex flex-column gap-2'>
               <div className='post-title text-uppercase'>{title}</div>
-              <div className='post-sub-title text-uppercase'>{type}</div>
+              <div className='post-sub-title fw-normal text-uppercase'>
+                {type}
+              </div>
             </div>
             <div className='post-content text-break word-break th-text'>
               {paragraph}

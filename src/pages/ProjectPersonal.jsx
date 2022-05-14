@@ -34,7 +34,7 @@ function ProjectPersonals() {
         pftl.from(element.querySelectorAll('.info > *'), {
           duration: 1,
           opacity: 0,
-          stagger: 0.3,
+          stagger: 0.2,
         });
       }
 
@@ -48,7 +48,7 @@ function ProjectPersonals() {
             opacity: 0,
             stagger: 0.03,
           },
-          '-=2'
+          '-=1.5'
         );
       }
 
@@ -134,15 +134,8 @@ function ProjectPersonals() {
         spacetop={false}
         title={'Personal'}
         subtitle={'EXCLUSIVE for'}
-        paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.`}
+        paragraph={`ผลงานประเภทที่ 1 ระดับบุคคล Exclusive for personal  จำนวน 8 ผลงาน โดยผลงานในระดับนี้จะเน้นไปที่จะอำนวยความสะดวกให้กับระดับบุคคล คัดสรร ช่วยเหลือชีวิตประจำวันของคุณให้ง่ายยิ่งขึ้น นอกจากนี้ยังสามารถให้ความสะดวกได้กับทุกช่วงอายุและทุกระดับ
+        `}
       >
         <div className='mx-auto col-12 col-lg-7 px-lg-5 my-5'>
           <SVGpersonal />
@@ -170,14 +163,7 @@ function ProjectPersonals() {
           >
             <NavLink
               activeclassname='active'
-              to={'/projects/t/organization'}
-              className='col menulink fw-md lh-fit text-uppercase'
-            >
-              <ExclusiveSVG SVG={SVGorganization} title={'organization'} />
-            </NavLink>
-            <NavLink
-              activeclassname='active'
-              to={'/projects/t/university'}
+              to={'/pt/university'}
               className='col menulink fw-md lh-fit text-uppercase'
             >
               <ExclusiveSVG
@@ -185,6 +171,13 @@ function ProjectPersonals() {
                 className=' my-3 my-lg-0'
                 title={'UNIVERSITY'}
               />
+            </NavLink>
+            <NavLink
+              activeclassname='active'
+              to={'/pt/organization'}
+              className='col menulink fw-md lh-fit text-uppercase'
+            >
+              <ExclusiveSVG SVG={SVGorganization} title={'organization'} />
             </NavLink>
           </div>
           <div className='py-5 my-5'></div>

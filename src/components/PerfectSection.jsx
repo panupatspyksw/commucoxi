@@ -36,7 +36,7 @@ function PerfectSection({
 
         <div className='children'>{children}</div>
         {paragraph && (
-          <p className='content th-text text-break mt-4 pb-0 m-0'>
+          <p className='content th-text text-break mt-4 pb-0 m-0 px-xl-5 mx-xl-5'>
             {paragraph}
           </p>
         )}
