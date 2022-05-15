@@ -303,6 +303,20 @@
   .effect-text-glow {
       box-shadow: var(--text-grow);
   }
+  .spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: conic-gradient(#0000 10%,#474bff);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: spinner-zp9dbg 1s infinite linear;
+}
+
+@keyframes spinner-zp9dbg {
+   to {
+      transform: rotate(1turn);
+   }
+}
   
   
   .homemenu.active{
@@ -431,6 +445,7 @@
   /* coxi btn */
   
     .coxi-btn{
+      text-decoration: none;
       background: linear-gradient(252.45deg, #C6D4EB -29.55%, #CCE1E1 38.98%, #E6C4D1 105.54%);
       box-shadow: 0px 0px 3rem #8899D0;
       border: none;
@@ -453,6 +468,12 @@
   
     .coxi-btn.active, .coxi-btn:hover{
       background: #181246;
+      color: #FFEFDE;
+      box-shadow: 0px 0px 0px #8899D0;
+    }
+
+    .coxi-btn.light.active, .coxi-btn.light:hover{
+      background: var(--color-main-2);
       color: #FFEFDE;
       box-shadow: 0px 0px 0px #8899D0;
     }
@@ -723,6 +744,10 @@
   display: block;
 }
 .swiper-pagination-bullet-active{
+  background: white!important;
+
+}
+.swiper-pagination-bullet{
   background: white!important;
 }
 

@@ -298,6 +298,30 @@ body {
           box-shadow: var(--text-grow);
 }
 
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%, #474bff);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  -webkit-animation: spinner-zp9dbg 1s infinite linear;
+          animation: spinner-zp9dbg 1s infinite linear;
+}
+
+@-webkit-keyframes spinner-zp9dbg {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes spinner-zp9dbg {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
 .homemenu.active {
   pointer-events: none;
 }
@@ -427,6 +451,7 @@ body {
 
 /* coxi btn */
 .coxi-btn {
+  text-decoration: none;
   background: linear-gradient(252.45deg, #C6D4EB -29.55%, #CCE1E1 38.98%, #E6C4D1 105.54%);
   -webkit-box-shadow: 0px 0px 3rem #8899D0;
           box-shadow: 0px 0px 3rem #8899D0;
@@ -457,6 +482,13 @@ body {
 
 .coxi-btn.active, .coxi-btn:hover {
   background: #181246;
+  color: #FFEFDE;
+  -webkit-box-shadow: 0px 0px 0px #8899D0;
+          box-shadow: 0px 0px 0px #8899D0;
+}
+
+.coxi-btn.light.active, .coxi-btn.light:hover {
+  background: var(--color-main-2);
   color: #FFEFDE;
   -webkit-box-shadow: 0px 0px 0px #8899D0;
           box-shadow: 0px 0px 0px #8899D0;
@@ -735,6 +767,10 @@ body {
 }
 
 .swiper-pagination-bullet-active {
+  background: white !important;
+}
+
+.swiper-pagination-bullet {
   background: white !important;
 }
 

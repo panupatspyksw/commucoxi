@@ -3,44 +3,136 @@
     "title": "TIME AR EXPERIENCE",
     "type": "Application",
     "poster": "/Posterimages/time-ar-experience.jpg",
-    "video": "https://www.youtube.com/embed/-7hAKFU82Fs",
-    "slide": ["/slide/mockup1.jpg", "/slide/mockup2.jpg", "/slide/mockup3.jpg"],
+
+    "video": "https://tube.rvere.com/embed?v=7niDd325UJs",
+    "slide": [
+      "/slide/time-ar-experience1.jpg",
+      "/slide/time-ar-experience2.jpg",
+      "/slide/time-ar-experience3.jpg"
+    ],
+    "link": ["https://finalthesisapp.herokuapp.com/"],
     "members": [
       {
-        "name": "Panupat Sriphayakswet",
+        "name": "Chonchinee Sripanthabutra",
         "img": "/STDimages/179.jpg",
-        "contact": {
-          "email": "pnppsyksw@gmail.com",
-          "IG": {
-            "label": "pnpspyksw",
-            "link": "https://www.instagram.com/pnp.spyksw/"
-          }
-        }
+        "email": "kqcs2543@gmail.com",
+        "IG": "thegigggg"
       },
       {
         "name": "Panupat Sriphayakswet",
         "img": "/STDimages/186.jpg",
-        "contact": {
-          "email": "pnppsyksw@gmail.com",
-          "IG": {
-            "label": "pnpspyksw",
-            "link": "https://www.instagram.com/pnp.spyksw/"
-          }
-        }
+        "email": "pnppsyksw@gmail.com",
+        "IG": "pnp.spyksw"
       },
       {
-        "name": "Panupat Sriphayakswet",
+        "name": "Sutraphat Noiyat",
         "img": "/STDimages/427.jpg",
-        "contact": {
-          "email": "pnppsyksw@gmail.com",
-          "IG": {
-            "label": "pnpspyksw",
-            "link": "https://www.instagram.com/pnp.spyksw/"
-          }
-        }
+        "email": "sutraphatb@gmail.com",
+        "IG": "babe.sn"
       }
     ],
     "paragraph1": "การพัฒนาแบบจําลองโปรแกรมประยุกต์งานจัดแสดงสินค้ามหกรรมยานยนต์ ร่วมกับการใช้เทคโนโลยี AR เพื่อส่งเสริมการร่วมงานในสถานการณ์โควิด-19 จะช่วย เป็นแนวทางในการพัฒนาเครื่องมือสําหรับส่งเสริมการร่วมงานจัดแสดงสินค้า มหกรรมยานยนต์ ในช่วงโรคระบาดโควิด-19 และช่วยเพิ่มประสมการณ์การเข้าชมงาน จัดแสดงสินค้าให้มีความน่าสนใจมากยิ่งข้ึน",
     "paragraph2": "การพัฒนาแบบจําลองเราได้ทําการศึกษาสภาพปัญหาและความต้องการของ กลุ่มตัวอย่างร่วมกับการศึกษาแอปพลิเคชันต่างๆ เพ่ือนํามาใช้เป็นข้อมูลและแนวทาง ในพัฒนาแบบจําลอง หลังจากนั้นจึงนําผลที่ได้ไปทดลองกับกลุ่มผู้ใช้งานที่เป็นบุคคล ทั่วไปและผู้เช่ียวชาญ ซ่ึงได้ให้ทําการประเมินแบบจําลองแล้วนําคําแนะนําและผลการ ประเมินที่ได้ในแต่ละคร้ังมาปรับปรุงเพื่อให้เป็นแบบจําลองท่ีสมบูรณ์ยิ่งขึ้น"
+  },
+  "cosci-activity": {
+    "title": "COSCI ACTIVITY",
+    "type": "Website",
+    "poster": "/Posterimages/cosci-activity.jpg",
+    "video": "https://tube.rvere.com/embed?v=XJ5cPvLTavs",
+    "slide": [
+      "/slide/cosci-activity1.jpg",
+      "/slide/cosci-activity2.jpg",
+      "/slide/cosci-activity3.jpg",
+      "/slide/cosci-activity4.jpg",
+      "/slide/cosci-activity5.jpg",
+      "/slide/cosci-activity6.jpg",
+      "/slide/cosci-activity7.jpg"
+    ],
+    "link": ["https://cosci-activity.web.app/html/index.html"],
+    "members": [
+      {
+        "name": "Rachapol Burinwatthana",
+        "img": "/STDimages/035.jpg",
+        "email": "son.son.2013@hotmail.co.th"
+      },
+      {
+        "name": "Kamonlapat Phaenthong",
+        "img": "/STDimages/039.jpg",
+        "email": "kamonlapat.ph@gmail.com"
+      },
+      {
+        "name": "Rawisara Lerdchanpen",
+        "img": "/STDimages/188.jpg",
+        "email": "rawisaralerd@gmail.com",
+        "IG": "crapexx"
+      }
+    ],
+    "paragraph1": "สถานการณ์การแพร่ระบาดในปัจจุปัน ทําให้มีการติดต่อที่ยาก ทำให้เกิดปัญหาการตกหล่นของการติดต่อประสานงานเรื่องการทำกิจกรรมของมหาวิทยลัย เราจึงสร้างเว็บไซต์เพื่อการจัดการตรวจสอบและลงบันทึกหลักฐานการเข้าร่วมกิจกรรมของนิสิตวิทยาลัยนวัตกรรมสื่อสารสังคมรวมถึงเป็นช่องทางการประชาสัมพันธ์กิจกรรมต่างๆเพื่อไม่ให้นิสิตพลาดระยะเวลาของกิจกรรมเหล่านั้น และลดขั้นตอนการทํางานของเจ้าหน้าที่ผู้ดูแลการลงบันทึก กิจกรรมนิสิตของทางวิทยาลัย",
+    "paragraph2": " เพื่อพัฒนาระบบเว็บไซต์การจัดการกิจกรรมของนิสิต มหาวิทยาลัยศรีนครินทรวิโรฒและประเมินประสิทธิภาพของระบบเว็บไซต์การจัดการกิจกรรมของนิสิต"
+  },
+  "elder-job": {
+    "title": "Elder Job",
+    "type": "Application",
+    "poster": "/Posterimages/elder-job.jpg",
+    "video": "https://tube.rvere.com/embed?v=GmZqkFzB1ko",
+    "slide": [
+      "/slide/elder-job1.jpg",
+      "/slide/elder-job2.jpg",
+      "/slide/elder-job3.jpg",
+      "/slide/elder-job4.jpg",
+      "/slide/elder-job5.jpg",
+      "/slide/elder-job6.jpg",
+      "/slide/elder-job7.jpg",
+      "/slide/elder-job8.jpg"
+    ],
+    "link": [
+      "https://www.figma.com/proto/apBQcTt2fNbfLRqhItZogW/Elderjob-Application?node-id=114%3A137&scaling=scale-down&page-id=0%3A1&starting-point-node-id=114%3A137"
+    ],
+    "members": [
+      {
+        "name": "Ravisuit Onnom",
+        "img": "/STDimages/187.jpg",
+        "email": "ravisuitpea@gmail.com",
+        "IG": "ravisuitpea"
+      },
+      {
+        "name": "Nutthanicha Wiengsee",
+        "img": "/STDimages/397.jpg",
+        "email": "nathanichat.lucifer@gmail.com",
+        "IG": "w4hb0rax29"
+      }
+    ],
+    "paragraph1": "ในปัจจุบันประเทศไทยเข้าสู่ยุค Aged Society โดยสมบูรณ์ เนื่องจากมีประชากรผู้สูงอายุถึง 20% ของประชากรทั้งหมดในประเทศ แต่ยังไม่มีองค์กรหรือหน่วยงานใดให้ความสนใจในการหางานให้กับผู้สูงอายุโดยเฉพาะ ทำให้เราอยากจะพัฒนาต้นแบบแอพลิเคชั่นนี้ขึ้นมา เพื่อตอบโจทย์ให้กับผู้สูงอายุจำนวนมากที่ยังต้องการหรือจำเป็นในการทำงานอยู่โดยเฉพาะ ซึ่งได้ออกแบบมาให้สามารถใช้งานได้อย่างง่ายๆ ไม่มีขั้นตอนที่ซับซ้อน",
+    "paragraph2": "กระบวนการสร้างสรรค์ที่ผู้พัฒนาได้นำมาใช้เป็นเครื่องมือสร้างนวัตกรรมที่เรียกว่า Design Thinking (กระบวนการคิดเชิงออกแบบ) ซึ่งประกอบไปด้วย 5 ขั้นตอน คือ \n1.Empathize การทำความเข้าใจปัญหาของผู้ใช้งาน ผ่านการสังเกตุ สอบถามและสัมภาษณ์\n2.Define กำหนดปัญหา วิเคราะห์ข้อมูล และสรุปปัญหาของผู้ใช้หรือกบุ่มเป้าหมาย\n3.Ideate การรวบรวมไอเดีย ระดมความคิด ตลอดจนรวบรวมแนวทางในการแก้ไขปัญหาต่างๆ\n4.Prototype สร้างแบบจำลองแอปพลิเคชันที่ช่วยตอบโจทย์ของผู้ใช้หรือกลุ่มเป้าหมาย\n5.Test การนำต้นแบบแอปพลิเคชันไปทดสอบเพิ่อเก็บข้อมูลเพื่อนำมาปรับปรุงและพัฒนาแอปพลิเคชัน"
+  },
+  "good-choice": {
+    "title": "Good Choice",
+    "type": "Application",
+    "poster": "/Posterimages/good-choice.jpg",
+    "video": "https://tube.rvere.com/embed?v=FO--3xDcpRY",
+    "slide": [
+      "/slide/good-choice1.jpg",
+      "/slide/good-choice2.jpg",
+      "/slide/good-choice3.jpg",
+      "/slide/good-choice4.jpg",
+      "/slide/good-choice5.jpg",
+      "/slide/good-choice6.jpg"
+    ],
+    "link": [],
+    "members": [
+      {
+        "name": "Pattanapong Plodrum",
+        "img": "/STDimages/184.jpg",
+        "email": "Pattanapongplodrum@gmail.com",
+        "IG": "iam.maxsmith"
+      },
+      {
+        "name": "Wanwimol Jaenasavamethee",
+        "img": "/STDimages/314.jpg",
+        "email": "Joon_wiz@hotmail.com",
+        "IG": "eenujj"
+      }
+    ],
+    "paragraph1": "เสื้อผ้าเครื่องแต่งกายเป็นปัจจัยสี่ที่สำคัญในการดำเนินชีวิตของมนุษย์ แต่ด้วยเงื่อนไขหลายอย่างที่อาจจะทำให้ไม่สามารถซื้อเสื้อผ้าจำนวนมากมาใช้ในแต่ละวันได้ ทางออกที่ดีอย่างหนึ่งที่นิยมทำกันในปัจจุบันคือการเช่าเสื้อผ้า และปล่อยเช่าสำหรับผู้ที่ไม่ต้องการใช้เสื้อผ้านั้น ๆ แล้ว แอปพลิเคชันนี้จึงถูกสร้างขึ้นโดยออกแบบให้มีความทันสมัย ตรงตามความต้องการของผู้ใช้ ใช้งานง่าย และมีความสวยงามในขณะเดียวกัน"
   }
 }
