@@ -110,10 +110,10 @@ const ProjectDetail = () => {
       <PerfectSection
         title={p.title}
         subtitle={p.type}
-        className={' pt-5 px-5 mx-0 w-100 '}
+        className={' pt-5 px-5 mx-0 w-100 bgmain-1'}
         spacetop={false}
       ></PerfectSection>
-      <div className='plr-lg-x pb-5 pt-3'>
+      <div className='plr-lg-x pb-5 pt-3 bgmain-1'>
         <div className='px-0 px-lg-4 px-xl-5'>
           <div
             className='w-100 overflow-hidden   position-relative rounded-3'
@@ -173,7 +173,7 @@ const ProjectDetail = () => {
           </div>
         </div>
       </div>
-      <div className='plr-lg-x overflow-hidden w-100'>
+      <div className='plr-lg-x overflow-hidden w-100 bgmain-1 pb-lg-3 pb-xl-5'>
         <div className='px-lg-5'>
           <div className=' px-lg-5'>
             <div className='d-flex flex-column flex-lg-row px-lg-5 w-100 overflow'>
@@ -210,7 +210,7 @@ const ProjectDetail = () => {
           </div>
         </div>
       </div>
-      <div className='plr-lg-x d-flex w-100 py-5 pb-md-5 pt-md-3 py-lg-5 mt-3'>
+      <div className='plr-lg-x d-flex w-100 py-5 pb-md-5 pt-md-3 py-lg-5 bgmain-1'>
         <div className='px-lg-5 w-100'>
           <div className='px-lg-5 w-100 '>
             <div className='px-lg-5 w-100 d-flex'>
