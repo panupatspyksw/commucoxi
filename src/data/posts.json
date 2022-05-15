@@ -1,4 +1,46 @@
 {
-    "time-ar-experience":{"title":"TIME AR EXPERIENCE","type":"Application"}
-
+  "time-ar-experience": {
+    "title": "TIME AR EXPERIENCE",
+    "type": "Application",
+    "poster": "/Posterimages/time-ar-experience.jpg",
+    "video": "https://www.youtube.com/embed/-7hAKFU82Fs",
+    "slide": ["/slide/mockup1.jpg", "/slide/mockup2.jpg", "/slide/mockup3.jpg"],
+    "members": [
+      {
+        "name": "Panupat Sriphayakswet",
+        "img": "/STDimages/179.jpg",
+        "contact": {
+          "email": "pnppsyksw@gmail.com",
+          "IG": {
+            "label": "pnpspyksw",
+            "link": "https://www.instagram.com/pnp.spyksw/"
+          }
+        }
+      },
+      {
+        "name": "Panupat Sriphayakswet",
+        "img": "/STDimages/186.jpg",
+        "contact": {
+          "email": "pnppsyksw@gmail.com",
+          "IG": {
+            "label": "pnpspyksw",
+            "link": "https://www.instagram.com/pnp.spyksw/"
+          }
+        }
+      },
+      {
+        "name": "Panupat Sriphayakswet",
+        "img": "/STDimages/427.jpg",
+        "contact": {
+          "email": "pnppsyksw@gmail.com",
+          "IG": {
+            "label": "pnpspyksw",
+            "link": "https://www.instagram.com/pnp.spyksw/"
+          }
+        }
+      }
+    ],
+    "paragraph1": "การพัฒนาแบบจําลองโปรแกรมประยุกต์งานจัดแสดงสินค้ามหกรรมยานยนต์ ร่วมกับการใช้เทคโนโลยี AR เพื่อส่งเสริมการร่วมงานในสถานการณ์โควิด-19 จะช่วย เป็นแนวทางในการพัฒนาเครื่องมือสําหรับส่งเสริมการร่วมงานจัดแสดงสินค้า มหกรรมยานยนต์ ในช่วงโรคระบาดโควิด-19 และช่วยเพิ่มประสมการณ์การเข้าชมงาน จัดแสดงสินค้าให้มีความน่าสนใจมากยิ่งข้ึน",
+    "paragraph2": "การพัฒนาแบบจําลองเราได้ทําการศึกษาสภาพปัญหาและความต้องการของ กลุ่มตัวอย่างร่วมกับการศึกษาแอปพลิเคชันต่างๆ เพ่ือนํามาใช้เป็นข้อมูลและแนวทาง ในพัฒนาแบบจําลอง หลังจากนั้นจึงนําผลที่ได้ไปทดลองกับกลุ่มผู้ใช้งานที่เป็นบุคคล ทั่วไปและผู้เช่ียวชาญ ซ่ึงได้ให้ทําการประเมินแบบจําลองแล้วนําคําแนะนําและผลการ ประเมินที่ได้ในแต่ละคร้ังมาปรับปรุงเพื่อให้เป็นแบบจําลองท่ีสมบูรณ์ยิ่งขึ้น"
+  }
 }

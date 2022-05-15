@@ -859,6 +859,12 @@ body {
 }
 
 @media (min-width: 992px) {
+  .p-lg-b-100 {
+    padding-bottom: 100%;
+  }
+  .overflow-lg-auto {
+    overflow: auto;
+  }
   .plr-lg-x {
     padding-left: 5vw;
     padding-right: 5vw;
