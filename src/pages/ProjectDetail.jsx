@@ -98,7 +98,7 @@ const ProjectDetail = () => {
                   // mousewheel={true}
                   loop={true}
                   keyboard={true}
-                  spaceBetween={0}
+                  spaceBetween={100}
                   slidesPerView={1}
                   modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                   onSlideChange={() => {

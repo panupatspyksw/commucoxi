@@ -188,7 +188,7 @@ const Home = () => {
       </div>
       <PerfectSection
         animClass={'fadein'}
-        title={'supercalifragilistic-expialidocious'}
+        title={'supercalifragilistic&expialidocious'}
         subtitle={'UNIQUE as'}
         paragraph={`เป็นคำนิยามให้กับผลงานที่พวกเราได้สร้างสรรค์ออกมาในครั้งนี้ ซึ่งมีความหมายว่า “เพราะดีจนเกินกว่าจะบรรยายได้” ผลงานทุกชิ้นล้วนต้องใช้ความสามารถ ความรู้ และความทุ่มเท รวมไปถึงความสามัคคี เพื่อให้ผลงานออกมาดีที่สุด ผลงานทุกชิ้นจึงมีคุณค่าและดีจนเกินกว่าจะบรรยายได้`}
       />
