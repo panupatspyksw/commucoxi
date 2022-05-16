@@ -73,7 +73,7 @@ body {
 }
 
 .th-text {
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif !important;
 }
 
 .fw-md {
@@ -215,6 +215,14 @@ body {
   line-height: 107.19%;
   letter-spacing: 0.08em;
   text-decoration: none;
+}
+
+.post-title.th-text {
+  font-family: "Prompt", sans-serif !important;
+}
+
+.th-text .title {
+  font-family: "Prompt", sans-serif !important;
 }
 
 .post-sub-title {

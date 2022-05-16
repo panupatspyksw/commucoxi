@@ -71,7 +71,7 @@ const ProjectDetail = () => {
           <PerfectSection
             title={p.title}
             subtitle={p.type}
-            className={' pt-5 px-5 mx-0 w-100 bgmain-1'}
+            className={` pt-5 px-5 mx-0 w-100 bgmain-1 ${p.th && 'th-text'}`}
             spacetop={false}
           >
             <div className='pb-5'>
@@ -189,7 +189,11 @@ const ProjectDetail = () => {
                   <div className='col-12 col-lg d-flex flex-column justify-content-center text-white'>
                     <div className='d-flex flex-column gap-3 ppost-text p-4 py-lg-0 ps-lg-5 text-start info'>
                       <div className='d-flex flex-column gap-2'>
-                        <div className='post-title text-uppercase'>
+                        <div
+                          className={`pt-1 post-title text-uppercase ${
+                            p.th && 'th-text'
+                          }`}
+                        >
                           {p.title}
                         </div>
                         <div className='post-sub-title fw-normal text-uppercase'>

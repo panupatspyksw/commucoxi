@@ -1,7 +1,7 @@
 import Mirror from '../shared/Mirror';
 import Button from '../shared/Button';
 function ProjectCard({ post }) {
-  var { title, type, paragraph, link, poster } = post;
+  var { title, type, paragraph, link, poster, th } = post;
   return (
     <div className='my-3 d-block my-md-4 my-lg-5 py-3 ppost h-fitcontnet'>
       <Mirror mode={'black'} className={'px-md-4'}>
@@ -22,7 +22,9 @@ function ProjectCard({ post }) {
           </div>
           <div className='col-12 col-lg-6 d-flex flex-column justify-content-center gap-4 ppost-text py-5 px-4 pt-0 p-md-5 pt-md-0 p-lg-5 p-xl-5 text-start info'>
             <div className='d-flex flex-column gap-2'>
-              <div className='post-title text-uppercase'>{title}</div>
+              <div className={`post-title text-uppercase ${th && 'th-text'}`}>
+                {title}
+              </div>
               <div className='post-sub-title fw-normal text-uppercase'>
                 {type}
               </div>
