@@ -160,7 +160,7 @@
     "link": [],
     "members": [
       {
-        "name": "Yathida panjapatthavee",
+        "name": "Yathida Panjapatthavee",
         "img": "/STDimages/306.jpg",
         "email": "pimyathida@gmail.com",
         "IG": "pimyathida"
@@ -193,7 +193,9 @@
       "/slide/relax-space10.jpg",
       "/slide/relax-space11.jpg"
     ],
-    "link": [],
+    "link": [
+      "https://www.figma.com/proto/oCUuATeqQixooUXvke0yWA/Co-work?node-id=499%3A52&scaling=scale-down&page-id=404%3A2&starting-point-node-id=1117%3A135&show-proto-sidebar=1"
+    ],
     "members": [
       {
         "name": "Kanapong Wangrungruangkit",
@@ -686,7 +688,7 @@
         "IG": "feytnd"
       },
       {
-        "name": "Jirad sathienpong",
+        "name": "Jirad Sathienpong",
         "img": "/STDimages/305.jpg",
         "email": "poombcc34339@gmail.com",
         "IG": "_pppppoom"

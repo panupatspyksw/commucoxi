@@ -180,7 +180,11 @@ const ProjectDetail = () => {
               <div className=' px-lg-5'>
                 <div className='d-flex flex-column flex-lg-row px-0 px-lg-4 px-xl-5 w-100 overflow'>
                   <div className='col-12 col-lg-5'>
-                    <img src={p.poster} className='img-fluid' alt='' />
+                    <img
+                      src={p.poster}
+                      className='img-fluid rounded-3'
+                      alt=''
+                    />
                   </div>
                   <div className='col-12 col-lg d-flex flex-column justify-content-center text-white'>
                     <div className='d-flex flex-column gap-3 ppost-text p-4 py-lg-0 ps-lg-5 text-start info'>

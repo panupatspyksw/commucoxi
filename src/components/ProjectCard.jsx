@@ -7,14 +7,14 @@ function ProjectCard({ post }) {
       <Mirror mode={'black'} className={'px-md-4'}>
         <div className='d-flex flex-column flex-lg-row px-xl-5 ppost-row'>
           <div className='col-12 col-lg-6 py-5 px-4 p-md-5 p-lg-5 p-xl-5  '>
-            <div className='w-100 overflow-hidden'>
+            <div className='w-100 overflow-hidden  rounded-3'>
               <div
-                className='position-relative w-100 rounded-3 overflow-hidden'
+                className='position-relative w-100 overflow-hidden  rounded-3'
                 style={{ paddingBottom: '143%' }}
               >
                 <img
                   src={`/Posterimages/${poster}`}
-                  className='position-absolute w-100 top-0 start-0  img'
+                  className='position-absolute w-100 top-0 start-0  rounded-3  img'
                   alt=''
                 />
               </div>
