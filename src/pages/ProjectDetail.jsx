@@ -24,25 +24,25 @@ import Button from '../shared/Button';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 const ProjectDetail = () => {
   const projectorder = [
-    'green-life',
-    'good-choice',
-    'kasper',
-    'time-ar-experience',
     'elder-job',
-    'relax-space',
-    'plante',
+    'good-choice',
+    'green-life',
     'hatthakam',
-    'cosci-open-house',
-    'coscinoti',
-    'cosci-edu',
+    'kasper',
+    'plante',
+    'relax-space',
+    'time-ar-experience',
     'cosci-activity',
     'cosci-analysis-system',
     'cosci-chatbot',
+    'cosci-edu',
+    'coscinoti',
+    'cosci-open-house',
     'crime-down',
     'cureplus',
     'knowledge-management',
-    'e-ticket',
     'watch-over',
+    'e-ticket',
   ];
 
   const location = useRef(useParams());

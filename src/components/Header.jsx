@@ -47,16 +47,21 @@ function Header() {
   };
 
   const menuclick = () => {
-    // gsap.to(menupage.current, { duration: 0.3, opacity: 0 });
-
     menupagetl.reversed(!menupagetl.reversed());
     burgerBtn.current.classList.remove('is-active');
+  };
+
+  const logoclick = () => {
+    if (burgerBtn.current.classList[4]) {
+      menupagetl.reversed(!menupagetl.reversed());
+      burgerBtn.current.classList.remove('is-active');
+    }
   };
 
   return (
     <div className='d-flex position-fixed top-0 left-0 w-100 justify-content-between front-behind1'>
       <div className='wh90 p-3 front-behind1'>
-        <NavLink className='homemenu' to={'/'}>
+        <NavLink className='homemenu' to='/' onClick={logoclick}>
           <img src={logo} className='img-fluid' alt='' />
         </NavLink>
       </div>
