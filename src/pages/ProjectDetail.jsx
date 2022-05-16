@@ -85,8 +85,8 @@ const ProjectDetail = () => {
                             window.history.length > history.current &&
                             Once.current
                           ) {
-                            window.history.back();
                             Once.current = false;
+                            window.history.back();
                           }
                         }}
                         style={{
