@@ -10,7 +10,8 @@ function PerfectSection({
   spacetop,
   className,
 }) {
-  const pftitle = title.split('-');
+  // const pftitle = title.split('-');
+  const pftitle = [title];
 
   return (
     <div

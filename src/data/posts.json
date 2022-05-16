@@ -34,42 +34,7 @@
     "paragraph1": "การพัฒนาแบบจําลองโปรแกรมประยุกต์งานจัดแสดงสินค้ามหกรรมยานยนต์ ร่วมกับการใช้เทคโนโลยี AR เพื่อส่งเสริมการร่วมงานในสถานการณ์โควิด-19 จะช่วย เป็นแนวทางในการพัฒนาเครื่องมือสําหรับส่งเสริมการร่วมงานจัดแสดงสินค้า มหกรรมยานยนต์ ในช่วงโรคระบาดโควิด-19 และช่วยเพิ่มประสมการณ์การเข้าชมงาน จัดแสดงสินค้าให้มีความน่าสนใจมากยิ่งข้ึน",
     "paragraph2": "การพัฒนาแบบจําลองเราได้ทําการศึกษาสภาพปัญหาและความต้องการของ กลุ่มตัวอย่างร่วมกับการศึกษาแอปพลิเคชันต่างๆ เพ่ือนํามาใช้เป็นข้อมูลและแนวทาง ในพัฒนาแบบจําลอง หลังจากนั้นจึงนําผลที่ได้ไปทดลองกับกลุ่มผู้ใช้งานที่เป็นบุคคล ทั่วไปและผู้เช่ียวชาญ ซ่ึงได้ให้ทําการประเมินแบบจําลองแล้วนําคําแนะนําและผลการ ประเมินที่ได้ในแต่ละคร้ังมาปรับปรุงเพื่อให้เป็นแบบจําลองท่ีสมบูรณ์ยิ่งขึ้น"
   },
-  "cosci-activity": {
-    "title": "COSCI ACTIVITY",
-    "type": "Website",
-    "poster": "/Posterimages/cosci-activity.jpg",
-    "video": "https://tube.rvere.com/embed?v=XJ5cPvLTavs",
-    "slide": [
-      "/slide/cosci-activity1.jpg",
-      "/slide/cosci-activity2.jpg",
-      "/slide/cosci-activity3.jpg",
-      "/slide/cosci-activity4.jpg",
-      "/slide/cosci-activity5.jpg",
-      "/slide/cosci-activity6.jpg",
-      "/slide/cosci-activity7.jpg"
-    ],
-    "link": ["https://cosci-activity.web.app/html/index.html"],
-    "members": [
-      {
-        "name": "Rachapol Burinwatthana",
-        "img": "/STDimages/035.jpg",
-        "email": "son.son.2013@hotmail.co.th"
-      },
-      {
-        "name": "Kamonlapat Phaenthong",
-        "img": "/STDimages/039.jpg",
-        "email": "kamonlapat.ph@gmail.com"
-      },
-      {
-        "name": "Rawisara Lerdchanpen",
-        "img": "/STDimages/188.jpg",
-        "email": "rawisaralerd@gmail.com",
-        "IG": "crapexx"
-      }
-    ],
-    "paragraph1": "สถานการณ์การแพร่ระบาดในปัจจุปัน ทําให้มีการติดต่อที่ยาก ทำให้เกิดปัญหาการตกหล่นของการติดต่อประสานงานเรื่องการทำกิจกรรมของมหาวิทยลัย เราจึงสร้างเว็บไซต์เพื่อการจัดการตรวจสอบและลงบันทึกหลักฐานการเข้าร่วมกิจกรรมของนิสิตวิทยาลัยนวัตกรรมสื่อสารสังคมรวมถึงเป็นช่องทางการประชาสัมพันธ์กิจกรรมต่างๆเพื่อไม่ให้นิสิตพลาดระยะเวลาของกิจกรรมเหล่านั้น และลดขั้นตอนการทํางานของเจ้าหน้าที่ผู้ดูแลการลงบันทึก กิจกรรมนิสิตของทางวิทยาลัย",
-    "paragraph2": " เพื่อพัฒนาระบบเว็บไซต์การจัดการกิจกรรมของนิสิต มหาวิทยาลัยศรีนครินทรวิโรฒและประเมินประสิทธิภาพของระบบเว็บไซต์การจัดการกิจกรรมของนิสิต"
-  },
+
   "elder-job": {
     "title": "Elder Job",
     "type": "Application",
@@ -134,5 +99,643 @@
       }
     ],
     "paragraph1": "เสื้อผ้าเครื่องแต่งกายเป็นปัจจัยสี่ที่สำคัญในการดำเนินชีวิตของมนุษย์ แต่ด้วยเงื่อนไขหลายอย่างที่อาจจะทำให้ไม่สามารถซื้อเสื้อผ้าจำนวนมากมาใช้ในแต่ละวันได้ ทางออกที่ดีอย่างหนึ่งที่นิยมทำกันในปัจจุบันคือการเช่าเสื้อผ้า และปล่อยเช่าสำหรับผู้ที่ไม่ต้องการใช้เสื้อผ้านั้น ๆ แล้ว แอปพลิเคชันนี้จึงถูกสร้างขึ้นโดยออกแบบให้มีความทันสมัย ตรงตามความต้องการของผู้ใช้ ใช้งานง่าย และมีความสวยงามในขณะเดียวกัน"
+  },
+  "green-life": {
+    "title": "Green Life",
+    "type": "Application",
+    "poster": "/Posterimages/green-life.jpg",
+    "video": "https://tube.rvere.com/embed?v=5RhQu_Yb5xA",
+    "slide": [
+      "/slide/green-life1.jpg",
+      "/slide/green-life2.jpg",
+      "/slide/green-life3.jpg",
+      "/slide/green-life4.jpg",
+      "/slide/green-life5.jpg",
+      "/slide/green-life6.jpg",
+      "/slide/green-life7.jpg",
+      "/slide/green-life8.jpg",
+      "/slide/green-life9.jpg",
+      "/slide/green-life10.jpg",
+      "/slide/green-life11.jpg",
+      "/slide/green-life12.jpg",
+      "/slide/green-life13.jpg"
+    ],
+    "link": [
+      "https://xd.adobe.com/view/c7a77a58-9fd0-43f4-aaad-c2fe5ff46ff8-92f4/"
+    ],
+    "members": [
+      {
+        "name": "Pisit Rungsuwan",
+        "img": "/STDimages/185.jpg",
+        "email": "Pattanapongplodrum@gmail.com",
+        "IG": "iam.maxsmith"
+      }
+    ],
+    "paragraph1": "ปัจจุบันเป็นโลกแห่งเกษตรยุคใหม่ด้วยความก้าวหน้าของโลกดิจิตอล ทำให้ผู้ที่ประกอบอาชีพเกษตรกรก้าวเข้าสู่การเป็น smart farmer หรือเกษตรกรอัจฉริยะด้วยการใช้เทคโนโลยีต่าง ๆ เข้ามาช่วยให้ชีวิตแบบ เกษตร 4.0 ง่ายขึ้น และผันตัวจากการเป็นผู้ผลิตกลายเป็นนักธุรกิจเต็มตัว เพราะในปัจจุบันเกษตรกรสามารถค้าขายผ่านระบบออนไลน์ได้อย่างสะดวกสบาย สั่งซื้อผ่าน Application ต่าง ๆ การรับโอนเงินผ่านระบบ และการส่งของด้วยบริษัทเอกชนที่รวดเร็ว",
+    "paragraph2": "ผู้พัฒนาได้ใช้กระบวนการในการสร้างสรรค์สื่อทั้งหมด 8 ขั้นตอนนั่่นก็คือ \n1. ศึกษาความต้องการของกลุ่มเป้าหมาย\n2. กำหนดปัญหา และวิเคราะห์ \n3. ออกแบบแนวคิด \n4. ออกแบบ Layout UX/UI \n5. นำเสนอ mock up กับผู้เชี่ยวชาญ \n6. นำคำแนะนำจากผู้เชี่ยวชาญมาปรับปรุงแล้วแก้ไข \n7. นำ mock up ที่ปรับปรุงแก้ไขแล้วไปทดลองใช้กับผู้ใช้งาน \n8. ประเมินผลลัพธ์"
+  },
+  "kasper": {
+    "title": "Kasper.",
+    "type": "Application",
+    "poster": "/Posterimages/kasper.jpg",
+    "video": "https://tube.rvere.com/embed?v=W2syCiu965Q",
+    "slide": [
+      "/slide/kasper1.jpg",
+      "/slide/kasper2.jpg",
+      "/slide/kasper3.jpg",
+      "/slide/kasper4.jpg",
+      "/slide/kasper5.jpg",
+      "/slide/kasper6.jpg",
+      "/slide/kasper7.jpg",
+      "/slide/kasper8.jpg",
+      "/slide/kasper9.jpg",
+      "/slide/kasper10.jpg",
+      "/slide/kasper11.jpg",
+      "/slide/kasper12.jpg",
+      "/slide/kasper13.jpg"
+    ],
+    "link": [],
+    "members": [
+      {
+        "name": "Yathida panjapatthavee",
+        "img": "/STDimages/306.jpg",
+        "email": "pimyathida@gmail.com",
+        "IG": "pimyathida"
+      },
+      {
+        "name": "Tanyapat Phakhawatphong",
+        "img": "/STDimages/398.jpg",
+        "email": "tanyapat.pha@gmail.com",
+        "IG": "_t__n_y_a_"
+      }
+    ],
+    "paragraph1": "ในปัจจุบันได้มีการแพร่ระบาดของโรคโควิด-19ในประเทศไทยขึ้น ทำให้ผู้คนจำนวนมากจำเป็นที่จะต้องทำงานจากที่พักอาศัยของตนเองและว่างงานจากผลกระทบของการระบาดรวมถึงร้านอาหารรายย่อยด้วยเช่นกัน ทำให้หลาย ๆ คนได้หันมาเริ่มต้นทำธุรกิจ ร้านอาหารแบบไม่มีหน้าร้านหรือที่เรียกว่า \"Ghost restaurant\" จากปัญหาดังกล่าวทำให้ผู้วิจัยเกิดความคิดและแรงบันดาลใจในการพัฒนาแอปพลิเคชันที่จะสามารถแก้ไขปัญหาได้อย่างมีประสิทธิภาพเพื่อสร้างความสะดวกสบายให้กับทั้งฝ่ายผู้ประกอบการและผู้บริโภค",
+    "paragraph2": "กระบวนการสร้างสรรค์ในการออกแบบแอปพลิเคชันผู้พัฒนาได้ใช้หลักการที่มีชื่อว่า Design Thinking ในการพัฒนาและออกแบบซึ่งจะมีทั้งหมด 6 ขั้นตอน ดังนี้\n1.Empathize จะเป็นการสัมภาษณ์เพื่อสังเกตและทำความเข้าใจกลุ่มเป้าหมาย\n2.Define เป็นขั้นตอนของการกำหนดปัญหาและทำความเข้าใจข้อมูลที่ได้มา\n3.Ideate เป็นการระดมความคิดเพื่อหาไอเดียและแก้ปัญหาให้กับกลุ่มเป้าหมาย\n4.Prototype ขั้นตอนการออกแบบแอปพลิเคชันขั้นต้นมาปรับแก้จากขั้นตอนก่อน\n5.Test การนำต้นแบบแอปพลิเคชันไปทดสอบเพิ่อนำมาปรับปรุงแอปพลิเคชัน\n6.Deploy เป็นการlaunchแอปพลิเคชันที่ได้รับแก้ไขอย่างสมบูรณ์แล้วสู่ตลาด"
+  },
+  "relax-space": {
+    "title": "Relax Space",
+    "type": "Application",
+    "poster": "/Posterimages/relax-space.jpg",
+    "video": "https://tube.rvere.com/embed?v=UA-6GfVAWyc",
+    "slide": [
+      "/slide/relax-space1.jpg",
+      "/slide/relax-space2.jpg",
+      "/slide/relax-space3.jpg",
+      "/slide/relax-space4.jpg",
+      "/slide/relax-space5.jpg",
+      "/slide/relax-space6.jpg",
+      "/slide/relax-space7.jpg",
+      "/slide/relax-space8.jpg",
+      "/slide/relax-space9.jpg",
+      "/slide/relax-space10.jpg",
+      "/slide/relax-space11.jpg"
+    ],
+    "link": [],
+    "members": [
+      {
+        "name": "Kanapong Wangrungruangkit",
+        "img": "/STDimages/304.jpg",
+        "email": "guykanapong@gmail.com",
+        "IG": "gguy_knp"
+      },
+      {
+        "name": "Nattapong Wongsangpaiboon",
+        "img": "/STDimages/308.jpg",
+        "email": "teetone45@hotmail.com",
+        "IG": "teeyun_n"
+      },
+      {
+        "name": "Chokchai Sawatpanit",
+        "img": "/STDimages/394.jpg",
+        "email": "manyposa@gmail.com",
+        "IG": "ju_ior_"
+      }
+    ],
+    "paragraph1": "Co-working space นั้นมีพื้นที่จำกัดทำให้ไม่สามารถตอบสนองต่อความต้องการของกลุ่มเป้าหมายได้อย่างทั่วถึง ให้เสียเวลาไปอย่างเปล่าประโยชน์และสามารถวางแผนการเดินทางได้ยาก ซึ่งหากเกิดปัญหาหรือความล่าช้าอาจจะส่งผลกระทบถึงงานได้นอกจากนั้นหากกลุ่มเป้าหมายเดินทางมาด้วยตนเองอาจจจะพบเจอปัญหาทางการจราจรเนื่องจากมีประชากรที่ต้องการเข้าไปใช้งาน Co-working space แต่ไม่มีมีพื้นที่เพียงพอและต้องเสียเวลาไปกับการเดินทางเพื่อหาพื้นที่ทดแทน",
+    "paragraph2": "ในงานวิจัยชิ้นนี้ ทางผู้พัฒนาได้ใช้หลักการของ Design Thinking ในการพัฒนาระบบเนื่องจากงานวิจัยของเรานั้นต้องเข้าใจปัญหาที่แท้จริงของผู้ใช้งาน Co - working space และแก้ไขปัญหาเหล่านั้นได้ ซึ่งหลักการของ Design Thinking นั้นจะแบ่งออกเป็น 5 ขั้นตอน คือ  Emphatize Define Ideate Prototype และ test โดยส่วนใหญ่แล้วการพัฒนาระบบของเราจะเน้นในด้านของ Prototype เพื่อให้ฟังก์ชันและรูปแบบภายในระบบสามารถตอบสนองได้ตรงตามความต้องการของผู้ใช้งานได้มากที่สุด"
+  },
+  "plante": {
+    "title": "Planté",
+    "type": "Application",
+    "poster": "/Posterimages/plante.jpg",
+    "video": "https://tube.rvere.com/embed?v=4t0_4eqFl0w",
+    "slide": [
+      "/slide/plante1.jpg",
+      "/slide/plante2.png",
+      "/slide/plante3.png",
+      "/slide/plante4.png",
+      "/slide/plante5.png",
+      "/slide/plante6.png",
+      "/slide/plante7.png",
+      "/slide/plante8.png",
+      "/slide/plante9.png",
+      "/slide/plante10.png",
+      "/slide/plante11.png",
+      "/slide/plante12.png",
+      "/slide/plante13.png"
+    ],
+    "link": ["https://bit.ly/39zeEvJ"],
+    "members": [
+      {
+        "name": "Tinnakrit Jatupornpongsakorn",
+        "img": "/STDimages/180.jpg",
+        "email": "s.soltnk.7@gmail.com",
+        "IG": "kuljaesol"
+      },
+      {
+        "name": "Pakawat Tipso",
+        "img": "/STDimages/312.jpg",
+        "email": "pakawat.tips@gmail.com",
+        "IG": "p_tipso"
+      }
+    ],
+    "paragraph1": "ในสถานการณ์ปัจจุบัน คนเริ่มหันมาสนใจในเรื่องในเรื่องของสุขภาพเกี่ยวกับอาหารมากยิ่งขึ้น สิ่งนี้เองทำให้หลาย ๆ คนต้องการเพาะปลูกพืชและผักด้วยตัวเอง แต่บางครั้งพบว่า ผู้เพาะปลูกจะต้องเจอกับปัญหาในการเริ่มต้นการเพาะปลูกในหลาย ๆ อย่าง เช่น ขนาดของพื้นที่ ความรู้หรือเวลาในการดูแลรักษา ซึ่งจากปัญหาดังกล่าวนี้ เราจึงสนใจในการพัฒนาแอปพลิเคชัน Planté โดยเป็นแอปพลิเคชันสำหรับการบริหารจัดการสวนขนาดย่อมร่วมกับอุปกรณ์ภายใต้การทำงานของระบบ Smart Garden ซึ่งผู้ใช้งานสามารถควบคุม สั่งการ และดูข้อมูลได้อย่างรวดเร็ว",
+    "paragraph2": "ในขั้นตอนการสร้างสรรค์ชิ้นงานนี้ เราได้ใช้การพัฒนาตามแนวทางทฤษฎีวงจรการพัฒนาระบบ (System Development Life Cycle: SDLC) ซึ่งจะแสดงกิจกรรมต่าง ๆ ที่เป็นลำดับขั้นตอนในการพัฒนาแอปพลิเคชันเพื่อเป็นเครื่องมือในการช่วยเหลือและอำนวยความสะดวกผู้เพาะปลูกในการควบคุม สั่งการและดูแลกระบวนการต่าง ๆ ในการเพาะปลูก โดยการพัฒนาชิ้นงานดังกล่าว จะอยู่ในรูปแบบของตัวต้นแบบ (Prototyping) ซึ่งสามารถนำไปพัฒนาและต่อยอดในส่วนอื่น ๆ ได้ตามความเหมาะสมของสถานการณ์หรือความต้องการของนักพัฒนาต่อไป"
+  },
+  "hatthakam": {
+    "title": "Hatthakam",
+    "type": "Application",
+    "poster": "/Posterimages/hatthakam.jpg",
+    "video": "https://tube.rvere.com/embed?v=roZ6PVNlrbU",
+    "slide": [
+      "/slide/hatthakam1.jpg",
+      "/slide/hatthakam2.png",
+      "/slide/hatthakam3.png",
+      "/slide/hatthakam4.png",
+      "/slide/hatthakam5.png",
+      "/slide/hatthakam6.png",
+      "/slide/hatthakam7.png",
+      "/slide/hatthakam8.png",
+      "/slide/hatthakam9.png"
+    ],
+    "link": ["https://shorturl.asia/xNAHD"],
+    "members": [
+      {
+        "name": "Phongsathorn Tokuda",
+        "img": "/STDimages/311.jpg",
+        "email": "dragontatachan@hotmail.com",
+        "IG": "tatatoshiaki"
+      },
+      {
+        "name": "Pachara Noisanti",
+        "img": "/STDimages/401.jpg",
+        "email": "tamagotchi2012@hotmail.com",
+        "IG": "fdgender"
+      },
+      {
+        "name": "Phatcharaphon Patcharakitti",
+        "img": "/STDimages/424.jpg",
+        "email": "phatcharakitti@gmail.com",
+        "IG": "bossphatcharaphon"
+      }
+    ],
+    "paragraph1": "นอกจากปัญหาด้านการตลาด ราคา และคุณภาพสินค้าแล้ว อีกปัญหาสำคัญที่ส่งผลให้การขายสินค้าหัตถกรรมไทยไม่ตรงตามเป้าหมาย คือ ผู้ประกอบการขาดช่องทางในการจัดจำหน่าย และการสื่อสารข้อมูลของสินค้าไม่เพียงพอ คณะผู้วิจัยได้เล็งเห็นถึงความสำคัญของปัญหาดังกล่าว อีกทั้งบริบททางสังคมและพฤติกรรมของผู้บริโภคที่เปลี่ยนไป จึงสนใจที่จะออกแบบประสบการณ์ผู้ใช้ และหน้าจอส่วนต่อประสานกับผู้ใช้ เพื่อใช้สำหรับการพัฒนาแอปพลิเคชันสั่งซื้อสินค้าหัตถกรรมไทย เพื่อเป็นสื่อกลางในการเข้าถึงสินค้าหัตถกรรมไทย ซึ่งจะส่งผลให้ผู้ประกอบการมีช่องทางในการสื่อสารและประชาสัมพันธ์สินค้าเพื่อเพิ่มโอกาสในการสร้างยอดขาย และผู้บริโภคจะมีช่องทางในการเลือกชม สอบถาม และสั่งซื้อสินค้าได้อย่างสะดวก รวดเร็ว ปลอดภัย และใช้งานง่ายผ่านแอปพลิเคชันบนอุปกรณ์เคลื่อนที่แบบพกพา",
+    "paragraph2": "คณะผู้จัดทำใช้ Software Development Life Cycle (SDLC) ในการพัฒนาผลงาน โดยพัฒนาใน 3 ระยะแรก ได้แก่ การกำหนดปัญหา การวิเคราะห์ และการออกแบบ เพื่อให้นักพัฒนาสามารถนำหน้าจอส่วนต่อประสานกับผู้ใช้ที่ได้ออกแบบไปพัฒนาในระยะต่อไป"
+  },
+  "cosci-open-house": {
+    "title": "Cosci Open House",
+    "type": "Application",
+    "poster": "/Posterimages/cosci-open-house.jpg",
+    "video": "",
+    "slide": [
+      "/slide/cosci-open-house1.jpg",
+      "/slide/cosci-open-house2.jpg",
+      "/slide/cosci-open-house3.png",
+      "/slide/cosci-open-house4.png",
+      "/slide/cosci-open-house5.png",
+      "/slide/cosci-open-house6.png",
+      "/slide/cosci-open-house7.png",
+      "/slide/cosci-open-house8.png",
+      "/slide/cosci-open-house9.png",
+      "/slide/cosci-open-house10.png",
+      "/slide/cosci-open-house11.png"
+    ],
+    "link": [
+      "https://www.figma.com/proto/BR2hbkk1rSaNTO7WGn9Zi7/COSCI-Open-House-(MOCK-UP)?node-id=681%3A297&scaling=scale-down&page-id=0%3A1&starting-point-node-id=253%3A18&show-proto-sidebar=1"
+    ],
+    "members": [
+      {
+        "name": "Praewa Arunsiri",
+        "img": "/STDimages/403.jpg",
+        "email": "wawa55158@gmail.com",
+        "IG": "wawaapw_"
+      },
+      {
+        "name": "Pattarapim Saochai",
+        "img": "/STDimages/404.jpg",
+        "email": "s.pattarapim@gmail.com",
+        "IG": "morphinemorphinemorphine"
+      }
+    ],
+    "paragraph1": "โดยในปัจจุบันงานเปิดบ้าน หรือ Open House ของมหาวิทยาลัยศรีนครินทรวิโรฒ ได้รับความสนใจจากนักเรียนและบุคคลท่ัวไปที่สนใจอย่างมากมาย หนึ่งในคณะท่ีได้รับความสนใจมากคณะหนึ่งก็คือวิทยาลัยนวัตกรรมสื่อสารสังคม ซึ่งมีผู้สนใจเข้าเยี่ยมชมนิทรรศการแนะนําคณะจํานวนมาก ทําให้เกิดความแออัดท้ังด้านในและด้านนอกของคณะ เราจึงมีแนวคิดท่ีจะสร้างต้นแบบของหน้าจออินเตอร์เฟซสําหรับแอปพลิเคชันเพื่ออํานวยความสะดวกให้แก่ผู้เข้าร่วมงานเปิดบ้านของวิทยาลัยนวัตกรรมสื่อสารสังคม",
+    "paragraph2": "สําหรับการพัฒนาหน้าจออินเตอร์เฟซสําหรับแอปพลิเคชันเพื่ออํานวยความสะดวกให้แก่ผู้เข้าร่วมงานเปิดบ้านของวิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ เราได้ดําเนินการโดยเริ่มจากศึกษาสภาพปัญหาท่ีพบในการเข้าร่วมงานเปิดบ้าน และความต้องการของผู้ที่สนใจเข้าร่วมงาน จากนั้นจึงทําการออกแบบและพัฒนาหน้าจออินเตอร์เฟซ สอบถามความคิดเห็นจากผู้เชี่ยวชาญนําข้อแนะนําจากผู้เชี่ยวชาญมาปรับปรุงและพัฒนาหน้าจออินเตอร์เฟซ แล้วจึงนําไปทดสอบและประเมินคุณภาพของการออกแบบหน้าจออินเตอร์เฟซ เพื่อให้ได้หน้าจออินเตอร์เฟซที่มีความสมบูรณ์ สวยงาม และถูกต้อง"
+  },
+  "coscinoti": {
+    "title": "COSCInoti",
+    "type": "Application",
+    "poster": "/Posterimages/coscinoti.jpg",
+    "video": "",
+    "slide": [
+      "/slide/coscinoti1.jpg",
+      "/slide/coscinoti2.jpg",
+      "/slide/coscinoti3.jpg",
+      "/slide/coscinoti4.jpg",
+      "/slide/coscinoti5.jpg",
+      "/slide/coscinoti6.jpg",
+      "/slide/coscinoti7.jpg",
+      "/slide/coscinoti8.jpg",
+      "/slide/coscinoti9.jpg"
+    ],
+    "link": [
+      "https://www.figma.com/proto/0jVPwWUm85nQlxF02xQdSK/THESIS-MOCKUP?page-id=0%3A1&node-id=1201%3A3660&viewport=241%2C48%2C0.07&scaling=scale-down&starting-point-node-id=1201%3A3660"
+    ],
+    "members": [
+      {
+        "name": "Sasivimol Benjakunrat",
+        "img": "/STDimages/316.jpg",
+        "email": "realssvm@gmail.com",
+        "IG": "urgurlsasi"
+      },
+      {
+        "name": "Saranya Nakngam",
+        "img": "/STDimages/318.jpg",
+        "email": "n.earnsry@gmail.com",
+        "IG": "thursday.apr"
+      }
+    ],
+    "paragraph1": "การสื่อสารภายในองค์กร เป็นการแลกเปลี่ยนข่าวสารระหว่างหน่วยงาน และบุคลากรทุกระดับในหน่วยงาน การสื่อสารจึงเป็นสิ่งจำเป็นสำหรับทุกองค์กร เพราะเป็นสื่อกลางนำความคิด และความเข้าใจให้ไปในทิศทางเดียวกัน วิทยาลัยนวัตกรรมสื่อสารสังคมเป็นอีกหนึ่งองค์กรที่ต้องอาศัยการสื่อสาร เพราะเป็นองค์กรที่มีคนจำนวนมาก ทั้งนิสิต อาจารย์ และบุคลากร จำเป็นต้องใช้การสื่อสารเพื่อให้รับรู้ถึงกิจกรรม และนโยบายการดำเนินงานต่าง ๆ จึงทำให้เกิดเป็นแอปพลิเคชัน COSCInoti ที่จะช่วยกระจายข่าวสารให้แก่นิสิตภายในมหาวิทยาลัย",
+    "paragraph2": "ในการสร้างสรรค์ เราได้ใช้ทฤษฎีวงจรการพัฒนาระบบ (System Development Life Cycle : SDLC) โดยได้ดำเนินการศึกษาปัญหาที่พบจากการติดตามข่าวสารภายในมหาวิทยาลัยนวัตกรรมสื่อสารสังคม และศึกษาความต้องการของนิสิต วิเคราะห์และทำการออกแบบหน้าจออินเตอร์เฟซ สอบถามความคิดเห็นจากผู้เชี่ยวชาญเพื่อทำการแก้ไข เมื่อแก้ไขและพัฒนาหน้าจออินเตอร์เฟซตามคำแนะนำ จึงนำไปให้ผู้ใช้งานทดลองใช้ระบบ และทำการประเมินคุณภาพการใช้งานง่าย เพื่อให้ได้หน้าจออินเตอร์เฟซที่มีความสมบูรณ์ สวยงาม ตอบสนองความต้องการของผู้ใช้"
+  },
+  "cosci-edu": {
+    "title": "COSCI EDU",
+    "type": "Website",
+    "poster": "/Posterimages/cosci-edu.jpg",
+    "video": "",
+    "slide": [
+      "/slide/cosci-edu1.jpg",
+      "/slide/cosci-edu2.jpg",
+      "/slide/cosci-edu3.jpg",
+      "/slide/cosci-edu4.jpg",
+      "/slide/cosci-edu5.jpg",
+      "/slide/cosci-edu6.jpg",
+      "/slide/cosci-edu7.jpg",
+      "/slide/cosci-edu8.jpg",
+      "/slide/cosci-edu9.jpg"
+    ],
+    "link": [
+      "https://627f8dec691c0c0008e06dcc--ephemeral-fairy-d3ac8a.netlify.app/"
+    ],
+    "members": [
+      {
+        "name": "Natjaratporn Thaweewutmaeteekhul",
+        "img": "/STDimages/029.jpg",
+        "email": "natjaratporn.p@gmail.com",
+        "IG": "ppammicky"
+      },
+      {
+        "name": "Navee Vijitrat",
+        "img": "/STDimages/307.jpg",
+        "email": "navee.vjt@gmail.com",
+        "IG": "nine.navee"
+      },
+      {
+        "name": "Supahkarn Liangrattananont",
+        "img": "/STDimages/317.jpg",
+        "email": "supahkarn.liang@gmail.com",
+        "IG": "g.supahkarn"
+      }
+    ],
+    "paragraph1": "การตัดเกรดของอาจารย์วิทยาลัยนวัตกรรมสื่อสารสังคมส่วนใหญ่ยังคงเป็นระบบ Manual หรือใช้เว็บไซต์คำนวณเกรดในการตัดเกรด ซึ่งไม่มีการบันทึกข้อมูลการตัดเกรดในแต่ละครั้ง อาจารย์จะต้องคัดลอกข้อมูลจากเว็บไซต์ไปจัดการต่อด้วยตนเอง และรูปแบบการตัดเกรดไม่ครบตามที่ต้องการ เป็นต้น จึงเกิดการสร้างเว็บแอปพลิเคชัน Cosci Edu ขึ้นมาเพื่อช่วยจัดการระบบการตัดเกรดของอาจารย์ ให้มีการบันทึกข้อมูลชั้นเรียน และวิชาต่างๆ เพื่อให้เกิดความสะดวกในการตัดเกรดแต่ละวิชา นอกจากนี้ยังสามารถนำข้อมูลการตัดเกรดมาแสดงผลในรูปแบบแผนภูมิเพื่อสรุปผลภาพรวมเกรดในแต่ละวิชานั้นๆ พร้อมกับสามารถ export ไฟล์ออกมาในรูปแบบ Excel และ PDF ได้",
+    "paragraph2": "แนวทางที่ใช้ในการพัฒนาเว็บไซต์แอปพลิเคชันการจัดการชั้นเรียน คือ Agile Methodology เนื่องจากระบบมีหลายฟังก์ชัน การดำเนินงานโดยใช้กรอบการทำงานแบบ Agile จึงทำให้ผู้พัฒนาสามารถเรียงลำดับความสำคัญของฟังก์ชันที่จะพัฒนาได้ การพัฒนาก็จะเป็นระบบมากขึ้น สามารถ Deploy ได้ทันภายในระยะเวลาที่กำหนดได้"
+  },
+  "cosci-activity": {
+    "title": "COSCI ACTIVITY",
+    "type": "Website",
+    "poster": "/Posterimages/cosci-activity.jpg",
+    "video": "https://tube.rvere.com/embed?v=XJ5cPvLTavs",
+    "slide": [
+      "/slide/cosci-activity1.jpg",
+      "/slide/cosci-activity2.jpg",
+      "/slide/cosci-activity3.jpg",
+      "/slide/cosci-activity4.jpg",
+      "/slide/cosci-activity5.jpg",
+      "/slide/cosci-activity6.jpg",
+      "/slide/cosci-activity7.jpg"
+    ],
+    "link": ["https://cosci-activity.web.app/html/index.html"],
+    "members": [
+      {
+        "name": "Rachapol Burinwatthana",
+        "img": "/STDimages/035.jpg",
+        "email": "son.son.2013@hotmail.co.th"
+      },
+      {
+        "name": "Kamonlapat Phaenthong",
+        "img": "/STDimages/039.jpg",
+        "email": "kamonlapat.ph@gmail.com"
+      },
+      {
+        "name": "Rawisara Lerdchanpen",
+        "img": "/STDimages/188.jpg",
+        "email": "rawisaralerd@gmail.com",
+        "IG": "crapexx"
+      }
+    ],
+    "paragraph1": "สถานการณ์การแพร่ระบาดในปัจจุปัน ทําให้มีการติดต่อที่ยาก ทำให้เกิดปัญหาการตกหล่นของการติดต่อประสานงานเรื่องการทำกิจกรรมของมหาวิทยลัย เราจึงสร้างเว็บไซต์เพื่อการจัดการตรวจสอบและลงบันทึกหลักฐานการเข้าร่วมกิจกรรมของนิสิตวิทยาลัยนวัตกรรมสื่อสารสังคมรวมถึงเป็นช่องทางการประชาสัมพันธ์กิจกรรมต่างๆเพื่อไม่ให้นิสิตพลาดระยะเวลาของกิจกรรมเหล่านั้น และลดขั้นตอนการทํางานของเจ้าหน้าที่ผู้ดูแลการลงบันทึก กิจกรรมนิสิตของทางวิทยาลัย",
+    "paragraph2": " เพื่อพัฒนาระบบเว็บไซต์การจัดการกิจกรรมของนิสิต มหาวิทยาลัยศรีนครินทรวิโรฒและประเมินประสิทธิภาพของระบบเว็บไซต์การจัดการกิจกรรมของนิสิต"
+  },
+  "cosci-analysis-system": {
+    "title": "Cosci Analysis System",
+    "type": "Website",
+    "poster": "/Posterimages/cosci-analysis-system.jpg",
+    "video": "https://tube.rvere.com/embed?v=SFFb5bZTi58",
+    "slide": [
+      "/slide/cosci-analysis-system1.jpg",
+      "/slide/cosci-analysis-system2.jpg",
+      "/slide/cosci-analysis-system3.jpg",
+      "/slide/cosci-analysis-system4.jpg",
+      "/slide/cosci-analysis-system5.jpg",
+      "/slide/cosci-analysis-system6.jpg",
+      "/slide/cosci-analysis-system7.jpg",
+      "/slide/cosci-analysis-system8.jpg",
+      "/slide/cosci-analysis-system9.jpg",
+      "/slide/cosci-analysis-system10.jpg",
+      "/slide/cosci-analysis-system11.jpg"
+    ],
+    "link": [
+      "https://app.powerbi.com/groups/me/reports/038b1830-5d24-4ad3-9126-8c61d0ef50fa/ReportSection",
+      "https://app.powerbi.com/groups/me/reports/ec354e62-e8ec-4671-aee6-2c4b062b5874/ReportSection"
+    ],
+    "members": [
+      {
+        "name": "Ruksasiri Sriphochai",
+        "img": "/STDimages/425.jpg",
+        "email": "ruksasiri.satang@gmail.com",
+        "IG": "satang.43ll"
+      },
+      {
+        "name": "Warissara Ngamleelalert",
+        "img": "/STDimages/426.jpg",
+        "email": "meen.warissara@gmail.com",
+        "IG": "mean.wrs"
+      }
+    ],
+    "paragraph1": "ปัจจุบันโลกได้มีเทคโนโลยีเข้ามามีบทบาทในทุก ๆ ด้าน เพื่อช่วยอำนวยความสะดวกในการดำเนินชีวิตประจำวันของมนุษย์ ไม่ว่าจะเป็นด้านการเรียน ด้านการทำงาน ทั้งองค์กรเล็กและองค์กรใหญ่ เมื่อวิถีชีวิตของมนุษย์เปลี่ยนแปลงไปเทคโนโลยีก็ต้องพัฒนาตามความต้องการของมนุษย์มากขึ้น ฉะนั้นด้านข้อมูลต่างๆของมนุษย์จึงมีมากมายมหาศาลและต้องนำข้อมูลเหล่านี้มาจัดการ เพื่อให้เกิดประโยชน์สูงสุด สามารถนำไปเพิ่มประสิทธิภาพในการนำข้อมูลไปวิเคราะห์ต่อยอดได้ ข้อมูลมีหลากหลายรูปแบบไม่ว่าจะเป็น ตัวเลข ตัวอักษร รูปภาพ เสียง ต่างๆ เป็นข้อมูลที่เปลี่ยนแปลงตลอดเวลาและรวดเร็ว ดังนั้นเราจึงพัฒนาข้อมูลที่มีในองค์กรเพื่อให้เกิดประโชยน์กับองค์กร ข้อมูลที่เราจะนำมาวิเคราะห์สามารถต่อยอดพัฒนาได้",
+    "paragraph2": "การพัฒนาระบบวิเคราะห์ข้อมูลนิสิตเพื่อการตัดสินใจของผู้บริหาร  กรณีศึกษาวิทยาลัยนวัตกรรมสื่อสารสังคม ใช้แนวทาง Life cycle of a data analysis project ตามกระบวนการ CRISP-DM ดังนี้\n1. Business Issues understanding ทำความเข้าใจปัญหาและวางแผนการทำงาน\n2. Data understanding เก็บรวบรวม ตรวจสอบความถูกต้องของข้อมูล และเลือกข้อมูลที่จะนำไปใช้\n3. Data Preparation แปลงข้อมูลให้ถูกต้องและเติมข้อมูลที่ขาดหาย ให้สามารถนำไปใช้วิเคราะห์ได้\n4. Exploratory Analysis and Modeling สร้างโมเดลของข้อมูลให้เหมาะสมในการนำข้อมูลไปวิเคราะห์\n5. Validation ประเมินและตรวจสอบความถูกต้องของข้อมูล\n6. Visualization and Presentation ทำและเสนอ Visualization อย่างเข้าใจง่ายและชัดเจน"
+  },
+  "cosci-chatbot": {
+    "title": "COSCI - CHATBOT",
+    "type": "Application",
+    "poster": "/Posterimages/cosci-chatbot.jpg",
+    "video": "",
+    "slide": [
+      "/slide/cosci-chatbot1.jpg",
+      "/slide/cosci-chatbot2.jpg",
+      "/slide/cosci-chatbot3.jpg",
+      "/slide/cosci-chatbot4.jpg",
+      "/slide/cosci-chatbot5.jpg",
+      "/slide/cosci-chatbot6.jpg",
+      "/slide/cosci-chatbot7.jpg",
+      "/slide/cosci-chatbot8.jpg"
+    ],
+    "link": ["https://lin.ee/Pr4fLdT"],
+    "members": [
+      {
+        "name": "Rattanachort Poonsawad",
+        "img": "/STDimages/189.jpg",
+        "email": "pebbles.fml@gmail.com",
+        "IG": "rtncfirst"
+      },
+      {
+        "name": "Nuttapon Pinnarong",
+        "img": "/STDimages/309.jpg",
+        "email": "www.nutlovelmc@gmail.com",
+        "IG": "munom_pnr"
+      },
+      {
+        "name": "Panupong Wimanrum",
+        "img": "/STDimages/313.jpg",
+        "email": "panupog06@gmail.com",
+        "IG": "p.wimanrum06"
+      }
+    ],
+    "paragraph1": "เนื่องจากในปัจจุบัน ทางมหาวิทยาลัยศรีนครินทรวิโรฒยังไม่มีแชทบอทหรือการตอบคำถาม ข้อสงสัย หรือปัญหาที่นิสิต และนักเรียนที่มีข้อสงสัยต่างๆที่เกี่ยวข้องกับมหาวิทยาลัย อาทิ เช่น ข้อมูลด้านกิจกรรมของมหาวิทยาลัย ทุนศึกษา ประกัน กยศ เป็นต้น ทางผู้พัฒนาจึงได้ทำการสร้างระบบปัญญาประดิษฐ์แชทบอท (AI Chat-Bot) สำหรับการตอบคำถาม FAQ (Frequency Asked Question) ขึ้นมา เนื่องจากระบบจะสามารถตอบคำถามได้ทันทีและอัตโนมัติโดยไม่จำเป็นต้องรอเจ้าหน้าที่ อีกทั้งในระบบแชทบอทนี้ท่านยังจะได้รับข่าวสารประชาสัมพันธ์จากทางมหาวิทยาลัยอีกด้วย",
+    "paragraph2": "สำหรับกระบวนการสร้างสรรค์ ผู้วิจัยได้ใช้ทฤษฎีวงจรของการพัฒนาระบบ (SDLC : System Development Life Cycle)  ในรูปแบบการจำลองหรือเชิงวิวัฒนาการหรือต้นแบบและสำหรับโมเดลที่เราได้เลือกใช้คือ Agile Model คือหลังจากการพัฒนาแต่ละส่วนแล้ว ผู้ใช้จะสามารถเห็นผลลัพธ์ ความคืบหน้า ของการพัฒนาเรื่อยๆ ซึ่งเป็ยข้อดีอย่างหนึ่งของโมเดล Agile เนื่องจากหากมีจุดใดไม่ตรงความต้องการต้องของผู้ใช้ ทางผู้พัฒนาจะสามารถปรับแก้ได้ทันที"
+  },
+  "crime-down": {
+    "title": "Crime Down",
+    "type": "Application",
+    "poster": "/Posterimages/crime-down.jpg",
+    "video": "",
+    "slide": [
+      "/slide/crime-down1.jpg",
+      "/slide/crime-down2.jpg",
+      "/slide/crime-down3.jpg",
+      "/slide/crime-down4.jpg",
+      "/slide/crime-down5.jpg",
+      "/slide/crime-down6.jpg",
+      "/slide/crime-down7.jpg",
+      "/slide/crime-down8.jpg",
+      "/slide/crime-down9.jpg",
+      "/slide/crime-down10.jpg",
+      "/slide/crime-down11.jpg",
+      "/slide/crime-down12.jpg",
+      "/slide/crime-down13.jpg",
+      "/slide/crime-down14.jpg",
+      "/slide/crime-down15.jpg",
+      "/slide/crime-down16.jpg",
+      "/slide/crime-down17.jpg"
+    ],
+    "link": ["https://bit.ly/38uKSIj"],
+    "members": [
+      {
+        "name": "Natthaphakhan Khunchan",
+        "img": "/STDimages/030.jpg",
+        "email": "natthaphakhan@gmail.com",
+        "IG": "natthaphakhan_1999"
+      },
+      {
+        "name": "Malthana Pojanawaraporn",
+        "img": "/STDimages/034.jpg",
+        "email": "malthanapj@gmail.com",
+        "IG": "kkm.althana"
+      },
+      {
+        "name": "Arnon Phattanasiri",
+        "img": "/STDimages/320.jpg",
+        "email": "arnon.phatta@gmail.com",
+        "IG": "nonar.non"
+      }
+    ],
+    "paragraph1": "หน่วยงานตำรวจยังขาดเครื่องมือรวบรวมข้อมูลเหตุอาชญากรรมที่เกิดขึ้น โดยเฉพาข้อมูลและเบาะแสจากประชาชน อันเป็นเหตุให้การดำเนินการต่าง ๆ เป็นไปอย่างล่าช้า ซึ่งส่งผลต่อความปลอดภัยในภาพรวมได้ เราจึงต้องการพัฒนาแบบจำลองแอปพลิเคชันแจ้งเหตุอาชญากรรม สำหรับแจ้งเหตุและแจ้งพื้นที่เสี่ยงโดยประชาชน รวมถึงระบบแจ้งเตือนในกรณีที่เกิดเหตุอาชญากรรมใกล้เคียง ทุกคนจะได้ระวังตัวและช่วยแจ้งข้อมูลเบาะแสของเหตุอาชญากรรมที่เกิดขึ้นแก่เจ้าหน้าที่ได้",
+    "paragraph2": "เราใช้ทฤษฎีวงจรของการพัฒนาระบบ (SDLC: System Development Life Cycle) ในรูปแบบการจำลองเชิงวิวัฒนาการหรือต้นแบบ (Evolutionary Mode/Prototyping) ซึ่งเป็นแบบจำลองที่มีลักษณะการทำงานแบบการไหลของกระบวนการแบบวนซ้ำ มีการพัฒนาซอฟต์แวร์เป็นหลายเวอร์ชันวนซ้ำไปเรื่อย ๆ จนกระทั่งได้ซอฟต์แวร์ที่มีเวอร์ชันสมบูรณ์ เพื่อแก้ไขปัญหาและตอบสนองความต้องการของผู้ใช้งาน"
+  },
+  "cureplus": {
+    "title": "Cure+",
+    "type": "Application",
+    "poster": "/Posterimages/cureplus.jpg",
+    "video": "",
+    "slide": [
+      "/slide/cureplus1.jpg",
+      "/slide/cureplus3.jpg",
+      "/slide/cureplus2.jpg",
+      "/slide/cureplus4.jpg",
+      "/slide/cureplus5.jpg",
+      "/slide/cureplus6.jpg",
+      "/slide/cureplus7.jpg",
+      "/slide/cureplus8.jpg",
+      "/slide/cureplus9.jpg",
+      "/slide/cureplus10.jpg",
+      "/slide/cureplus11.jpg",
+      "/slide/cureplus12.jpg",
+      "/slide/cureplus13.jpg"
+    ],
+    "link": [
+      "https://www.figma.com/proto/ofE48SsWZ561KVz65INxUl/Cure%2B?node-id=344%3A197&scaling=scale-down&page-id=0%3A1&starting-point-node-id=340%3A200&show-proto-sidebar=1"
+    ],
+    "members": [
+      {
+        "name": "Nattavadee Homrossukhon",
+        "img": "/STDimages/031.jpg",
+        "email": "babenvd.2000@gmail.com",
+        "IG": "_bbabeeb"
+      },
+      {
+        "name": "Angkana Sangsuriyong",
+        "img": "/STDimages/038.jpg",
+        "email": "ningjunbt@gmail.com",
+        "IG": "ningjunn_"
+      },
+      {
+        "name": "Asama Suksamran",
+        "img": "/STDimages/428.jpg",
+        "email": "Asamasuksamran@gmail.com",
+        "IG": "onyourma_r"
+      }
+    ],
+    "paragraph1": "จากสถานการณ์การแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนาหรือโรค COVID-19 ที่กำลังเกิดขึ้นในปัจจุบันทั้งในประเทศไทยและต่างประเทศ ส่งผลให้หน่วยงานที่เกี่ยวข้องต่างๆจำเป็นต้องมีมาตราการในการรับมือกับโรคระบายกันในทุกประเทศ ซึ่งแต่ในประเทศก็มีแนวทางที่แตกต่างกันไป เช่นเดียวกับในประเทศไทยที่มาตราการรักษาจากภาครัฐแต่ก็ยังไม่สามารถเข้าถึงประชาชนได้ในทุกพื้นที่และทุกกลุ่มบุคคล จึงทำให้เกิดนวัตกรรมที่ชื่อ Cure+ คือนำเอาโปรแกรมประยุกต์มาช่วยเหลือเพื่อติดตามการรักษาและจองเตียงสำหรับผู้ป่วย COVID-19 เพื่อให้เกิดความสะดวกและช่วยให้ประชาชนเข้าถึงการรักษาได้ง่ายและรวดเร็วขึ้น อีกทั้งยังเป็นการลดอัตราการแพร่ระบาดได้ในรูปแบบหนึ่ง ซึ่งการใช้งานโปรแกรมประยุกต์นั้น สามารถใช้ได้บนอุปกรณ์สื่อสารได้ทั้งระบบปฏิบัติการมือถือ IOS และ Andriod สามารถใช้ได้ทั้งรูปแบบระบบออนไลน์และออฟไลน์ได้อีกด้วย",
+    "paragraph2": "ในการวิจัยครั้งนี้ ผู้วิจัยได้ใช้ทฤษฎีวงจรของการพัฒนาระบบ (SDLC : System Development Life Cycle) ในรูปแบบการจำลองหรือเชิงวิวัฒนาการหรือตันแบบ(Evolutionary Model/ Prototyping) ซึ่งเป็นแบบจำลองที่มีลักษณะการทำงานแบบการไหลของกระบวนการแบบวนซ้ำ และพัฒนาซอฟต์แวร์เป็นหลายเวอร์ชัน วนซ้ำไปเรื่อย ๆ จนกระทั่งได้ซอฟต์แวร์ที่มีเวอร์ชันที่สมบูรณ์ที่สุด เพื่อตอบสนองต่อความต้องการของผู้ใช้งานมากที่สุด"
+  },
+  "knowledge-management": {
+    "title": "Knowledge Management",
+    "type": "Website",
+    "poster": "/Posterimages/knowledge-management.jpg",
+    "video": "",
+    "slide": [
+      "/slide/knowledge-management1.jpg",
+      "/slide/knowledge-management3.jpg",
+      "/slide/knowledge-management2.jpg",
+      "/slide/knowledge-management4.jpg",
+      "/slide/knowledge-management5.jpg",
+      "/slide/knowledge-management6.jpg",
+      "/slide/knowledge-management7.jpg",
+      "/slide/knowledge-management8.jpg",
+      "/slide/knowledge-management9.jpg",
+      "/slide/knowledge-management10.jpg",
+      "/slide/knowledge-management11.jpg",
+      "/slide/knowledge-management12.jpg",
+      "/slide/knowledge-management13.jpg"
+    ],
+    "link": ["https://buaowy.wixsite.com/thesis2022"],
+    "members": [
+      {
+        "name": "Onwanya Supunpai",
+        "img": "/STDimages/319.jpg",
+        "email": "buaowy@gmail.com",
+        "IG": "buaowy"
+      },
+      {
+        "name": "Thitikarn Kaewtippanet",
+        "img": "/STDimages/400.jpg",
+        "email": "thitikarn.ktpn@gmail.com",
+        "IG": "pinpinteddy"
+      }
+    ],
+    "paragraph1": "การพัฒนาแบบจำลองเว็บแอปพลิเคชันเครื่องมือในการจัดการความรู้ภายในองค์กร กรณีศึกษา Quick ERP หมายถึง แบบจำลองเว็บแอปพลิเคชันที่ผู้วิจัยพัฒนาขึ้น เพื่อทำหน้าที่ถ่ายทอดแบ่งปันความรู้ จัดเก็บความรู้ เผยแพร่ความรู้ และพัฒนาวัฒนธรรมในองค์กร ภายในบริษัท Quick ERP เป็นตัวช่วยสำหรับกลุ่มผู้บริหารและกลุ่มพนักงานภายในบริษัท Quick ERP เพื่อแก้ไขปัญหาต่าง ๆ ที่ประสบทั้งก่อนการแลกเปลี่ยนความรู้ ระหว่างการแลกเปลี่ยนความรู้ และหลังจากการแลกเปลี่ยนความรู้ โดยก่อนการแลกเปลี่ยนความรู้คือการสร้างความสัมพันธ์อันดีภายในองค์กรไม่ว่าจะเป็นบัญชีการลงชื่อเข้าใช้, Gamification และระบบการแจ้งเตือนปฏิทิน ต่อมาคือระหว่างการแลกเปลี่ยนความรู้คือการถ่ายทอดและแบ่งปัน ประกอบไปด้วย Boardroom, Video and Voice conference, เจ้าหน้าที่ติดตามการพัฒนาความรู้ และระบบแบบทดสอบวัดความรู้ รวมไปถึงการเผยแพร่ความรู้ที่ประกอบไปด้วย ระบบส่งออกเอกสารในรูปแบบ PDF, ระบบแนะนำข้อมูลเก่าที่น่าสนใจ, ระบบที่ช่วยในการสืบค้นข้อมูล, ระบบปฏิบัติการเสมือนจริง และระบบแนะนำความรู้รายบุคคล สุดท้ายคือหลังการแลกเปลี่ยนความรู้ คือการจัดเก็บ ประกอบไปด้วย Wiki และระบบจัดเก็บบทความที่สนใจไว้ในพื้นที่ส่วนตัว",
+    "paragraph2": "เพื่อให้การพัฒนาแบบจำลองเว็บแอปพลิเคชันเครื่องมือในการจัดการความรู้ภายไนองค์กรกรณีศึกษา Qนick ERP ได้ผลลัพธ์ที่ตรงตามวัตถุประสงค์ที่ผู้วิจัยจึงกำหนด ผู้วิจัยจึงได้กำหนดขั้นตอนการดำเนินการวิจัยตามทฤษฎีของการพัฒนาระบบ (SDLC : System Development Life Cycle) ในรูปแบบการจำลองเชิงวิวัฒนาการหรือต้นแบบ (Evolutionary Mode/Prototyping) ซึ่งเป็นแบบจำลองที่มีลักษณะ การทำงานแบบการไหลของกระบวนการแบบวนช้ำ และพัฒนาเป็นหลายเวอร์ชันวนช้ำไปเรื่อย ๆ จนกระทั่งได้แบบจำลองที่มีเวอร์ชันที่สมบูรณ์ที่สุด เพื่อแก้ไขปัญหาและตอบสนองต่อความต้องการของผู้ใช้งานมากที่สุด"
+  },
+  "e-ticket": {
+    "title": "E-ticket",
+    "type": "Application",
+    "poster": "/Posterimages/e-ticket.jpg",
+    "video": "",
+    "slide": [
+      "/slide/e-ticket1.jpg",
+      "/slide/e-ticket3.jpg",
+      "/slide/e-ticket2.jpg",
+      "/slide/e-ticket4.jpg",
+      "/slide/e-ticket5.jpg",
+      "/slide/e-ticket6.jpg",
+      "/slide/e-ticket7.jpg",
+      "/slide/e-ticket8.jpg",
+      "/slide/e-ticket9.jpg",
+      "/slide/e-ticket10.jpg",
+      "/slide/e-ticket11.jpg"
+    ],
+    "link": [
+      "https://www.figma.com/proto/iXBQMd4Jj0U3WbVlZ1Pj9i/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%99?page-id=108%3A380&node-id=108%3A384&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=108%3A384"
+    ],
+    "members": [
+      {
+        "name": "Tanadon Nimmanworadit",
+        "img": "/STDimages/181.jpg",
+        "email": "feykercz@gmail.com",
+        "IG": "feytnd"
+      },
+      {
+        "name": "Jirad sathienpong",
+        "img": "/STDimages/305.jpg",
+        "email": "poombcc34339@gmail.com",
+        "IG": "_pppppoom"
+      }
+    ],
+    "paragraph1": "ปัญหาที่สังคมไทยมักจะเจออยู่มาอย่างยาวนานบนท้องถนน และ ยังแก้ปัญหาไม่ได้ นั่นก็คือ ปัญหาการจราจร ติดขัดในกรุงเทพฯ หรือเขตปริมณฑล ที่ทำให้ทุกคนได้รับผลกระทบ โดยเฉพาะเรื่องเวลาที่เราจะต้องเสียไป สาเหตุสำคัญที่สุดของปัญหาการจราจรติดขัด คือ มีการใช้รถส่วนตัวกันมากกว่าการขนส่งสาธารณะ นอกเหนือจากจำนวนของรถยนต์ส่วนบุคคลที่มากเกินไป ยังมีเรื่องของการบังคับใช้กฎหมายการจราจรที่ค่อนข้างหละหลวม เราจึงอยากนำเทคโนโลยีใหม่ๆ เข้ามาช่วยพัฒนาให้เกิดประสิทธิภาพในการดำเนินงานของเจ้าหน้าที่มากขึ้น",
+    "paragraph2": "ทางผู้พัฒนาได้ใช้หลักการ Design Thinking ในการพัฒนาโครงการนี้ ซึ่งจะมีทั้งหมด 5 ขั้นตอนด้วยกัน นั่นก็คือ \n1 .Empthize จะใช้เป็นการสัมภาษณ์เพื่อทำความเข้าใจใน User ที่มากขึ้น \n2. Define กำหนดปัญหาที่เป็นประเด็นในการทำงานมากที่ส\nเพื่อการแก้ไขให้เกิดประสิทธิภาพอย่างตรงจุด\n3. Ideate ออกแบบ หรือคิดค้นไอเดียใหม ๆ เพื่อนำมาแก้ปัญหาด้วยวิธีที่ง่ายที่สุด\n4. Prototype ออกแบบต้นแบบของแอพพลิเคชั่น เพื่อนำไปทดลองกับกลุ่มผู้ใช้งานจริง\n5. Test นำต้นแบบของแอพพลิเคชั่นไปทดสอบกับกลุ่มตัวอย่าง และนำ Feedback ที่ได้รับมาปรับปรุงแอพคลิเคชั่นต่อไป"
+  },
+  "watch-over": {
+    "title": "Watch over",
+    "type": "Application",
+    "poster": "/Posterimages/watch-over.jpg",
+    "video": "",
+    "slide": [
+      "/slide/watch-over1.jpg",
+      "/slide/watch-over3.jpg",
+      "/slide/watch-over2.jpg",
+      "/slide/watch-over4.jpg",
+      "/slide/watch-over5.jpg",
+      "/slide/watch-over6.jpg",
+      "/slide/watch-over7.jpg",
+      "/slide/watch-over8.jpg",
+      "/slide/watch-over9.jpg",
+      "/slide/watch-over10.jpg",
+      "/slide/watch-over11.jpg",
+      "/slide/watch-over12.jpg",
+      "/slide/watch-over13.jpg"
+    ],
+    "link": [
+      "https://www.figma.com/proto/hArMARRbA15qYlyP0ecnx6/New-app-sos?node-id=30%3A4388&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A4388&show-proto-sidebar=1"
+    ],
+    "members": [
+      {
+        "name": "Thanarat Papassanobon",
+        "img": "/STDimages/182.jpg",
+        "email": "amthanar1999@gmail.com",
+        "IG": "amthanar"
+      },
+      {
+        "name": "Sarinyapon Intajak",
+        "img": "/STDimages/190.jpg",
+        "email": "callmepan99@gmail.com",
+        "IG": "pan_sarin"
+      },
+      {
+        "name": "Tarinee Jonkteratrum",
+        "img": "/STDimages/399.jpg",
+        "email": "gogi.tarinee@gmail.com",
+        "IG": "gogiitrn"
+      }
+    ],
+    "paragraph1": " เนื่องจากสังคมไทยในปัจจุบันมีการคุกคามทางเพศที่ปรากฎและเป็นที่วิพากษ์วิจารณ์ในสังคมไทยจำนวนมาก อันตรายเกิดขึ้นได้ทุกที่กับทุกคน โดยเฉพาะเวลาไปทำธุระข้างนอกไม่ว่าจะเรียนหนังสือหรือทำงานที่อยู่สถานที่ที่โดดเดี่ยว เปลี่ยวหรือที่ที่ไม่มีคน อาจโดนคุกคาม เกิดการชิงทรัพย์ได้ หรืออาจจะถึงขั้นทำร้ายร่างกายถึงขั้นรุนแรงดังนั้นแอปพลิเคชันนี้Watch overจะมาช่วยเพิ่มความปลอดภัยให้กับผู้ใช้แอปพลิเคชันมากขึ้น",
+    "paragraph2": "เราได้ใช้กระบวนการDesign Thinking ในการสร้างสรรค์ผลงาน โดยขั้นแรกเราจะทำการ emphthize ในการทำความเข้าใจผู้ใช้แอปพลิเคชัน   ขั้นตอนที่สองdefineปัญหาของผู้ใช้ว่าปัญหาที่แท้จริงที่ทำให้ผู้ใช้ไม่สบายใจคืออะไร ขั้นตอนที่สามideateว่ามีไอเดียอะไรบ้างที่พอจะช่วยแก้ปัญหาได้ ขั้นตอนที่สี่prototype เราได้ทำการทำแบบจำลองแอปพลิเคชั่นขึ้นมาจริงๆเพื่อที่จะให้ผู้ใช้ได้เห็นภาพมากขึ้นและขั้นตอนสุดท้ายคือการ test ซึ่งจะนำแบบจำลองของแอปเราไปให้ผู้ใช้ได้ทดลองใช้ว่าภายในแอปเราเป็นอย่างไรบ้างเพื่อที่จะนำfeedbaceมาปรับปรุงแก้ไขให้เป็นแบบจำลองที่สมบูรณ์แบบมากที่สุด"
   }
 }

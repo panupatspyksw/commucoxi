@@ -18,10 +18,11 @@ import Button from '../shared/Button';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 const ProjectDetail = () => {
   const location = useRef(useParams());
+  const history = useRef(window.history.length);
+  const Once = useRef(false);
   const [found, setfound] = useState(false);
   const [isVDLoading, setisVDLoading] = useState(true);
   var p = data[location.current.project];
-
   useEffect(() => {
     if (data[location.current.project]) {
       setfound(true);
@@ -57,6 +58,7 @@ const ProjectDetail = () => {
                   slidesPerView={1}
                   modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                   onSlideChange={() => {
+                    Once.current = true;
                     document
                       .querySelectorAll('iframe')
                       .forEach((frame, num) => {
@@ -75,10 +77,17 @@ const ProjectDetail = () => {
                       <iframe
                         id='iframeid'
                         src={p.video}
+                        key={history.current}
                         title='THESIS VIDEO'
                         onLoad={() => {
-                          console.log('loading finish');
                           setisVDLoading(false);
+                          if (
+                            window.history.length > history.current &&
+                            Once.current
+                          ) {
+                            window.history.back();
+                            Once.current = false;
+                          }
                         }}
                         style={{
                           position: 'absolute',
@@ -143,7 +152,7 @@ const ProjectDetail = () => {
                                 กระบวนการสร้างสรรค์สื่อ:{' '}
                               </div>
                               {p.paragraph2.split('\n').map((e, i) => (
-                                <div>{e}</div>
+                                <div key={i}>{e}</div>
                               ))}
                             </div>
                           )}
