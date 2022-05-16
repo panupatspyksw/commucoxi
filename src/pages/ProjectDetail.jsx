@@ -5,25 +5,60 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
-import { FaEnvelope, FaInstagram, FaLink } from 'react-icons/fa';
+import {
+  FaEnvelope,
+  FaInstagram,
+  FaLink,
+  FaAngleRight,
+  FaAngleLeft,
+} from 'react-icons/fa';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import { CustomEase } from 'gsap/src/all';
 import { useEffect, useRef, useState } from 'react';
 import PerfectSection from '../components/PerfectSection';
-import { useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import data from '../data/posts.json';
 import Slide from '../components/Slide';
 import Button from '../shared/Button';
 gsap.registerPlugin(CustomEase, ScrollTrigger);
 const ProjectDetail = () => {
+  const projectorder = [
+    'green-life',
+    'good-choice',
+    'kasper',
+    'time-ar-experience',
+    'elder-job',
+    'relax-space',
+    'plante',
+    'hatthakam',
+    'cosci-open-house',
+    'coscinoti',
+    'cosci-edu',
+    'cosci-activity',
+    'cosci-analysis-system',
+    'cosci-chatbot',
+    'crime-down',
+    'cureplus',
+    'knowledge-management',
+    'e-ticket',
+    'watch-over',
+  ];
+
   const location = useRef(useParams());
-  const history = useRef(window.history.length);
+  // const history = useRef(window.history.length);
   const Once = useRef(false);
   const [found, setfound] = useState(false);
-  const [isVDLoading, setisVDLoading] = useState(true);
   var p = data[location.current.project];
+  var pt = projectorder.indexOf(location.current.project);
+  var next = pt === projectorder.length - 1 ? 0 : pt + 1;
+  var prev = pt === 0 ? projectorder.length - 1 : pt - 1;
+  console.log('next ' + projectorder[next]);
+  console.log('current ' + projectorder[pt]);
+  console.log('prev ' + projectorder[prev]);
+
   useEffect(() => {
+    Once.current = true;
     if (data[location.current.project]) {
       setfound(true);
     }
@@ -38,15 +73,24 @@ const ProjectDetail = () => {
             subtitle={p.type}
             className={' pt-5 px-5 mx-0 w-100 bgmain-1'}
             spacetop={false}
-          ></PerfectSection>
-          <div className='plr-lg-x pb-5 pt-3 bgmain-1'>
+          >
+            <div className='pb-5'>
+              {/* <NavLink
+                className={`btn bgmain-2 text-light opacity-75 rounded-pill px-4 mx-auto text-uppercase`}
+                to={'/pt/personal'}
+              >
+                <span>Back to projects</span>
+              </NavLink> */}
+            </div>
+          </PerfectSection>
+          <div className='plr-lg-x pb-5 pt-0 bgmain-1'>
             <div className='px-0 px-lg-4 px-xl-5'>
               <div
                 className='w-100 overflow-hidden position-relative rounded-3'
                 style={{ paddingBottom: '50%', minHeight: '400px' }}
               >
                 <Swiper
-                  className='position-absolute top-0 h-100 start-0 w-100 p-lg-5'
+                  className='position-absolute top-0 h-100 start-0 w-100 p-lg-5 pt-lg-0'
                   navigation={true}
                   pagination={{
                     clickable: true,
@@ -58,7 +102,7 @@ const ProjectDetail = () => {
                   slidesPerView={1}
                   modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                   onSlideChange={() => {
-                    Once.current = true;
+                    // Once.current = true;
                     document
                       .querySelectorAll('iframe')
                       .forEach((frame, num) => {
@@ -69,26 +113,35 @@ const ProjectDetail = () => {
                 >
                   <SwiperSlide className='px-0 px-lg-5 h-100'>
                     <Slide spacey={true}>
-                      {isVDLoading && (
+                      {/* {isVDLoading && (
                         <div className='h-100 w-100 d-flex justify-content-center text-white align-items-center'>
                           <div className='spinner'></div>
                         </div>
-                      )}
+                      )} */}
                       <iframe
                         id='iframeid'
                         src={p.video}
-                        key={history.current}
+                        key={window.history.length}
                         title='THESIS VIDEO'
-                        onLoad={() => {
-                          setisVDLoading(false);
-                          if (
-                            window.history.length > history.current &&
-                            Once.current
-                          ) {
-                            Once.current = false;
-                            window.history.back();
-                          }
-                        }}
+                        // onLoad={() => {
+                        //   setisVDLoading(false);
+                        //   if (
+                        //     window.history.length > history.current &&
+                        //     Once.current
+                        //   ) {
+                        //     Once.current = false;
+                        //     console.log(
+                        //       'history length => ',
+                        //       window.history.length
+                        //     );
+                        //     console.log(
+                        //       'history default length => ',
+                        //       history.current
+                        //     );
+                        //     console.log(window.history);
+                        //     window.history.back(history.current);
+                        //   }
+                        // }}
                         style={{
                           position: 'absolute',
                           top: 0,
@@ -234,25 +287,53 @@ const ProjectDetail = () => {
                       </div>
                     ))}
                   </div>
+                  <div className='py-5 mt-5 d-flex flex-row flex-md-row gap-0 justify-content-center flex-wrap align-items-center'>
+                    <NavLink
+                      className={`text-decoration-none text-light opacity-75 rounded-pill  text-uppercase`}
+                      to={`/p/${projectorder[prev]}`}
+                    >
+                      <span className='d-flex gap-3 align-items-center post-content'>
+                        <FaAngleLeft />
+                        <span className='d-none d-md-block'>Prev</span>
+                      </span>
+                    </NavLink>
+                    <NavLink
+                      className={`btn bgmain-2 text-light opacity-75 rounded-pill px-4 mx-3 mx-md-4 text-uppercase`}
+                      to={'/projects'}
+                    >
+                      <span>Back to projects</span>
+                    </NavLink>
+                    <NavLink
+                      className={`text-decoration-none text-light opacity-75 rounded-pill text-uppercase`}
+                      to={`/p/${projectorder[next]}`}
+                    >
+                      <span className='d-flex gap-3 align-items-center post-content'>
+                        <span className='d-none d-md-block'>Next</span>
+                        <FaAngleRight />
+                      </span>
+                    </NavLink>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       ) : (
-        <div className='min-vh-100 d-flex flex-column justify-content-center '>
-          <PerfectSection
-            title={'404'}
-            subtitle={'PAGE NOT FOUND'}
-            // className={' pt-5 px-0 mx-0 w-100 '}
-            spacetop={false}
-            // className={'pt-5 mt-5'}
-          >
-            <div className='mt-5'>
-              <Button link={'/'} label={`Back to Home`} />
-            </div>
-          </PerfectSection>
-        </div>
+        Once && (
+          <div className='min-vh-100 d-flex flex-column justify-content-center '>
+            <PerfectSection
+              title={'404'}
+              subtitle={'PAGE NOT FOUND'}
+              // className={' pt-5 px-0 mx-0 w-100 '}
+              spacetop={false}
+              // className={'pt-5 mt-5'}
+            >
+              <div className='mt-5'>
+                <Button link={'/'} label={`Back to Home`} />
+              </div>
+            </PerfectSection>
+          </div>
+        )
       )}
     </Transitions>
   );
