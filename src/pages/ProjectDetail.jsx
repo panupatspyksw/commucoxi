@@ -53,9 +53,9 @@ const ProjectDetail = () => {
   var pt = projectorder.indexOf(location.current.project);
   var next = pt === projectorder.length - 1 ? 0 : pt + 1;
   var prev = pt === 0 ? projectorder.length - 1 : pt - 1;
-  console.log('next ' + projectorder[next]);
-  console.log('current ' + projectorder[pt]);
-  console.log('prev ' + projectorder[prev]);
+  // console.log('next ' + projectorder[next]);
+  // console.log('current ' + projectorder[pt]);
+  // console.log('prev ' + projectorder[prev]);
 
   useEffect(() => {
     Once.current = true;
@@ -109,7 +109,7 @@ const ProjectDetail = () => {
                         frame.src = p.video;
                       });
                   }}
-                  onSwiper={(swiper) => console.log(swiper)}
+                  // onSwiper={(swiper) => console.log(swiper)}
                 >
                   <SwiperSlide className='px-0 px-lg-5 h-100'>
                     <Slide spacey={true}>
@@ -222,18 +222,18 @@ const ProjectDetail = () => {
               <div className='px-lg-5 w-100 '>
                 <div className='px-lg-5 w-100 d-flex flex-column'>
                   {p.link.length >= 1 && (
-                    <div className='post-title mb-5 text-start text-white px-4 px-lg-0'>
+                    <div className='post-title d-flex flex-column align-md-items-center flex-md-row gap-4 gap-md-5 mb-5 text-start text-white px-4 px-lg-0'>
                       LINK{p.link.length > 1 && 'S'}
-                      <div className='d-flex flex-wrap gap-3 mt-4'>
+                      <div className='d-flex flex-column flex-md-row flex-wrap gap-3  '>
                         {p.link.map((l, n) => (
                           <a
                             href={l}
                             rel='noreferrer'
                             target='_blank'
-                            className='text-decoration-none'
+                            className='col-12 col-md-auto text-decoration-none'
                             key={n}
                           >
-                            <button className='rounded-pill p-3 px-4 coxi-btn d-flex gap-3 light btn btn-lg th-text post-content bgmain-2'>
+                            <button className='rounded-pill w-100 justify-content-center p-3 px-4 coxi-btn d-flex gap-3 light btn btn-lg th-text post-content bgmain-2'>
                               <FaLink /> ลิงค์ผลงานที่ {n + 1}
                             </button>
                           </a>
@@ -247,7 +247,7 @@ const ProjectDetail = () => {
                   <div className='d-flex flex-column flex-md-row w-100 gap-5 gap-md-3 gap-lg-0'>
                     {p.members.map((e, index) => (
                       <div
-                        className='col col-xl-4  post-content text-break word-break th-text d-flex flex-column align-items-center text-white px-4 px-lg-0 gap-4 gap-md-0 gap-lg-4'
+                        className='col col-md-4 col-lg-4 col-xl-4  post-content text-break word-break th-text d-flex flex-column align-items-center text-white px-4 px-lg-0 gap-4 gap-md-0 gap-lg-4'
                         key={index}
                       >
                         <div className='col-10 col-md-10 col-lg-8 '>
