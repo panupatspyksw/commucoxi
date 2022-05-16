@@ -91,7 +91,12 @@ function Header() {
         <div className='menupage position-relative text-center justify-content-center align-items-center d-flex flex-column gap-2'>
           <img
             className='position-fixed d-none d-md-block top-50 start-50 translate-middle '
-            style={{ opacity: 0.2, width: '110vw', filter: 'grayscale(50%)' }}
+            style={{
+              opacity: 0.2,
+              width: '110vw',
+              height: '100vh',
+              filter: 'grayscale(50%)',
+            }}
             src={DiamondC}
             alt=''
           />
